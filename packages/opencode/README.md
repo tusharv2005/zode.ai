@@ -6,9 +6,9 @@ The AI coding agent built for the terminal. Generate code from natural language,
 
 Zode is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
 
-[Website](https://__PRESERVE_ZODE_AI__) · [Install](https://__PRESERVE_ZODE_AI__/install) · [IDE](https://__PRESERVE_ZODE_AI__/landing/vs-code) · [CLI](https://__PRESERVE_ZODE_AI__/cli) · [Docs](https://__PRESERVE_ZODE_AI__/docs) · [Models](https://__PRESERVE_ZODE_AI__/leaderboard) · [Gateway](https://__PRESERVE_ZODE_AI__/gateway) · [Pricing](https://__PRESERVE_ZODE_AI__/pricing) · [Zode Pass](https://__PRESERVE_ZODE_AI__/pricing/zode-pass)
+[Website](https://kilo.ai) · [Install](https://kilo.ai/install) · [IDE](https://kilo.ai/landing/vs-code) · [CLI](https://kilo.ai/cli) · [Docs](https://kilo.ai/docs) · [Models](https://kilo.ai/leaderboard) · [Gateway](https://kilo.ai/gateway) · [Pricing](https://kilo.ai/pricing) · [Zode Pass](https://kilo.ai/pricing/zode-pass)
 
-[500+ models](https://__PRESERVE_ZODE_AI__/leaderboard). One open source agent in [VS Code](https://__PRESERVE_ZODE_AI__/vscode-marketplace), [JetBrains](https://plugins.jetbrains.com/plugin/27133-zode-code), [CLI](https://www.npmjs.com/package/@zodecode/cli), [Slack](https://__PRESERVE_ZODE_AI__/slack), and [Cloud](https://__PRESERVE_ZODE_AI__/cloud).
+[500+ models](https://kilo.ai/leaderboard). One open source agent in [VS Code](https://kilo.ai/vscode-marketplace), [JetBrains](https://plugins.jetbrains.com/plugin/27133-zode-code), [CLI](https://www.npmjs.com/package/@zodecode/cli), [Slack](https://kilo.ai/slack), and [Cloud](https://kilo.ai/cloud).
 
 ## Install
 
@@ -75,15 +75,15 @@ Download pre-built binaries from the [Releases page](https://github.com/Zode-Org
 
 ## Documentation
 
-- [Docs](https://__PRESERVE_ZODE_AI__/docs)
-- [Getting Started](https://__PRESERVE_ZODE_AI__/docs/getting-started)
+- [Docs](https://kilo.ai/docs)
+- [Getting Started](https://kilo.ai/docs/getting-started)
 
 ## Links
 
 - [GitHub](https://github.com/Zode-Org/zodecode)
-- [Discord](https://__PRESERVE_ZODE_AI__/discord)
-- [VS Code Extension](https://__PRESERVE_ZODE_AI__/vscode-marketplace)
-- [Website](https://__PRESERVE_ZODE_AI__)
+- [Discord](https://kilo.ai/discord)
+- [VS Code Extension](https://kilo.ai/vscode-marketplace)
+- [Website](https://kilo.ai)
 
 ## License
 

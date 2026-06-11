@@ -439,7 +439,7 @@ function custom(dep: CustomDep): Record<string, CustomLoader> {
         autoload: false,
         options: {
           headers: {
-            "HTTP-Referer": "https://__PRESERVE_ZODE_AI__/", // zodecode_change
+            "HTTP-Referer": "https://kilo.ai/", // zodecode_change
             "X-Title": "Zode Code", // zodecode_change
             "X-Source": "zode", // zodecode_change
           },
@@ -450,7 +450,7 @@ function custom(dep: CustomDep): Record<string, CustomLoader> {
         autoload: false,
         options: {
           headers: {
-            "HTTP-Referer": "https://__PRESERVE_ZODE_AI__/", // zodecode_change
+            "HTTP-Referer": "https://kilo.ai/", // zodecode_change
             "X-Title": "Zode Code", // zodecode_change
           },
         },
@@ -460,7 +460,7 @@ function custom(dep: CustomDep): Record<string, CustomLoader> {
         autoload: false,
         options: {
           headers: {
-            "HTTP-Referer": "https://__PRESERVE_ZODE_AI__/", // zodecode_change
+            "HTTP-Referer": "https://kilo.ai/", // zodecode_change
             "X-Title": "Zode Code", // zodecode_change
             "X-BILLING-INVOKE-ORIGIN": "ZodeCode", // zodecode_change
           },
@@ -471,7 +471,7 @@ function custom(dep: CustomDep): Record<string, CustomLoader> {
         autoload: false,
         options: {
           headers: {
-            "http-referer": "https://__PRESERVE_ZODE_AI__/", // zodecode_change
+            "http-referer": "https://kilo.ai/", // zodecode_change
             "x-title": "Zode Code", // zodecode_change
           },
         },
@@ -569,7 +569,7 @@ function custom(dep: CustomDep): Record<string, CustomLoader> {
         autoload: false,
         options: {
           headers: {
-            "HTTP-Referer": "https://__PRESERVE_ZODE_AI__/", // zodecode_change
+            "HTTP-Referer": "https://kilo.ai/", // zodecode_change
             "X-Title": "Zode Code", // zodecode_change
           },
         },
@@ -854,7 +854,7 @@ function custom(dep: CustomDep): Record<string, CustomLoader> {
         autoload: false,
         options: {
           headers: {
-            "HTTP-Referer": "https://__PRESERVE_ZODE_AI__/", // zodecode_change
+            "HTTP-Referer": "https://kilo.ai/", // zodecode_change
             "X-Title": "Zode Code", // zodecode_change
           },
         },

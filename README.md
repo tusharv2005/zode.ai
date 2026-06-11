@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=zodecode.Zode-Code"><img src="https://raster.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace" height="20"></a>
   <a href="https://x.com/zodecode"><img src="https://raster.shields.io/badge/zodecode-000000?style=flat&logo=x&logoColor=white" alt="X (Twitter)" height="20"></a>
-  <a href="https://blog.__PRESERVE_ZODE_AI__"><img src="https://raster.shields.io/badge/Blog-555?style=flat&logo=substack&logoColor=white" alt="Substack Blog" height="20"></a>
-  <a href="https://__PRESERVE_ZODE_AI__/discord"><img src="https://raster.shields.io/badge/Join%20Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" height="20"></a>
+  <a href="https://blog.kilo.ai"><img src="https://raster.shields.io/badge/Blog-555?style=flat&logo=substack&logoColor=white" alt="Substack Blog" height="20"></a>
+  <a href="https://kilo.ai/discord"><img src="https://raster.shields.io/badge/Join%20Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" height="20"></a>
   <a href="https://www.reddit.com/r/zodecode/"><img src="https://raster.shields.io/badge/Join%20r%2Fzodecode-D84315?style=flat&logo=reddit&logoColor=white" alt="Reddit" height="20"></a>
 </p>
 
 <p align="center">
-  <a href="https://__PRESERVE_ZODE_AI__"><img width="250" alt="zode-code-logo" src="https://github.com/user-attachments/assets/bdb0c174-b9fd-40ad-a47b-f3aab9b54e8d" /></a>
+  <a href="https://kilo.ai"><img width="250" alt="zode-code-logo" src="https://github.com/user-attachments/assets/bdb0c174-b9fd-40ad-a47b-f3aab9b54e8d" /></a>
 </p>
 
 <p align="center">
@@ -16,23 +16,23 @@
 </p>
 
 <p align="center">
-  <img width="100%" alt="Zode Code running inside VS Code" src="https://__PRESERVE_ZODE_AI__/_next/image?url=%2Fscreenshots%2Fvs-code%2Fvs-code-home-page-screenshot.png&w=3840&q=75">
+  <img width="100%" alt="Zode Code running inside VS Code" src="https://kilo.ai/_next/image?url=%2Fscreenshots%2Fvs-code%2Fvs-code-home-page-screenshot.png&w=3840&q=75">
 </p>
 
 <p align="center">
-  <a href="https://__PRESERVE_ZODE_AI__">Website</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/install">Install</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/landing/vs-code">IDE</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/cli">CLI</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/docs">Docs</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/leaderboard">Models</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/gateway">Gateway</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/pricing">Pricing</a> ·
-  <a href="https://__PRESERVE_ZODE_AI__/pricing/zode-pass">Zode Pass</a>
+  <a href="https://kilo.ai">Website</a> ·
+  <a href="https://kilo.ai/install">Install</a> ·
+  <a href="https://kilo.ai/landing/vs-code">IDE</a> ·
+  <a href="https://kilo.ai/cli">CLI</a> ·
+  <a href="https://kilo.ai/docs">Docs</a> ·
+  <a href="https://kilo.ai/leaderboard">Models</a> ·
+  <a href="https://kilo.ai/gateway">Gateway</a> ·
+  <a href="https://kilo.ai/pricing">Pricing</a> ·
+  <a href="https://kilo.ai/pricing/zode-pass">Zode Pass</a>
 </p>
 
 <p align="center">
-  500+ models. One open source agent in <a href="https://__PRESERVE_ZODE_AI__/install">VS Code</a>, <a href="https://__PRESERVE_ZODE_AI__/features/jetbrains-native">JetBrains</a>, <a href="https://__PRESERVE_ZODE_AI__/cli">CLI</a>, <a href="https://__PRESERVE_ZODE_AI__/slack">Slack</a>, and <a href="https://__PRESERVE_ZODE_AI__/cloud">Cloud</a>.
+  500+ models. One open source agent in <a href="https://kilo.ai/install">VS Code</a>, <a href="https://kilo.ai/features/jetbrains-native">JetBrains</a>, <a href="https://kilo.ai/cli">CLI</a>, <a href="https://kilo.ai/slack">Slack</a>, and <a href="https://kilo.ai/cloud">Cloud</a>.
 </p>
 
 - ✨ Generate code from natural language
@@ -45,9 +45,9 @@
 
 ## Quick Links
 
-- [VS Code Marketplace](https://__PRESERVE_ZODE_AI__/vscode-marketplace?utm_source=Readme) (download)
+- [VS Code Marketplace](https://kilo.ai/vscode-marketplace?utm_source=Readme) (download)
 - Install CLI: `npm install -g @zodecode/cli`
-- [Official __PRESERVE_ZODE_AI__ Home page](https://__PRESERVE_ZODE_AI__) (learn more)
+- [Official kilo.ai Home page](https://kilo.ai) (learn more)
 
 ## Key Features
 

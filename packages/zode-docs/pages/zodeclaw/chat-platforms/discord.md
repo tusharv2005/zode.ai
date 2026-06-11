@@ -67,7 +67,7 @@ After saving your token, click **Redeploy** (the yellow button at the top of the
 1. Right-click on the Bot in Discord and click **Message**
 2. DM the bot `/pair`
 3. You should get a response back with a pairing code
-4. Return to [app.__PRESERVE_ZODE_AI__/claw](https://app.__PRESERVE_ZODE_AI__/claw) and confirm the pairing code and approve
+4. Return to [app.kilo.ai/claw](https://app.kilo.ai/claw) and confirm the pairing code and approve
 5. You should now be able to chat with the bot from Discord
 
 ## Restricting ZodeClaw to DMs Only (Just You)

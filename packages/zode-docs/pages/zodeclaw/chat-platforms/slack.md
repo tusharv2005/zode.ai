@@ -42,7 +42,7 @@ You need two tokens from Slack:
 
 ### Step 3: Connect Slack to ZodeClaw
 
-1. In the [ZodeClaw UI](https://app.__PRESERVE_ZODE_AI__/claw), find the Slack integration section (may show "not configured")
+1. In the [ZodeClaw UI](https://app.kilo.ai/claw), find the Slack integration section (may show "not configured")
 2. Enter both tokens:
    - The `xapp-` app-level token
    - The `xoxb-` bot user OAuth token
@@ -53,7 +53,7 @@ You need two tokens from Slack:
 
 1. In Slack, DM the app and send any message — this triggers the pairing flow
 2. The app will return a pairing code
-3. Return to [app.__PRESERVE_ZODE_AI__/claw](https://app.__PRESERVE_ZODE_AI__/claw) and confirm the pairing code and approve
+3. Return to [app.kilo.ai/claw](https://app.kilo.ai/claw) and confirm the pairing code and approve
 4. You should now be able to DM the bot from Slack. You will need to add the bot to any individual channels and tell it to update its config for any channels you want it to participate in.
 
 ## Changing Response Behavior

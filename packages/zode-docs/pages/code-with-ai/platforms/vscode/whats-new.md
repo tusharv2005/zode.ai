@@ -7,7 +7,7 @@ description: "The Zode Code extension has been rebuilt from the ground up on the
 
 The Zode Code extension has been completely rebuilt on a portable, open-source core shared across VS Code, the CLI, and Cloud Agents. This is the biggest update since launch: faster execution with parallel tool calls and subagents, the new Agent Manager for running multiple agents side by side, inline code review with line-level comments, multi-model comparisons, and access to 500+ models.
 
-Whether you're writing features in VS Code, debugging over SSH, or reviewing code on Slack, Zode now goes with you. Read the [full announcement on the Zode Blog](https://blog.__PRESERVE_ZODE_AI__/p/new-zode-for-vs-code-is-live) for everything that's new.
+Whether you're writing features in VS Code, debugging over SSH, or reviewing code on Slack, Zode now goes with you. Read the [full announcement on the Zode Blog](https://blog.kilo.ai/p/new-zode-for-vs-code-is-live) for everything that's new.
 
 ---
 
@@ -51,12 +51,12 @@ We are working to improve the experience in closely managing an agent. Identifie
 
 In the meantime we suggest exploring:
 
-- [Auto-approval](https://__PRESERVE_ZODE_AI__/docs/getting-started/settings/auto-approving-actions) of actions: to control what the agent is allowed to do, and require approval when desired
-- [Agents](https://__PRESERVE_ZODE_AI__/docs/code-with-ai/agents/using-agents) (previously known as Modes): Managing the agent types in the extension, adding new ones, and setting the default models for each.
+- [Auto-approval](https://kilo.ai/docs/getting-started/settings/auto-approving-actions) of actions: to control what the agent is allowed to do, and require approval when desired
+- [Agents](https://kilo.ai/docs/code-with-ai/agents/using-agents) (previously known as Modes): Managing the agent types in the extension, adding new ones, and setting the default models for each.
 
 ### How can I control which models each agent/mode uses?
 
-Modes have been renamed to Agents in the new extension. You can set the default model for each agent in `Settings -> Models -> Model per Mode`. For more information please check the [agents documentation](https://__PRESERVE_ZODE_AI__/docs/code-with-ai/agents/using-agents).
+Modes have been renamed to Agents in the new extension. You can set the default model for each agent in `Settings -> Models -> Model per Mode`. For more information please check the [agents documentation](https://kilo.ai/docs/code-with-ai/agents/using-agents).
 
 ### Where is the diff view for file changes?
 

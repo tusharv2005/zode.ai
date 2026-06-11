@@ -6,12 +6,12 @@ describe("FIM target resolution", () => {
     expect(resolveFimTarget("zode", "mistralai/codestral-2508")).toEqual({
       provider: "zode",
       model: "mistralai/codestral-2508",
-      url: "https://__PRESERVE_API_ZODE_AI__/api/fim/completions",
+      url: "https://api.kilo.ai/api/fim/completions",
     })
     expect(resolveFimTarget("zode", "inception/mercury-edit-2")).toEqual({
       provider: "zode",
       model: "inception/mercury-edit-2",
-      url: "https://__PRESERVE_API_ZODE_AI__/api/fim/completions",
+      url: "https://api.kilo.ai/api/fim/completions",
     })
   })
 
@@ -31,22 +31,22 @@ describe("FIM target resolution", () => {
     expect(resolveFimTarget()).toEqual({
       provider: "zode",
       model: "mistralai/codestral-2501",
-      url: "https://__PRESERVE_API_ZODE_AI__/api/fim/completions",
+      url: "https://api.kilo.ai/api/fim/completions",
     })
     expect(resolveFimTarget(undefined, "mistralai/codestral-2508")).toEqual({
       provider: "zode",
       model: "mistralai/codestral-2508",
-      url: "https://__PRESERVE_API_ZODE_AI__/api/fim/completions",
+      url: "https://api.kilo.ai/api/fim/completions",
     })
     expect(resolveFimTarget(undefined, "inception/mercury-edit")).toEqual({
       provider: "zode",
       model: "inception/mercury-edit",
-      url: "https://__PRESERVE_API_ZODE_AI__/api/fim/completions",
+      url: "https://api.kilo.ai/api/fim/completions",
     })
     expect(resolveFimTarget("zode", "custom/fim-model")).toEqual({
       provider: "zode",
       model: "custom/fim-model",
-      url: "https://__PRESERVE_API_ZODE_AI__/api/fim/completions",
+      url: "https://api.kilo.ai/api/fim/completions",
     })
   })
 })

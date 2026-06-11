@@ -76,7 +76,7 @@ export interface ZodeProviderOptions {
   /**
    * Base URL for the ZodeCode API
    * Can be overridden by ZODE_API_URL environment variable
-   * @default "https://__PRESERVE_API_ZODE_AI__"
+   * @default "https://api.kilo.ai"
    */
   baseURL?: string
 

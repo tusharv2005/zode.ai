@@ -11,7 +11,7 @@ Both **GitLab.com** and **self-hosted GitLab instances** are supported.
 
 ## Prerequisites
 
-- A Zode Code account at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__)
+- A Zode Code account at [app.kilo.ai](https://app.kilo.ai)
 - A GitLab account with **Maintainer** role (or higher) on the projects you want to review
 - Zode Code credits for AI model usage
 
@@ -28,7 +28,7 @@ Once connected, return here to configure the Review Agent.
 ### Step 2: Configure the Review Agent
 
 1. Go to **Code Reviews**:
-   - **Personal**: [app.__PRESERVE_ZODE_AI__/code-reviews](https://app.__PRESERVE_ZODE_AI__/code-reviews)
+   - **Personal**: [app.kilo.ai/code-reviews](https://app.kilo.ai/code-reviews)
    - **Organization**: Your organization → Code Reviews
 2. Toggle **Enable AI Code Review** to on
 3. Configure your preferences:
@@ -90,7 +90,7 @@ Zode manages webhooks automatically:
 
 You don't need to set up webhooks manually. If automatic webhook creation fails due to permissions, you can add the webhook manually in **GitLab → Project → Settings → Webhooks**:
 
-- **URL**: `https://app.__PRESERVE_ZODE_AI__/api/webhooks/gitlab`
+- **URL**: `https://app.kilo.ai/api/webhooks/gitlab`
 - **Secret token**: Available in your integration settings
 - **Trigger**: Merge request events
 
@@ -138,4 +138,4 @@ You need **Maintainer role** on the GitLab project. Both webhook creation and bo
 - Verify your instance URL is accessible from the internet
 - Ensure HTTPS is configured
 - Check that OAuth application scopes include all required scopes
-- Verify the redirect URI matches: `https://app.__PRESERVE_ZODE_AI__/api/integrations/gitlab/callback`
+- Verify the redirect URI matches: `https://app.kilo.ai/api/integrations/gitlab/callback`

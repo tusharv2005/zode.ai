@@ -30,7 +30,7 @@ describe("Responses request sanitization", () => {
       ],
     })
 
-    const result = sanitizeResponsesBody("https://__PRESERVE_API_ZODE_AI__/api/openrouter/responses", body)
+    const result = sanitizeResponsesBody("https://api.kilo.ai/api/openrouter/responses", body)
     const data = JSON.parse(result as string)
 
     expect(data.input).toHaveLength(3)
@@ -60,19 +60,19 @@ describe("Responses request sanitization", () => {
       ],
     })
 
-    expect(sanitizeResponsesBody("https://__PRESERVE_API_ZODE_AI__/api/openrouter/responses", body)).toBe(body)
+    expect(sanitizeResponsesBody("https://api.kilo.ai/api/openrouter/responses", body)).toBe(body)
   })
 
   test("leaves non-responses requests unchanged", () => {
     const body = "not json"
 
-    expect(sanitizeResponsesBody("https://__PRESERVE_API_ZODE_AI__/api/openrouter/chat/completions", body)).toBe(body)
+    expect(sanitizeResponsesBody("https://api.kilo.ai/api/openrouter/chat/completions", body)).toBe(body)
   })
 
   test("leaves invalid responses JSON unchanged", () => {
     const body = "not json"
 
-    expect(sanitizeResponsesBody("https://__PRESERVE_API_ZODE_AI__/api/openrouter/responses", body)).toBe(body)
+    expect(sanitizeResponsesBody("https://api.kilo.ai/api/openrouter/responses", body)).toBe(body)
   })
 
   test("matches relative responses paths without a placeholder host", () => {

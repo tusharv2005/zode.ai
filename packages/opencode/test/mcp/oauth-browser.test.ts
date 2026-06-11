@@ -133,7 +133,7 @@ test("BrowserOpenFailed event is published when open() throws", async () => {
       await Bun.write(
         `${dir}/opencode.json`,
         JSON.stringify({
-          $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+          $schema: "https://app.kilo.ai/config.json",
           mcp: {
             "test-oauth-server": {
               type: "remote",
@@ -190,7 +190,7 @@ test("BrowserOpenFailed event is NOT published when open() succeeds", async () =
       await Bun.write(
         `${dir}/opencode.json`,
         JSON.stringify({
-          $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+          $schema: "https://app.kilo.ai/config.json",
           mcp: {
             "test-oauth-server-2": {
               type: "remote",
@@ -247,7 +247,7 @@ test("open() is called with the authorization URL", async () => {
       await Bun.write(
         `${dir}/opencode.json`,
         JSON.stringify({
-          $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+          $schema: "https://app.kilo.ai/config.json",
           mcp: {
             "test-oauth-server-3": {
               type: "remote",

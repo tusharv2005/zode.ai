@@ -23,7 +23,7 @@ export function UpgradeView() {
         </CardDescription>
         <CardActions>
           <div />
-          <Button variant="primary" onClick={() => claw.openExternal("https://app.__PRESERVE_ZODE_AI__/claw")}>
+          <Button variant="primary" onClick={() => claw.openExternal("https://app.kilo.ai/claw")}>
             {t("zodeClaw.upgrade.openDashboard")}
           </Button>
         </CardActions>

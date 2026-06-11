@@ -119,7 +119,7 @@ describe("zodecode indexing config", () => {
 
     try {
       await writeConfig(globalTmp.path, {
-        $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+        $schema: "https://app.kilo.ai/config.json",
         indexing: {
           enabled: true,
           provider: "ollama",
@@ -156,7 +156,7 @@ describe("zodecode indexing config", () => {
 
     try {
       await writeConfig(globalTmp.path, {
-        $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+        $schema: "https://app.kilo.ai/config.json",
         indexing: {
           enabled: true,
         },

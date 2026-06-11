@@ -194,7 +194,7 @@ intellijPlatform {
 
         vendor {
             name = "Zode Code"
-            url = "https://__PRESERVE_ZODE_AI__"
+            url = "https://kilo.ai"
         }
     }
 

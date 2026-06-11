@@ -288,7 +288,7 @@ describe("ZodeCompactionPayloadRecovery", () => {
           Stream.fail(
             new APICallError({
               message: "Request Entity Too Large",
-              url: "https://__PRESERVE_API_ZODE_AI__/api/openrouter/responses",
+              url: "https://api.kilo.ai/api/openrouter/responses",
               requestBodyValues: {},
               statusCode: 413,
               responseHeaders: { "content-type": "text/plain" },

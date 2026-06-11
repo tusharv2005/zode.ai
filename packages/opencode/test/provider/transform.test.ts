@@ -2563,7 +2563,7 @@ describe("ProviderTransform.variants", () => {
         capabilities: { reasoning: false },
         api: {
           id: "anthropic/claude-sonnet-4",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2578,7 +2578,7 @@ describe("ProviderTransform.variants", () => {
         capabilities: { reasoning: false },
         api: {
           id: "anthropic/claude-opus-4",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2592,7 +2592,7 @@ describe("ProviderTransform.variants", () => {
         providerID: "zode",
         api: {
           id: "openai/gpt-5",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2607,7 +2607,7 @@ describe("ProviderTransform.variants", () => {
         providerID: "zode",
         api: {
           id: "google/gemini-3-pro",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2621,7 +2621,7 @@ describe("ProviderTransform.variants", () => {
         providerID: "zode",
         api: {
           id: "meta/llama-4",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2635,7 +2635,7 @@ describe("ProviderTransform.variants", () => {
         providerID: "zode",
         api: {
           id: "x-ai/grok-3-mini",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2651,7 +2651,7 @@ describe("ProviderTransform.variants", () => {
         providerID: "zode",
         api: {
           id: "openai/gpt-5.2-codex",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
       })
@@ -2674,7 +2674,7 @@ describe("ProviderTransform.variants", () => {
         providerID: "zode",
         api: {
           id: "inception/mercury-2",
-          url: "https://gateway.__PRESERVE_ZODE_AI__",
+          url: "https://gateway.kilo.ai",
           npm: "@zodecode/zode-gateway",
         },
         variants: serverVariants,
@@ -3758,7 +3758,7 @@ describe("ProviderTransform.variants", () => {
           providerID: "zode",
           api: {
             id: "anthropic/claude-sonnet-4",
-            url: "https://gateway.__PRESERVE_ZODE_AI__",
+            url: "https://gateway.kilo.ai",
             npm: "@zodecode/zode-gateway",
           },
         })
@@ -3772,7 +3772,7 @@ describe("ProviderTransform.variants", () => {
           providerID: "zode",
           api: {
             id: "openai/gpt-4",
-            url: "https://gateway.__PRESERVE_ZODE_AI__",
+            url: "https://gateway.kilo.ai",
             npm: "@zodecode/zode-gateway",
           },
         })
@@ -3786,7 +3786,7 @@ describe("ProviderTransform.variants", () => {
           providerID: "zode",
           api: {
             id: "google/gemini-2.0-flash",
-            url: "https://gateway.__PRESERVE_ZODE_AI__",
+            url: "https://gateway.kilo.ai",
             npm: "@zodecode/zode-gateway",
           },
         })

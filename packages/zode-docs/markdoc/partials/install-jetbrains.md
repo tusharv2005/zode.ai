@@ -38,7 +38,7 @@ The v7 EAP plugin is available for users who want to try the newest JetBrains ex
 Follow the [v7 roadmap and release milestone](https://github.com/Zode-Org/zodecode/milestone/1) for planned work and release progress.
 
 {% callout type="info" %}
-The v7 EAP plugin is compatible with JetBrains IDE builds 261 and later. EAP builds update frequently, so we recommend enabling automatic plugin updates in your JetBrains IDE from **Settings/Preferences → System Settings → Updates → Update plugins automatically**. Share feedback in the JetBrains channel on the [Zode Discord](https://__PRESERVE_ZODE_AI__/discord).
+The v7 EAP plugin is compatible with JetBrains IDE builds 261 and later. EAP builds update frequently, so we recommend enabling automatic plugin updates in your JetBrains IDE from **Settings/Preferences → System Settings → Updates → Update plugins automatically**. Share feedback in the JetBrains channel on the [Zode Discord](https://kilo.ai/discord).
 {% /callout %}
 
 To install the EAP build and receive updates:

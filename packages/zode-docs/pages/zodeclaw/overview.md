@@ -21,7 +21,7 @@ ZodeClaw is powered by Zode Code. The API key is platform-managed, so you never 
 
 ## Prerequisites
 
-- **Zode account** — Sign up at [__PRESERVE_ZODE_AI__](https://__PRESERVE_ZODE_AI__) if you haven't already
+- **Zode account** — Sign up at [kilo.ai](https://kilo.ai) if you haven't already
 - **Model access** — ZodeClaw uses **Zode Gateway by default**, which provides access to **500+ AI models** through a single integration.
 
 Depending on your setup, you can also use:
@@ -31,13 +31,13 @@ Depending on your setup, you can also use:
 
 ## Creating an Instance
 
-1. Navigate to your [Zode profile](https://app.__PRESERVE_ZODE_AI__/profile)
+1. Navigate to your [Zode profile](https://app.kilo.ai/profile)
 2. Click **Claw** in the left navigation
 
 {% image src="/docs/img/zodeclaw/profile-claw-nav.png" alt="Profile page showing Claw navigation" width="400" caption="Claw navigation in profile sidebar" /%}
 
 3. Click **Create Instance**
-4. Your instance will use **Zode Auto Balanced** as the default model. You can optionally select a different model from the dropdown — see all available models at the [Zode Leaderboard](https://__PRESERVE_ZODE_AI__/leaderboard#all-models).
+4. Your instance will use **Zode Auto Balanced** as the default model. You can optionally select a different model from the dropdown — see all available models at the [Zode Leaderboard](https://kilo.ai/leaderboard#all-models).
 
 {% image src="/docs/img/zodeclaw/create-instance.png" alt="Create instance modal with model selection" width="600" caption="Model selection during instance creation" /%}
 

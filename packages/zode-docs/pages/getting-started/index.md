@@ -35,7 +35,7 @@ Your sessions sync across all of these, so you can start a task on your phone an
 **The easiest way to configure Zode is to ask the agent.** Just tell the agent what you want — "add this MCP server", "disable OpenAI", "add my Ollama endpoint". The agent has a built-in skill for reading and updating your `zode.jsonc` configuration. [Learn more](/docs/getting-started/settings#configuring-with-the-agent)
 {% /callout %}
 
-New to AI coding assistants? Before learning what Zode itself does, you can learn about agentic engineering at [path.__PRESERVE_ZODE_AI__](https://path.__PRESERVE_ZODE_AI__)
+New to AI coding assistants? Before learning what Zode itself does, you can learn about agentic engineering at [path.kilo.ai](https://path.kilo.ai)
 
 Coming from Cursor or Windsurf? See our [migration guide](/docs/getting-started/migrating)
 
@@ -49,6 +49,6 @@ Zode Code is open source. You can inspect the code, contribute features, or fork
 
 ## Get Help
 
-- [**Discord**](https://__PRESERVE_ZODE_AI__/discord) — Real-time help and community discussion
+- [**Discord**](https://kilo.ai/discord) — Real-time help and community discussion
 - [**GitHub Issues**](https://github.com/Zode-Org/zodecode/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) — Report bugs or request features
-- [**YouTube**](https://__PRESERVE_ZODE_AI__/youtube) — Tutorials and walkthroughs
+- [**YouTube**](https://kilo.ai/youtube) — Tutorials and walkthroughs

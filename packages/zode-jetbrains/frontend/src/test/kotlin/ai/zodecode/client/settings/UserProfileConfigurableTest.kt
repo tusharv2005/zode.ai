@@ -84,7 +84,7 @@ class UserProfileConfigurableTest : BasePlatformTestCase() {
             assertTrue(t, t.contains("alice@test.com"))
             assertTrue(buttons(panel).any { it.text == "Log Out" })
         }
-        assertEquals(listOf("https://auth.__PRESERVE_ZODE_AI__/device"), urls)
+        assertEquals(listOf("https://auth.kilo.ai/device"), urls)
     }
 
     fun `test logout updates profile UI`() {
@@ -327,7 +327,7 @@ class UserProfileConfigurableTest : BasePlatformTestCase() {
             assertTrue(t, t.contains("Sign in to Zode Code"))
             assertTrue(t, t.contains("Step 1:"))
             assertTrue(t, t.contains("Open this URL"))
-            assertTrue(t, t.contains("https://auth.__PRESERVE_ZODE_AI__/device"))
+            assertTrue(t, t.contains("https://auth.kilo.ai/device"))
             assertTrue(t, t.contains("Open Browser"))
             assertTrue(t, t.contains("Step 2:"))
             assertTrue(t, t.contains("Enter this code"))
@@ -342,7 +342,7 @@ class UserProfileConfigurableTest : BasePlatformTestCase() {
             assertNotNull(qr!!.icon)
         }
 
-        assertEquals(listOf("https://auth.__PRESERVE_ZODE_AI__/device"), urls)
+        assertEquals(listOf("https://auth.kilo.ai/device"), urls)
 
         // Complete login
         edt { rpc.completeGate!!.complete(Unit) }
@@ -780,7 +780,7 @@ class UserProfileConfigurableTest : BasePlatformTestCase() {
         rpc.fakeProfile = ProfileDto(email = "alice@test.com", name = "Alice")
         rpc.completeGate = CompletableDeferred()
         // Set device auth response without a code
-        rpc.fakeDeviceAuth = DeviceAuthDto(code = null, verificationUrl = "https://auth.__PRESERVE_ZODE_AI__/device")
+        rpc.fakeDeviceAuth = DeviceAuthDto(code = null, verificationUrl = "https://auth.kilo.ai/device")
 
         edt { buttons(panel).first { it.text == "Login with Zode Code" }.doClick() }
         flushUntil { text(panel).contains("Sign in to Zode Code") }

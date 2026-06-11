@@ -85,7 +85,7 @@ describe("zodecode default indexing plugin", () => {
           await Filesystem.write(
             path.join(dir, "opencode.json"),
             JSON.stringify({
-              $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+              $schema: "https://app.kilo.ai/config.json",
               plugin: ["global-plugin-1"],
             }),
           )

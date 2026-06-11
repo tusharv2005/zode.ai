@@ -1,6 +1,6 @@
 # Zode GitHub Action
 
-A GitHub Action that integrates [Zode AI](https://__PRESERVE_ZODE_AI__) directly into your GitHub workflow.
+A GitHub Action that integrates [Zode AI](https://kilo.ai) directly into your GitHub workflow.
 
 Mention `/zode` or `/kc` in your comment, and Zode will execute tasks within your GitHub Actions runner.
 
@@ -112,7 +112,7 @@ This will walk you through installing the ZodeConnect GitHub app, creating the w
 - `prompt` (optional) - Custom prompt to override the default prompt
 - `mentions` (optional) - Comma-separated list of trigger phrases (defaults to `/zode,/kc`)
 - `use_github_token` (optional) - Use GITHUB_TOKEN directly instead of Zode App token exchange (defaults to `false`)
-- `oidc_base_url` (optional) - Base URL for OIDC token exchange API (defaults to `https://__PRESERVE_API_ZODE_AI__`)
+- `oidc_base_url` (optional) - Base URL for OIDC token exchange API (defaults to `https://api.kilo.ai`)
 
 ### Using Other Providers
 

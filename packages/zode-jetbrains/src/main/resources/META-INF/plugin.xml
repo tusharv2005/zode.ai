@@ -1,6 +1,6 @@
 <idea-plugin>
     <name>Zode Code</name>
-    <vendor url="https://__PRESERVE_ZODE_AI__">Zode Code</vendor>
+    <vendor url="https://kilo.ai">Zode Code</vendor>
 
     <description><![CDATA[
         Open Source AI coding agent that generates code from natural language, automates tasks,

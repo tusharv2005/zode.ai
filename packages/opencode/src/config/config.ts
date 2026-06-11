@@ -211,7 +211,7 @@ export const Info = Schema.Struct({
   // zodecode_change start
   // NOTE: Any new zodecode_change key added to Config.Info must also be mirrored in
   // apps/web/src/app/config.json/extras.ts in the cloud repo, otherwise
-  // $schema: https://app.__PRESERVE_ZODE_AI__/config.json will not recognize it.
+  // $schema: https://app.kilo.ai/config.json will not recognize it.
   remote_control: Schema.optional(Schema.Boolean).annotate({
     description: "Enable remote control of sessions via Zode Cloud. Equivalent to running /remote on startup.",
   }),
@@ -515,8 +515,8 @@ export const layer = Layer.effect(
 
       yield* Effect.promise(() => resolveLoadedPlugins(data, options.path))
       if (!data.$schema) {
-        data.$schema = "https://app.__PRESERVE_ZODE_AI__/config.json" // zodecode_change
-        const updated = text.replace(/^\s*\{/, '{\n  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",') // zodecode_change
+        data.$schema = "https://app.kilo.ai/config.json" // zodecode_change
+        const updated = text.replace(/^\s*\{/, '{\n  "$schema": "https://app.kilo.ai/config.json",') // zodecode_change
         yield* fs.writeFileString(options.path, updated).pipe(Effect.catch(() => Effect.void))
       }
       return data
@@ -550,7 +550,7 @@ export const layer = Layer.effect(
             .then(async (mod) => {
               const { provider, model, ...rest } = mod.default
               if (provider && model) result.model = `${provider}/${model}`
-              result["$schema"] = "https://app.__PRESERVE_ZODE_AI__/config.json" // zodecode_change
+              result["$schema"] = "https://app.kilo.ai/config.json" // zodecode_change
               result = mergeConfig(result, rest)
               await fsNode.writeFile(path.join(Global.Path.config, "config.json"), JSON.stringify(result, null, 2))
               await fsNode.unlink(legacy)
@@ -713,7 +713,7 @@ export const layer = Layer.effect(
                   })) as Record<string, unknown>)
                 : {}
               const remoteConfig = mergeConfig(wellknown.config ?? {}, fetchedConfig as Info)
-              if (!remoteConfig.$schema) remoteConfig.$schema = "https://app.__PRESERVE_ZODE_AI__/config.json" // zodecode_change
+              if (!remoteConfig.$schema) remoteConfig.$schema = "https://app.kilo.ai/config.json" // zodecode_change
               const next = yield* loadConfig(JSON.stringify(remoteConfig), {
                 dir: path.dirname(source),
                 source,

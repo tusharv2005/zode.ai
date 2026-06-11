@@ -41,7 +41,7 @@ export const GenerateCommand = {
       .replaceAll("OpenCode", "Zode")
       .replaceAll("opencode.local", "zode.local")
       .replaceAll("opencode serve", "zode serve")
-      .replaceAll("https://opencode.ai/", "https://__PRESERVE_ZODE_AI__/")
+      .replaceAll("https://opencode.ai/", "https://kilo.ai/")
     // zodecode_change end
 
     // Format through prettier so output is byte-identical to committed file

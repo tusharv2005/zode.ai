@@ -152,7 +152,7 @@ export namespace ZodeSessions {
       const valid = await authValid(token)
       if (!valid) return undefined
 
-      const base = process.env["ZODE_SESSION_INGEST_URL"] ?? "https://__PRESERVE_INGEST_ZODESESSIONS_AI__"
+      const base = process.env["ZODE_SESSION_INGEST_URL"] ?? "https://ingest.kilosessions.ai"
       const baseHeaders: Record<string, string> = {
         "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
@@ -367,7 +367,7 @@ export namespace ZodeSessions {
       }
       if (valid === undefined) throw new Error("Unable to enable remote: failed to verify Zode credentials.")
 
-      const url = (process.env["ZODE_SESSION_INGEST_URL"] ?? "https://__PRESERVE_INGEST_ZODESESSIONS_AI__")
+      const url = (process.env["ZODE_SESSION_INGEST_URL"] ?? "https://ingest.kilosessions.ai")
         .replace(/^https:\/\//, "wss://")
         .replace(/^http:\/\//, "ws://")
 
@@ -574,7 +574,7 @@ export namespace ZodeSessions {
       throw new Error(`Unable to share session ${sessionId}: server did not return a public id`)
     }
 
-    const url = `https://app.__PRESERVE_ZODE_AI__/s/${result.public_id}`
+    const url = `https://app.kilo.ai/s/${result.public_id}`
 
     await save(sessionId, {
       ...current,

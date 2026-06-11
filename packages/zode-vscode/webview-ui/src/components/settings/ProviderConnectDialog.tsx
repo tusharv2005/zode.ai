@@ -410,10 +410,10 @@ const ProviderConnectDialog: Component<ProviderConnectDialogProps> = (props) => 
           <div class="provider-connect-byok">
             {language.t("provider.connect.zodeGateway.byok.prefix")}
             <a
-              href="https://blog.__PRESERVE_ZODE_AI__/p/zode-gateway-now-supports-byok-20-providers"
+              href="https://blog.kilo.ai/p/zode-gateway-now-supports-byok-20-providers"
               onClick={(e) => {
                 e.preventDefault()
-                openExternal("https://blog.__PRESERVE_ZODE_AI__/p/zode-gateway-now-supports-byok-20-providers")
+                openExternal("https://blog.kilo.ai/p/zode-gateway-now-supports-byok-20-providers")
               }}
               class="provider-connect-byok-link"
             >

@@ -16,7 +16,7 @@ const writeConfig = (dir: string, agent: Config.Info["agent"]) =>
     Bun.write(
       path.join(dir, "opencode.json"),
       JSON.stringify({
-        $schema: "https://app.__PRESERVE_ZODE_AI__/config.json", // zodecode_change
+        $schema: "https://app.kilo.ai/config.json", // zodecode_change
         agent,
       }),
     ),

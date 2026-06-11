@@ -31,7 +31,7 @@ Add an array of plugin specifiers to your config file:
 
 ```json
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "plugin": [
     "@your-org/your-plugin",
     "your-plugin@1.2.3",

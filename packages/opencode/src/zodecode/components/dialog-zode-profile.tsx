@@ -42,8 +42,8 @@ export function DialogZodeProfile(props: DialogZodeProfileProps) {
 
   // Generate usage URL based on organization context
   const usageUrl = props.currentOrgId
-    ? `https://app.__PRESERVE_ZODE_AI__/organizations/${props.currentOrgId}/usage-details`
-    : "https://app.__PRESERVE_ZODE_AI__/usage"
+    ? `https://app.kilo.ai/organizations/${props.currentOrgId}/usage-details`
+    : "https://app.kilo.ai/usage"
 
   return (
     <box paddingLeft={2} paddingRight={2} gap={1}>

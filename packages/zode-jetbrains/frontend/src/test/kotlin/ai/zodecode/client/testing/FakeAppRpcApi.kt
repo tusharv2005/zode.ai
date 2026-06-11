@@ -148,7 +148,7 @@ class FakeAppRpcApi : ZodeAppRpcApi {
     }
 
     var fakeProfile: ProfileDto? = null
-    var fakeDeviceAuth = DeviceAuthDto(code = "TEST-1234", verificationUrl = "https://auth.__PRESERVE_ZODE_AI__/device")
+    var fakeDeviceAuth = DeviceAuthDto(code = "TEST-1234", verificationUrl = "https://auth.kilo.ai/device")
     val orgProfiles = mutableMapOf<String?, ProfileDto?>()
     val orgSelections = mutableListOf<String?>()
     val telemetry = mutableListOf<TelemetryCaptureDto>()

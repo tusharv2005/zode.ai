@@ -4,7 +4,7 @@ export const dict = {
     "Zode Gatewayは、コーディングエージェント向けに厳選された信頼性の高い最適化モデルへのアクセスを提供します。",
   "provider.connect.zodeGateway.line2": "1つのAPIキーで、Claude、GPT、Gemini、GLMなどのモデルにアクセスできます。",
   "provider.connect.zodeGateway.visit.prefix": "",
-  "provider.connect.zodeGateway.visit.link": "__PRESERVE_ZODE_AI__",
+  "provider.connect.zodeGateway.visit.link": "kilo.ai",
   "provider.connect.zodeGateway.visit.suffix": " にアクセスしてAPIキーを取得してください。",
   "provider.connect.zodeGateway.byok.prefix": "詳細な使用統計については、",
   "provider.connect.zodeGateway.byok.link": "Zode's Gateway経由でBYOK",

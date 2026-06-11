@@ -46,14 +46,14 @@ That's it! You're ready to [start your first task](/docs/getting-started/quickst
 {% /tabs %}
 
 {% callout type="tip" title="Add Credits" %}
-[Add credits to your account](https://app.__PRESERVE_ZODE_AI__/profile), or sign up for [Zode Pass](https://__PRESERVE_ZODE_AI__/features/zode-pass).
+[Add credits to your account](https://app.kilo.ai/profile), or sign up for [Zode Pass](https://kilo.ai/features/zode-pass).
 {% /callout %}
 
 ## Zode Gateway API Key
 
 If you're using the [Zode AI Gateway](/docs/gateway/) outside of the Zode Code extension (for example, with the Vercel AI SDK or OpenAI SDK), you'll need an API key:
 
-1. Go to [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__)
+1. Go to [app.kilo.ai](https://app.kilo.ai)
 2. Go to **Your Profile** on your **personal account** (not in an organization)
 3. Scroll to the bottom of the page
 4. Copy your API key
@@ -146,5 +146,5 @@ To set a default model:
 {% /tabs %}
 
 {% callout type="info" title="Need Help?" %}
-Reach out to our [support team](mailto:hi@__PRESERVE_ZODE_AI__) or join our [Discord community](https://__PRESERVE_ZODE_AI__/discord).
+Reach out to our [support team](mailto:hi@kilo.ai) or join our [Discord community](https://kilo.ai/discord).
 {% /callout %}

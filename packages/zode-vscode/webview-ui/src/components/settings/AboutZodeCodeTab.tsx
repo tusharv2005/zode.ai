@@ -216,7 +216,7 @@ const AboutZodeCodeTab: Component<AboutZodeCodeTabProps> = (props) => {
             Reddit
           </span>
           , {language.t("settings.aboutZodeCode.feedback.or")}{" "}
-          <span style={linkStyle} onClick={() => open("https://__PRESERVE_ZODE_AI__/discord")}>
+          <span style={linkStyle} onClick={() => open("https://kilo.ai/discord")}>
             Discord
           </span>
           .
@@ -230,8 +230,8 @@ const AboutZodeCodeTab: Component<AboutZodeCodeTabProps> = (props) => {
           }}
         >
           {language.t("settings.aboutZodeCode.support.prefix")}{" "}
-          <span style={linkStyle} onClick={() => open("https://__PRESERVE_ZODE_AI__/support")}>
-            __PRESERVE_ZODE_AI__/support
+          <span style={linkStyle} onClick={() => open("https://kilo.ai/support")}>
+            kilo.ai/support
           </span>
           .
         </p>

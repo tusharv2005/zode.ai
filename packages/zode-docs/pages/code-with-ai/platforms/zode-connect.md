@@ -21,7 +21,7 @@ description: "Use Zode Code directly from Slack, GitHub, and Linear"
 
 ## How to Set Up
 
-All integrations are configured from the **Integrations** tab at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__). Each integration requires:
+All integrations are configured from the **Integrations** tab at [app.kilo.ai](https://app.kilo.ai). Each integration requires:
 
 - A Zode Code account with available credits
 - A connected Git provider (GitHub or GitLab) so Zode can access your repositories

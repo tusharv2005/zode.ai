@@ -324,7 +324,7 @@ describe("session.llm.stream", () => {
         await Bun.write(
           path.join(dir, "opencode.json"),
           JSON.stringify({
-            $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+            $schema: "https://app.kilo.ai/config.json",
             enabled_providers: [providerID],
             provider: {
               [providerID]: {
@@ -609,7 +609,7 @@ describe("session.llm.stream", () => {
         await Bun.write(
           path.join(dir, "opencode.json"),
           JSON.stringify({
-            $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+            $schema: "https://app.kilo.ai/config.json",
             enabled_providers: ["openai"],
             provider: {
               openai: {
@@ -851,7 +851,7 @@ describe("session.llm.stream", () => {
         await Bun.write(
           path.join(dir, "opencode.json"),
           JSON.stringify({
-            $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+            $schema: "https://app.kilo.ai/config.json",
             enabled_providers: [providerID],
             provider: {
               [providerID]: {
@@ -1210,7 +1210,7 @@ describe("session.llm.stream", () => {
         await Bun.write(
           path.join(dir, "opencode.json"),
           JSON.stringify({
-            $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+            $schema: "https://app.kilo.ai/config.json",
             enabled_providers: [providerID],
             provider: {
               [providerID]: {

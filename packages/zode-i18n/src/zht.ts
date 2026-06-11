@@ -3,7 +3,7 @@ export const dict = {
   "provider.connect.zodeGateway.line1": "Zode Gateway 為您提供一組精選的可靠優化模型，專為編碼代理設計。",
   "provider.connect.zodeGateway.line2": "只需一個 API 金鑰，您就可以使用 Claude、GPT、Gemini、GLM 等模型。",
   "provider.connect.zodeGateway.visit.prefix": "訪問 ",
-  "provider.connect.zodeGateway.visit.link": "__PRESERVE_ZODE_AI__",
+  "provider.connect.zodeGateway.visit.link": "kilo.ai",
   "provider.connect.zodeGateway.visit.suffix": " 獲取您的 API 金鑰。",
   "provider.connect.zodeGateway.byok.prefix": "如需更多使用統計資訊，請",
   "provider.connect.zodeGateway.byok.link": "透過 Zode's Gateway 進行 BYOK",

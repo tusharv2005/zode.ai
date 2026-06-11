@@ -73,7 +73,7 @@ You can prevent specific providers from loading using `disabled_providers` in yo
 
 ```json
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "disabled_providers": ["zode", "openai"]
 }
 ```
@@ -82,7 +82,7 @@ To allow only specific providers and disable everything else, use `enabled_provi
 
 ```json
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "enabled_providers": ["anthropic"]
 }
 ```

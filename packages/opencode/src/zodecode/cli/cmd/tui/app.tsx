@@ -39,7 +39,7 @@ export { useTuiConfigHotReload } from "@/zodecode/cli/cmd/tui/context/tui-config
 export const APP_TITLE = "Zode CLI"
 
 /** Public docs URL shown in the command palette. */
-export const DOCS_URL = "https://__PRESERVE_ZODE_AI__/docs"
+export const DOCS_URL = "https://kilo.ai/docs"
 
 /** Human-readable product name used in user-facing messages. */
 export const APP_NAME = "Zode"

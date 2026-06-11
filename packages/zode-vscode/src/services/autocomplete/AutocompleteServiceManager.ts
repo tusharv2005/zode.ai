@@ -423,7 +423,7 @@ export class AutocompleteServiceManager {
     if (status === 402) {
       vscode.window.showWarningMessage(msg, t("zodecode:autocomplete.creditsExhausted.addCredits")).then((choice) => {
         if (choice === t("zodecode:autocomplete.creditsExhausted.addCredits")) {
-          vscode.env.openExternal(vscode.Uri.parse("https://app.__PRESERVE_ZODE_AI__/credits"))
+          vscode.env.openExternal(vscode.Uri.parse("https://app.kilo.ai/credits"))
         }
       })
     } else {

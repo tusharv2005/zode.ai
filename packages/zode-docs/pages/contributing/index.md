@@ -216,7 +216,7 @@ When participating in the Zode Code community:
 
 If you need help with your contribution:
 
-- Join our [Discord community](https://__PRESERVE_ZODE_AI__/discord) for real-time support
+- Join our [Discord community](https://kilo.ai/discord) for real-time support
 - Ask questions on [GitHub Discussions](https://github.com/Zode-Org/zodecode/discussions)
 - Visit our [Reddit community](https://www.reddit.com/r/zodecode)
 

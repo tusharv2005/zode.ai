@@ -20,11 +20,11 @@ The general steps to connect a third-party chat platform are:
 1. Configure the channel token in Settings
 2. Redeploy the ZodeClaw instance
 3. Initiate the pairing in the chat app
-4. Accept the pairing request in the [ZodeClaw UI](https://app.__PRESERVE_ZODE_AI__/claw)
+4. Accept the pairing request in the [ZodeClaw UI](https://app.kilo.ai/claw)
 
 ## Supported Platforms
 
-- [**Zode Chat**](https://app.__PRESERVE_ZODE_AI__) — Use the built-in first-party channel with no token setup.
+- [**Zode Chat**](https://app.kilo.ai) — Use the built-in first-party channel with no token setup.
 - [**Telegram**](/docs/zodeclaw/chat-platforms/telegram) — Connect via a BotFather bot token.
 - [**Discord**](/docs/zodeclaw/chat-platforms/discord) — Connect via a Discord Developer Portal bot token.
 - [**Slack**](/docs/zodeclaw/chat-platforms/slack) — Connect via a Slack app manifest with app-level and bot tokens.

@@ -35,7 +35,7 @@ Before connecting:
 
 ### 1. Open the Integrations Page
 
-Go to your **Personal** or **Organization Dashboard**, and navigate to the [Integrations](https://app.__PRESERVE_ZODE_AI__/integrations) tab.
+Go to your **Personal** or **Organization Dashboard**, and navigate to the [Integrations](https://app.kilo.ai/integrations) tab.
 
 ### 2. Start the Connection Flow
 
@@ -70,7 +70,7 @@ You can connect GitLab using **OAuth** or a **Personal Access Token (PAT)**. Bot
 {% tab label="OAuth (GitLab.com)" %}
 
 1. Go to the **Integrations** page:
-   - **Personal**: [app.__PRESERVE_ZODE_AI__/integrations/gitlab](https://app.__PRESERVE_ZODE_AI__/integrations/gitlab)
+   - **Personal**: [app.kilo.ai/integrations/gitlab](https://app.kilo.ai/integrations/gitlab)
    - **Organization**: Your organization → Integrations → GitLab
 2. Click **Connect GitLab**
 3. Authorize the application on GitLab
@@ -84,7 +84,7 @@ For self-hosted GitLab instances using OAuth, you need to register an OAuth appl
 1. In your GitLab instance, go to **Admin Area → Applications** (or **User Settings → Applications**)
 2. Create a new application:
    - **Name**: `Zode Code`
-   - **Redirect URI**: `https://app.__PRESERVE_ZODE_AI__/api/integrations/gitlab/callback`
+   - **Redirect URI**: `https://app.kilo.ai/api/integrations/gitlab/callback`
    - **Scopes**: `api`, `read_user`, `read_repository`, `write_repository`
    - **Confidential**: Yes
 3. Copy the **Application ID** and **Secret**
@@ -190,4 +190,4 @@ You need **Maintainer role** on the GitLab project for webhook and bot token cre
 - Verify your instance URL is accessible from the internet
 - Ensure HTTPS is configured
 - Check that OAuth application scopes include all required scopes
-- Verify the redirect URI matches: `https://app.__PRESERVE_ZODE_AI__/api/integrations/gitlab/callback`
+- Verify the redirect URI matches: `https://app.kilo.ai/api/integrations/gitlab/callback`

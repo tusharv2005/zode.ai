@@ -7,7 +7,7 @@
 export const ENV_ZODE_API_URL = "ZODE_API_URL"
 
 /** Default Zode API URL */
-export const DEFAULT_ZODE_API_URL = "https://__PRESERVE_API_ZODE_AI__"
+export const DEFAULT_ZODE_API_URL = "https://api.kilo.ai"
 
 /** Base URL for Zode API - can be overridden by ZODE_API_URL env var */
 export const ZODE_API_BASE = process.env[ENV_ZODE_API_URL] || DEFAULT_ZODE_API_URL

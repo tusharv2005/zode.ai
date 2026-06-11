@@ -84,7 +84,7 @@ This retention policy keeps costs minimal by only maintaining indexes for active
 
 ## Managing Your Indexes
 
-A minimal UI is available at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__) to:
+A minimal UI is available at [app.kilo.ai](https://app.kilo.ai) to:
 
 - View the size and status of your indexed projects
 - Delete old branches & projects.

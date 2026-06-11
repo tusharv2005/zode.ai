@@ -358,7 +358,7 @@ export const GithubInstallCommand = effectCmd({
 
           async function getInstallation() {
             // zodecode_change start - updated to new endpoint
-            return await fetch(`https://__PRESERVE_API_ZODE_AI__/api/integrations/github/check-installation?owner=${app.owner}`)
+            return await fetch(`https://api.kilo.ai/api/integrations/github/check-installation?owner=${app.owner}`)
               .then((res) => res.json())
               .then((data) => data.installation)
             // zodecode_change end
@@ -485,7 +485,7 @@ export const GithubRunCommand = effectCmd({
           ? (payload as IssueCommentEvent | IssuesEvent).issue.number
           : (payload as PullRequestEvent | PullRequestReviewCommentEvent).pull_request.number
       const runUrl = `/${owner}/${repo}/actions/runs/${runId}`
-      const shareBaseUrl = isMock ? "https://dev.__PRESERVE_ZODE_AI__" : "https://__PRESERVE_ZODE_AI__" // zodecode_change
+      const shareBaseUrl = isMock ? "https://dev.kilo.ai" : "https://kilo.ai" // zodecode_change
 
       let appToken: string
       let octoRest: Octokit
@@ -746,7 +746,7 @@ export const GithubRunCommand = effectCmd({
 
       function normalizeOidcBaseUrl(): string {
         const value = process.env["OIDC_BASE_URL"]
-        if (!value) return "https://__PRESERVE_API_ZODE_AI__" // zodecode_change
+        if (!value) return "https://api.kilo.ai" // zodecode_change
         return value.replace(/\/+$/, "")
       }
 
@@ -1404,7 +1404,7 @@ export const GithubRunCommand = effectCmd({
       function footer(opts?: { image?: boolean }) {
         // zodecode_change start - simplified footer with text branding (no image backend yet)
         const share = shareId ? `[zode session](${shareBaseUrl}/s/${shareId})&nbsp;&nbsp;|&nbsp;&nbsp;` : ""
-        return `\n\n---\n*Powered by [Zode](https://__PRESERVE_ZODE_AI__)*&nbsp;&nbsp;|&nbsp;&nbsp;${share}[github run](${runUrl})`
+        return `\n\n---\n*Powered by [Zode](https://kilo.ai)*&nbsp;&nbsp;|&nbsp;&nbsp;${share}[github run](${runUrl})`
         // zodecode_change end
       }
 

@@ -7,8 +7,8 @@ import { useVSCode } from "../../context/vscode"
 import { useLanguage } from "../../context/language"
 
 const GITHUB_ISSUES_URL = "https://github.com/Zode-Org/zodecode/issues/new/choose"
-const DISCORD_URL = "https://__PRESERVE_ZODE_AI__/discord"
-const SUPPORT_URL = "https://__PRESERVE_ZODE_AI__/support"
+const DISCORD_URL = "https://kilo.ai/discord"
+const SUPPORT_URL = "https://kilo.ai/support"
 
 const ZodeLogo = (): JSX.Element => {
   const iconsBaseUri = (window as { ICONS_BASE_URI?: string }).ICONS_BASE_URI || ""

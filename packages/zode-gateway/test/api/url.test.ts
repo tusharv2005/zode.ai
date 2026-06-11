@@ -3,8 +3,8 @@ import { resolveZodeGatewayBaseUrl, resolveZodeOpenRouterBaseUrl } from "../../s
 
 describe("Zode API URL resolvers", () => {
   test("resolves production route bases", () => {
-    expect(resolveZodeGatewayBaseUrl()).toBe("https://__PRESERVE_API_ZODE_AI__/api/gateway/")
-    expect(resolveZodeOpenRouterBaseUrl()).toBe("https://__PRESERVE_API_ZODE_AI__/api/openrouter/")
+    expect(resolveZodeGatewayBaseUrl()).toBe("https://api.kilo.ai/api/gateway/")
+    expect(resolveZodeOpenRouterBaseUrl()).toBe("https://api.kilo.ai/api/openrouter/")
   })
 
   test("normalizes root API base overrides", () => {

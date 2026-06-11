@@ -5,7 +5,7 @@ export const dict = {
   "provider.connect.zodeGateway.line2":
     "بمفتاح API واحد، ستحصل على إمكانية الوصول إلى نماذج مثل Claude وGPT وGemini وGLM والمزيد.",
   "provider.connect.zodeGateway.visit.prefix": "قم بزيارة ",
-  "provider.connect.zodeGateway.visit.link": "__PRESERVE_ZODE_AI__",
+  "provider.connect.zodeGateway.visit.link": "kilo.ai",
   "provider.connect.zodeGateway.visit.suffix": " للحصول على مفتاح API الخاص بك.",
   "provider.connect.zodeGateway.byok.prefix": "للحصول على المزيد من إحصائيات الاستخدام، استخدم ",
   "provider.connect.zodeGateway.byok.link": "BYOK عبر Zode's Gateway",

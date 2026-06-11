@@ -7,7 +7,7 @@ This guide walks you through setting up Mistral's Codestral model for free autoc
 
 ## Prerequisites
 
-- A [Zode Code account](https://app.__PRESERVE_ZODE_AI__) (free to create)
+- A [Zode Code account](https://app.kilo.ai) (free to create)
 - A Mistral AI account with a Codestral API key
 
 ## Step 1: Navigate to Codestral in Mistral AI Studio
@@ -34,8 +34,8 @@ The Codestral API key is separate from the standard Mistral La Plateforme API ke
 
 ## Step 4: Add Your Key via BYOK in Zode
 
-1. Log into the [Zode platform](https://app.__PRESERVE_ZODE_AI__).
-2. Navigate to the [Bring Your Own Key (BYOK) page](https://app.__PRESERVE_ZODE_AI__/byok), available in the sidebar under **Account**.
+1. Log into the [Zode platform](https://app.kilo.ai).
+2. Navigate to the [Bring Your Own Key (BYOK) page](https://app.kilo.ai/byok), available in the sidebar under **Account**.
 3. Click **Add Your First Key** (or **Add Key** if you already have keys configured).
 4. Select **Codestral** as the provider.
 5. Paste your Codestral API key.

@@ -99,7 +99,7 @@ describe("zodecode XLSX reads", () => {
     Effect.gen(function* () {
       const dir = yield* tmpdirScoped()
       const sheet: WorkSheet = {
-        A1: { t: "s", v: "Link", l: { Target: "https://__PRESERVE_ZODE_AI__" } },
+        A1: { t: "s", v: "Link", l: { Target: "https://kilo.ai" } },
         B1: { t: "d", v: new Date("2026-05-29T00:00:00.000Z") },
         C1: { t: "n", v: 42, f: "SUM(40,2)" },
         D1: { t: "e", v: 0x07, w: "#DIV/0!" },
@@ -113,7 +113,7 @@ describe("zodecode XLSX reads", () => {
       const result = yield* run(dir, file)
 
       expect(result.output).toContain("--- Sheet: Visible ---")
-      expect(result.output).toContain("Link (https://__PRESERVE_ZODE_AI__)")
+      expect(result.output).toContain("Link (https://kilo.ai)")
       expect(result.output).toContain("2026-05-29")
       expect(result.output).toContain("42")
       expect(result.output).toContain("[Formula: SUM(C1:C1)]")

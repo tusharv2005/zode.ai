@@ -45,4 +45,4 @@ The Android app is available now on Google Play.
 
 The iOS app is in review with the App Store team and will be available soon. You can already sign up for the iOS waitlist to be notified when it launches.
 
-[Join the iOS app waitlist →](https://__PRESERVE_ZODE_AI__/features/ios-app)
+[Join the iOS app waitlist →](https://kilo.ai/features/ios-app)

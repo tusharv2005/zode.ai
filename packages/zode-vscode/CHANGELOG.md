@@ -428,7 +428,7 @@
 
 - [#9968](https://github.com/Zode-Org/zodecode/pull/9968) [`bf0c4df`](https://github.com/Zode-Org/zodecode/commit/bf0c4df9d3067339e3438d51bf6ce2ff77d75092) - Add a searchable current-tabs menu to Agent Manager.
 
-- [#9764](https://github.com/Zode-Org/zodecode/pull/9764) [`9886674`](https://github.com/Zode-Org/zodecode/commit/98866740afd7f6c2fd06fecda1ffc69c1703974e) - Migrate ZodeClaw chat to the new zode-chat backend. Replaces the single-channel Stream Chat integration with a multi-conversation experience that matches the web UX at app.__PRESERVE_ZODE_AI__/claw/zode-chat: conversation list, reactions, typing indicators, editing, and action approvals. The TUI continues to render a single chat view backed by the user's primary conversation.
+- [#9764](https://github.com/Zode-Org/zodecode/pull/9764) [`9886674`](https://github.com/Zode-Org/zodecode/commit/98866740afd7f6c2fd06fecda1ffc69c1703974e) - Migrate ZodeClaw chat to the new zode-chat backend. Replaces the single-channel Stream Chat integration with a multi-conversation experience that matches the web UX at app.kilo.ai/claw/zode-chat: conversation list, reactions, typing indicators, editing, and action approvals. The TUI continues to render a single chat view backed by the user's primary conversation.
 
 - [#9718](https://github.com/Zode-Org/zodecode/pull/9718) [`dcaccf3`](https://github.com/Zode-Org/zodecode/commit/dcaccf38658415819b72390255b9f6555e4795e5) - Rate assistant responses with thumbs up/down. Click the thumbs buttons next to the copy button on any assistant message, or press `<leader>=` / `<leader>-` in the terminal UI. Only shown when telemetry is enabled; feedback is sent to Zode to help improve model and prompt quality.
 
@@ -994,7 +994,7 @@ No notable changes
 - Granular bash permission rules with per-pattern toggles in permission dock (@imanolmzd-svg)
 - Add DELETE /skill endpoint and use CLI backend for skill removal
 - Guard temperature and prevent prompt injection in enhance-prompt
-- Use correct config.json schema URL (app.__PRESERVE_ZODE_AI__) (@brick-pixel)
+- Use correct config.json schema URL (app.kilo.ai) (@brick-pixel)
 - Rework workspace integration and adaptor interface (@jlongster)
 - Show scrollbar by default in TUI (@kommander)
 - Prevent orphaned opencode subprocesses on shutdown (@thdxr)
@@ -1442,7 +1442,7 @@ If you have any issues with the migration the original data is not yet deleted a
 
 - [#5744](https://github.com/Zode-Org/zodecode/pull/5744) [`870cdd5`](https://github.com/Zode-Org/zodecode/commit/870cdd57e7b096caca536ca0aa0da393a68eb730) Thanks [@fstanis](https://github.com/fstanis)! - Fix Opus 4.6 model name
 
-- [#5767](https://github.com/Zode-Org/zodecode/pull/5767) [`57daae1`](https://github.com/Zode-Org/zodecode/commit/57daae1c3765bd1c37ee5791cb465edc7bd9a861) Thanks [@zodeconnect](https://github.com/apps/zodeconnect)! - Update Discord link in docs footer to use __PRESERVE_ZODE_AI__/discord
+- [#5767](https://github.com/Zode-Org/zodecode/pull/5767) [`57daae1`](https://github.com/Zode-Org/zodecode/commit/57daae1c3765bd1c37ee5791cb465edc7bd9a861) Thanks [@zodeconnect](https://github.com/apps/zodeconnect)! - Update Discord link in docs footer to use kilo.ai/discord
 
 - [#5758](https://github.com/Zode-Org/zodecode/pull/5758) [`25f0043`](https://github.com/Zode-Org/zodecode/commit/25f0043f66248cb12c1c353c9cd9935a0d2d9d60) Thanks [@markijbema](https://github.com/markijbema)! - Minor improvement of auto-execute commands with input redirection
 
@@ -2871,7 +2871,7 @@ If you have any issues with the migration the original data is not yet deleted a
 
 - [#3466](https://github.com/Zode-Org/zodecode/pull/3466) [`e623ce1`](https://github.com/Zode-Org/zodecode/commit/e623ce146bbad7453355ee84a4b4bb2fc894b031) Thanks [@chrarnoldus](https://github.com/chrarnoldus)! - Thanks @pranjaldatta! Added support for Inception as a provider
 
-- [#2435](https://github.com/Zode-Org/zodecode/pull/2435) [`c13fe3c`](https://github.com/Zode-Org/zodecode/commit/c13fe3c634496b9e1fc08371822a4071407ff9bc) Thanks [@catrielmuller](https://github.com/catrielmuller)! - Auto Cleanup automatically manages your task history by removing old tasks to free up disk space and improve performance - https://__PRESERVE_ZODE_AI__/docs/advanced-usage/auto-cleanup
+- [#2435](https://github.com/Zode-Org/zodecode/pull/2435) [`c13fe3c`](https://github.com/Zode-Org/zodecode/commit/c13fe3c634496b9e1fc08371822a4071407ff9bc) Thanks [@catrielmuller](https://github.com/catrielmuller)! - Auto Cleanup automatically manages your task history by removing old tasks to free up disk space and improve performance - https://kilo.ai/docs/advanced-usage/auto-cleanup
 
 ### Patch Changes
 

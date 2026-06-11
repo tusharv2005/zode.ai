@@ -96,7 +96,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
 
   meta = {
     description = "AI-powered development tool";
-    homepage = "https://__PRESERVE_ZODE_AI__/";
+    homepage = "https://kilo.ai/";
     license = lib.licenses.mit;
     mainProgram = "zode";
     inherit (node_modules.meta) platforms;

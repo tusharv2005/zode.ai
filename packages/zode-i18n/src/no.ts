@@ -5,7 +5,7 @@ export const dict = {
   "provider.connect.zodeGateway.line2":
     "Med én enkelt API-nøkkel får du tilgang til modeller som Claude, GPT, Gemini, GLM og flere.",
   "provider.connect.zodeGateway.visit.prefix": "Besøk ",
-  "provider.connect.zodeGateway.visit.link": "__PRESERVE_ZODE_AI__",
+  "provider.connect.zodeGateway.visit.link": "kilo.ai",
   "provider.connect.zodeGateway.visit.suffix": " for å hente API-nøkkelen din.",
   "provider.connect.zodeGateway.byok.prefix": "For mer bruksstatistikk, bruk ",
   "provider.connect.zodeGateway.byok.link": "BYOK via Zode's Gateway",

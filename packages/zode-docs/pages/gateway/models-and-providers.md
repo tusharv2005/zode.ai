@@ -32,7 +32,7 @@ Or in a raw API request:
 You can browse the full list of available models via the models endpoint:
 
 ```
-GET https://__PRESERVE_API_ZODE_AI__/api/gateway/models
+GET https://api.kilo.ai/api/gateway/models
 ```
 
 This returns model information including pricing, context window, and supported features. No authentication is required.
@@ -128,7 +128,7 @@ Automatically routes to a small, fast model for lightweight background tasks (se
 With the mode header:
 
 ```bash
-curl -X POST "https://__PRESERVE_API_ZODE_AI__/api/gateway/chat/completions" \
+curl -X POST "https://api.kilo.ai/api/gateway/chat/completions" \
   -H "Authorization: Bearer $ZODE_API_KEY" \
   -H "x-zodecode-mode: plan" \
   -H "Content-Type: application/json" \

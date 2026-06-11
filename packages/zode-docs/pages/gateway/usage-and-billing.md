@@ -34,7 +34,7 @@ Costs are determined by the upstream provider's pricing based on token usage:
 
 ### Individual accounts
 
-Your account balance is the difference between total credits purchased and total usage. Check your balance in the [Zode dashboard](https://app.__PRESERVE_ZODE_AI__).
+Your account balance is the difference between total credits purchased and total usage. Check your balance in the [Zode dashboard](https://app.kilo.ai).
 
 When your balance reaches zero, requests to paid models will return HTTP 402 with a link to add credits:
 
@@ -44,7 +44,7 @@ When your balance reaches zero, requests to paid models will return HTTP 402 wit
     "message": "Insufficient balance. Please add credits to continue.",
     "code": 402,
     "metadata": {
-      "buyCreditsUrl": "https://app.__PRESERVE_ZODE_AI__/credits"
+      "buyCreditsUrl": "https://app.kilo.ai/credits"
     }
   }
 }

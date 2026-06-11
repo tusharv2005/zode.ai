@@ -42,8 +42,8 @@ export function formatProfileInfo(
 
   // Add usage details link
   const usageUrl = currentOrgId
-    ? `https://app.__PRESERVE_ZODE_AI__/organizations/${currentOrgId}/usage-details`
-    : "https://app.__PRESERVE_ZODE_AI__/usage"
+    ? `https://app.kilo.ai/organizations/${currentOrgId}/usage-details`
+    : "https://app.kilo.ai/usage"
   content += `\nUsage Details: ${usageUrl}`
 
   return content

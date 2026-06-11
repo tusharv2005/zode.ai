@@ -57,8 +57,8 @@ Switch to **Zode Teams** or **Zode Enterprise** from other AI coding tools and e
 
 **Step 2: Zode Setup**
 
-1. **Create organization** at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__)
-2. **Subscribe to Teams ($15/user/month)** or **Enterprise ([Contact Sales](https://__PRESERVE_ZODE_AI__/contact-sales))**
+1. **Create organization** at [app.kilo.ai](https://app.kilo.ai)
+2. **Subscribe to Teams ($15/user/month)** or **Enterprise ([Contact Sales](https://kilo.ai/contact-sales))**
 3. **Configure team settings** and usage policies
 4. **Purchase initial AI credits** based on usage estimates
 
@@ -351,7 +351,7 @@ Zode Code also supports mode-specific rules (`.zodecode/rules-{mode}/`), which C
 
 ### Getting Migration Help
 
-- **Email:** migrations@__PRESERVE_ZODE_AI__
+- **Email:** migrations@kilo.ai
 - **Discord:** Join our migration support channel
 - **Consultation:** Schedule free migration planning call
 - **Documentation:**
@@ -388,4 +388,4 @@ Zode Code also supports mode-specific rules (`.zodecode/rules-{mode}/`), which C
 - [Understand billing and pricing](/docs/collaborate/teams/billing)
 - [Migrate your rules and configurations](/docs/getting-started/migrating) (technical guide)
 
-Ready to make the switch? Contact our migration team at migrations@__PRESERVE_ZODE_AI__ to plan your transition to transparent AI coding.
+Ready to make the switch? Contact our migration team at migrations@kilo.ai to plan your transition to transparent AI coding.

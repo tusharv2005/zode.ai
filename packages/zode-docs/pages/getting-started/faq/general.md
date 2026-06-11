@@ -22,6 +22,6 @@ You interact with Zode Code through a chat interface, where you provide instruct
 
 The Zode Code extension itself is free and open-source. In order for Zode Code to be useful, you need an AI model to respond to your queries. Models are hosted by providers and most charge for access.
 
-There are some [models](https://__PRESERVE_ZODE_AI__/leaderboard#all-models) available for free. The set of free models is constantly changing based on provider pricing decisions.
+There are some [models](https://kilo.ai/leaderboard#all-models) available for free. The set of free models is constantly changing based on provider pricing decisions.
 
 You can also use Zode Code with a [local model](/docs/automate/extending/local-models) or ["Bring Your Own API Key"](/docs/getting-started/byok).

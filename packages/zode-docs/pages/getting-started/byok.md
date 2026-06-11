@@ -51,7 +51,7 @@ These providers offer coding-focused subscriptions or dedicated endpoints. Bring
 ## Add a BYOK key
 
 1. Log into the Zode platform and select the account or organization you want to add the BYOK key to.
-2. Navigate to the [Bring Your Own Key (BYOK) page](https://app.__PRESERVE_ZODE_AI__/byok), available in the sidebar under `Account`.
+2. Navigate to the [Bring Your Own Key (BYOK) page](https://app.kilo.ai/byok), available in the sidebar under `Account`.
 3. Click `Add Your First Key`, select the provider, and paste your API key.
 4. Save.
 

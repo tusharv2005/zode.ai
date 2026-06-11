@@ -7,13 +7,13 @@ description: "How to add credits to your Zode Code account"
 
 Once you've used any initial free Zode Credits, you can easily add more:
 
-- Subscribe to the [Zode Pass](https://__PRESERVE_ZODE_AI__/features/zode-pass), the most cost effective way to add credits.
+- Subscribe to the [Zode Pass](https://kilo.ai/features/zode-pass), the most cost effective way to add credits.
 - Purchase additional credits as a one-time transaction.
-- Enable [automatic top-up](https://__PRESERVE_ZODE_AI__/features/auto-top-ups), which purchases additional credits when your balance runs low. Auto top-up is available for both individual and organization accounts.
+- Enable [automatic top-up](https://kilo.ai/features/auto-top-ups), which purchases additional credits when your balance runs low. Auto top-up is available for both individual and organization accounts.
 
-These options are available to purchase from your [personal profile page](https://app.__PRESERVE_ZODE_AI__/profile). Organization owners can manage credits and auto top-up from the [Organization dashboard](https://app.__PRESERVE_ZODE_AI__).
+These options are available to purchase from your [personal profile page](https://app.kilo.ai/profile). Organization owners can manage credits and auto top-up from the [Organization dashboard](https://app.kilo.ai).
 
-You can also use subscriptions or credits you may have purchased directly with an AI provider by adding your keys on the [Bring your own Key (BYOK)](https://app.__PRESERVE_ZODE_AI__/byok) settings screen. For setup details and supported providers, see [AI Providers documentation](/docs/ai-providers). If your provider is not yet supported, you can also [directly connect your provider](/docs/getting-started/setup-authentication) in the extension and CLI.
+You can also use subscriptions or credits you may have purchased directly with an AI provider by adding your keys on the [Bring your own Key (BYOK)](https://app.kilo.ai/byok) settings screen. For setup details and supported providers, see [AI Providers documentation](/docs/ai-providers). If your provider is not yet supported, you can also [directly connect your provider](/docs/getting-started/setup-authentication) in the extension and CLI.
 
 ## Transparent Pricing
 
@@ -33,5 +33,5 @@ We're continuously working to improve Zode Code and expand our offerings:
 - More payment options and other plans are under development
 
 {% callout type="tip" title="Need Help?" %}
-If you have any questions about pricing or tokens, please reach out to our [support team](mailto:hi@__PRESERVE_ZODE_AI__) or ask in our [Discord community](https://__PRESERVE_ZODE_AI__/discord).
+If you have any questions about pricing or tokens, please reach out to our [support team](mailto:hi@kilo.ai) or ask in our [Discord community](https://kilo.ai/discord).
 {% /callout %}

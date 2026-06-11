@@ -137,7 +137,7 @@ zode
 
 ### Web (Cloud Agents & App Builder)
 
-Visit [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__/) and sign in. This gives you access to:
+Visit [app.kilo.ai](https://app.kilo.ai/) and sign in. This gives you access to:
 
 - **Cloud Agents:** Run Zode without a local machine
 - **App Builder:** Build and preview apps directly in your browser
@@ -151,7 +151,7 @@ Visit [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__/) and sign in.
 ### Create account
 
 1. Click "Try Zode Code for Free" in the Zode panel
-2. Sign in with OAuth at __PRESERVE_ZODE_AI__
+2. Sign in with OAuth at kilo.ai
 3. You'll be redirected back to your IDE
 
 ### Configure your provider
@@ -176,7 +176,7 @@ One of the biggest differences from Cline is that Zode isn't just an IDE extensi
 
 ### Cloud Agents
 
-Run Zode from [app.__PRESERVE_ZODE_AI__/cloud](https://app.__PRESERVE_ZODE_AI__/cloud) without needing your local machine. Great for:
+Run Zode from [app.kilo.ai/cloud](https://app.kilo.ai/cloud) without needing your local machine. Great for:
 
 - Working from a tablet or phone
 - Offloading heavy tasks
@@ -310,6 +310,6 @@ In-line ghost-text completions with tab to complete. Works alongside the agent m
    - **Debug:** "Why is this function returning undefined?"
    - **Architect:** "Design a logging system"
    - **Orchestrator:** "Build an app, end-to-end, that…"
-3. Try Cloud Agents at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__/)
+3. Try Cloud Agents at [app.kilo.ai](https://app.kilo.ai/)
 4. Install the Zode CLI with `npm install -g @zodecode/cli`
 5. Enable Autocomplete for inline suggestions

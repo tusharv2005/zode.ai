@@ -72,14 +72,14 @@ For implementation requests, the bot creates a new branch, commits the changes, 
 ## Prerequisites
 
 - A Zode Code account with available credits
-- Your GitHub integration configured via the Integrations tab at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__)
+- Your GitHub integration configured via the Integrations tab at [app.kilo.ai](https://app.kilo.ai)
 - The Zode Code Bot GitHub App installed on the relevant repositories
 
 ---
 
 ## Setup
 
-1. Go to [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__) and navigate to the **Integrations** tab
+1. Go to [app.kilo.ai](https://app.kilo.ai) and navigate to the **Integrations** tab
 2. Connect your GitHub account through the **ZodeConnect** GitHub App if you haven't already
 3. Install the **Zode Code Bot** GitHub App on your repositories at [github.com/apps/zode-code-bot](https://github.com/apps/zode-code-bot/)
 

@@ -19,10 +19,10 @@ export function SetupView() {
           <p class="zodeclaw-card-text">{t("zodeClaw.setup.description2")}</p>
         </CardDescription>
         <CardActions>
-          <Button variant="ghost" onClick={() => claw.openExternal("https://__PRESERVE_ZODE_AI__/zodeclaw")}>
+          <Button variant="ghost" onClick={() => claw.openExternal("https://kilo.ai/zodeclaw")}>
             {t("zodeClaw.setup.learnMore")}
           </Button>
-          <Button variant="primary" onClick={() => claw.openExternal("https://app.__PRESERVE_ZODE_AI__/claw")}>
+          <Button variant="primary" onClick={() => claw.openExternal("https://app.kilo.ai/claw")}>
             {t("zodeClaw.setup.tryZodeClaw")}
           </Button>
         </CardActions>

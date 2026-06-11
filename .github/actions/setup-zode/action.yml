@@ -5,7 +5,7 @@ runs:
   using: "composite"
   steps:
     - name: Install Zode CLI
-      run: curl -fsSL https://__PRESERVE_ZODE_AI__/cli/install | bash
+      run: curl -fsSL https://kilo.ai/cli/install | bash
       shell: bash
 
     - name: Add Zode to PATH

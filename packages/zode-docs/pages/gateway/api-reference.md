@@ -8,7 +8,7 @@ description: "Complete API reference for the Zode AI Gateway, including chat com
 The Zode AI Gateway provides an OpenAI-compatible API. All endpoints use the base URL:
 
 ```
-https://__PRESERVE_API_ZODE_AI__/api/gateway
+https://api.kilo.ai/api/gateway
 ```
 
 ## Chat completions
@@ -130,7 +130,7 @@ type ChatCompletionChunk = {
 ### Example request
 
 ```bash
-curl -X POST "https://__PRESERVE_API_ZODE_AI__/api/gateway/chat/completions" \
+curl -X POST "https://api.kilo.ai/api/gateway/chat/completions" \
   -H "Authorization: Bearer $ZODE_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -263,7 +263,7 @@ type FIMRequest = {
 ### Example request
 
 ```bash
-curl -X POST "https://__PRESERVE_API_ZODE_AI__/api/fim/completions" \
+curl -X POST "https://api.kilo.ai/api/fim/completions" \
   -H "Authorization: Bearer $ZODE_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{

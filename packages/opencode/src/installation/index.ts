@@ -145,7 +145,7 @@ export const layer: Layer.Layer<Service, never, HttpClient.HttpClient | ChildPro
 
       const upgradeCurl = Effect.fnUntraced(
         function* (target: string) {
-          const response = yield* httpOk.execute(HttpClientRequest.get("https://__PRESERVE_ZODE_AI__/install")) // zodecode_change
+          const response = yield* httpOk.execute(HttpClientRequest.get("https://kilo.ai/install")) // zodecode_change
           const body = yield* response.text
           const bodyBytes = new TextEncoder().encode(body)
           const proc = ChildProcess.make("bash", [], {

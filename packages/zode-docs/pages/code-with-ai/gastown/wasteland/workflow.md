@@ -33,7 +33,7 @@ You can narrow results conversationally:
 The `wl browse` CLI supports `--project`, `--type`, `--status`, `--priority`, `--limit`, and `--sort` flags. The Mayor translates your request into the appropriate filters.
 
 <!-- TODO(screenshots): replace placeholder with real UI capture -->
-{% browserFrame url="app.__PRESERVE_ZODE_AI__/gastown/town/wasteland" caption="The Wanted Board — browse and filter open tasks through the Mayor" %}
+{% browserFrame url="app.kilo.ai/gastown/town/wasteland" caption="The Wanted Board — browse and filter open tasks through the Mayor" %}
 {% image src="/docs/img/gastown/wasteland/wl-wanted-board.png" alt="Wasteland Wanted Board showing open tasks" /%}
 {% /browserFrame %}
 
@@ -86,7 +86,7 @@ The bead follows the standard Gas Town lifecycle:
 4. The refinery reviews the work
 
 <!-- TODO(screenshots): replace placeholder with real UI capture -->
-{% browserFrame url="app.__PRESERVE_ZODE_AI__/gastown/town/rig/bead" caption="A bead with a wasteland link — the upstream item badge connects local work to the Wanted Board" %}
+{% browserFrame url="app.kilo.ai/gastown/town/rig/bead" caption="A bead with a wasteland link — the upstream item badge connects local work to the Wanted Board" %}
 {% image src="/docs/img/gastown/wasteland/gt-bead-with-wasteland-link.png" alt="Bead with wasteland wanted item link badge" /%}
 {% /browserFrame %}
 
@@ -123,7 +123,7 @@ When working through Gas Town, the Mayor automatically packages the PR URL from 
 6. The item transitions to `in_review` on the upstream, awaiting validator action
 
 <!-- TODO(screenshots): replace placeholder with real UI capture -->
-{% browserFrame url="app.__PRESERVE_ZODE_AI__/gastown/town/wasteland/evidence" caption="Evidence submitted — confirmation that your work has been proposed upstream" %}
+{% browserFrame url="app.kilo.ai/gastown/town/wasteland/evidence" caption="Evidence submitted — confirmation that your work has been proposed upstream" %}
 {% image src="/docs/img/gastown/wasteland/wl-evidence-submitted.png" alt="Evidence submitted confirmation" /%}
 {% /browserFrame %}
 

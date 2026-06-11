@@ -24,7 +24,7 @@ export type ShareData =
   | { type: "model"; data: unknown }
 
 // zodecode_change start
-/** Extract share ID from a Zode share URL like https://app.__PRESERVE_ZODE_AI__/s/abc123 */
+/** Extract share ID from a Zode share URL like https://app.kilo.ai/s/abc123 */
 export function parseShareUrl(url: string): string | null {
   const match = url.match(/^https?:\/\/app\.zode\.ai\/s\/([a-zA-Z0-9_-]+)$/)
   return match ? match[1] : null
@@ -144,12 +144,12 @@ const runImport = Effect.fn("Cli.import.body")(function* (file: string, projectI
     // zodecode_change start - Migrate to upstream ShareNext architecture #10281
     const slug = parseShareUrl(file)
     if (!slug) {
-      process.stdout.write(`Invalid URL format. Expected: https://app.__PRESERVE_ZODE_AI__/s/<id>`)
+      process.stdout.write(`Invalid URL format. Expected: https://app.kilo.ai/s/<id>`)
       process.stdout.write(EOL)
       return
     }
 
-    const base = process.env["ZODE_SESSION_INGEST_URL"] ?? "https://__PRESERVE_INGEST_ZODESESSIONS_AI__"
+    const base = process.env["ZODE_SESSION_INGEST_URL"] ?? "https://ingest.kilosessions.ai"
     const response = yield* Effect.tryPromise({
       try: () => fetch(`${base}/session/${encodeURIComponent(slug)}`),
       catch: (e) =>

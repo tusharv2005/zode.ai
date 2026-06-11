@@ -28,7 +28,7 @@ describe("ZodeEmbedder", () => {
     await embedder.createEmbeddings(["hello"])
 
     expect(seen[0]).toEqual({
-      baseURL: "https://__PRESERVE_API_ZODE_AI__/api/gateway/",
+      baseURL: "https://api.kilo.ai/api/gateway/",
       apiKey: "zode-token",
       defaultHeaders: {
         "X-ZODECODE-FEATURE": ZODE_INDEXING_FEATURE,

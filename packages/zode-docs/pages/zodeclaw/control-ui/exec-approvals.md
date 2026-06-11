@@ -25,7 +25,7 @@ Approvals are enforced locally on the execution host and sit on top of tool poli
 
 ## Allow Everything from Settings
 
-If you want to skip per-command approvals entirely, you can set the security policy to **Allow Everything** directly from the [ZodeClaw Settings dashboard](https://app.__PRESERVE_ZODE_AI__/claw/settings). This applies the `full` policy globally, allowing your agent to execute any host command without prompts — equivalent to elevated mode.
+If you want to skip per-command approvals entirely, you can set the security policy to **Allow Everything** directly from the [ZodeClaw Settings dashboard](https://app.kilo.ai/claw/settings). This applies the `full` policy globally, allowing your agent to execute any host command without prompts — equivalent to elevated mode.
 
 {% callout type="warning" %}
 Enabling **Allow Everything** removes all exec safety checks. Only use this in trusted environments where you are comfortable with your agent running arbitrary commands.

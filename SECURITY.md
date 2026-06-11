@@ -38,8 +38,8 @@ Server mode is opt-in only. When enabled, set `ZODE_SERVER_PASSWORD` to require 
 
 We value the contributions of the security research community and recognize the importance of a coordinated approach to vulnerability disclosure. If you have discovered a security vulnerability, we encourage you to let us know immediately. We welcome the opportunity to work with you to resolve the issue promptly.
 
-Please email your findings to [security@__PRESERVE_ZODE_AI__](mailto:security@__PRESERVE_ZODE_AI__). We will acknowledge your report and work with you to resolve the issue.
+Please email your findings to [security@kilo.ai](mailto:security@kilo.ai). We will acknowledge your report and work with you to resolve the issue.
 
 After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
 
-For more details, see our [Security Disclosure](https://__PRESERVE_ZODE_AI__/security) page.
+For more details, see our [Security Disclosure](https://kilo.ai/security) page.

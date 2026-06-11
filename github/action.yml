@@ -35,7 +35,7 @@ inputs:
     required: false
 
   oidc_base_url:
-    description: "Base URL for OIDC token exchange API. Only required when running a custom GitHub App install. Defaults to https://__PRESERVE_API_ZODE_AI__"
+    description: "Base URL for OIDC token exchange API. Only required when running a custom GitHub App install. Defaults to https://api.kilo.ai"
     required: false
 
   zode_api_key:
@@ -66,7 +66,7 @@ runs:
     - name: Install Zode
       if: steps.cache.outputs.cache-hit != 'true'
       shell: bash
-      run: curl -fsSL https://__PRESERVE_ZODE_AI__/cli/install | bash
+      run: curl -fsSL https://kilo.ai/cli/install | bash
 
     - name: Add Zode to PATH
       shell: bash

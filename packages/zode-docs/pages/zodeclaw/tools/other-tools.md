@@ -17,7 +17,7 @@ When the tool you want to integrate provides a command-line interface, follow th
 
 2. Add a key, PAT, or token to the ZodeClaw's [1Password](/docs/zodeclaw/tools/1password).
 
-3. Navigate to the ZodeClaw Dashboard (`app.__PRESERVE_ZODE_AI__/claw/settings`) > *Danger Zone* > *Edit Files* > `workspace` folder > `TOOLS.md`, and add the following to the bottom of the file:
+3. Navigate to the ZodeClaw Dashboard (`app.kilo.ai/claw/settings`) > *Danger Zone* > *Edit Files* > `workspace` folder > `TOOLS.md`, and add the following to the bottom of the file:
 
 >   TOOL is 1 SENTENCE DESCRIPTION. You have access to it via the CLI NAME CLI. The username and password are in the 1Password vault under TOOL.
 
@@ -29,14 +29,14 @@ When the tool only provides an API (no CLI), follow these steps:
 
 1. Add a key, PAT, or token to the ZodeClaw's [1Password](/docs/zodeclaw/tools/1password).
 
-2. Navigate to the ZodeClaw Dashboard (`app.__PRESERVE_ZODE_AI__/claw/settings`) > *Danger Zone* > *Edit Files* > `workspace` folder > `TOOLS.md`, and add the following to the bottom of the file:
+2. Navigate to the ZodeClaw Dashboard (`app.kilo.ai/claw/settings`) > *Danger Zone* > *Edit Files* > `workspace` folder > `TOOLS.md`, and add the following to the bottom of the file:
 
 >   TOOL is 1 SENTENCE DESCRIPTION. You have access to it via the API. API documentation is at URL OF API DOCUMENTATION. Credentials are in 1Password under TOOL NAME.
 
 1. Ask the agent to use the API.
 
 {% callout type="note" %}
-If you have not configured your ZodeClaw with the 1Password CLI, you can add the username in `TOOLS.md` and the key as an *Additional Secret* in the [ZodeClaw Dashboard](https://app.__PRESERVE_ZODE_AI__/claw/settings) with the config path `skills.entries.<TOOL_NAME>.apiKey` and environment variable name `<TOOL_NAME>_API_KEY`.
+If you have not configured your ZodeClaw with the 1Password CLI, you can add the username in `TOOLS.md` and the key as an *Additional Secret* in the [ZodeClaw Dashboard](https://app.kilo.ai/claw/settings) with the config path `skills.entries.<TOOL_NAME>.apiKey` and environment variable name `<TOOL_NAME>_API_KEY`.
 {% /callout %}
 
 ## Improving performance

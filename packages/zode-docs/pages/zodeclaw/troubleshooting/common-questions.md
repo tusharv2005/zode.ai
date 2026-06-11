@@ -33,7 +33,7 @@ No. Redeploy does **not** delete your files, git repos, or cron jobs. It stops t
 
 ## Accessing and Restoring Config Files
 
-You can directly access the files in `/root/.openclaw/` on the [ZodeClaw Dashboard](https://app.__PRESERVE_ZODE_AI__/claw) using the file browser of the edit files dialog. This can be a useful way to examine or update the config files (especially `openclaw.json`) if you run into an issue. There may also be backups in the form of `openclaw.bak` files that you can manually restore from if needed.
+You can directly access the files in `/root/.openclaw/` on the [ZodeClaw Dashboard](https://app.kilo.ai/claw) using the file browser of the edit files dialog. This can be a useful way to examine or update the config files (especially `openclaw.json`) if you run into an issue. There may also be backups in the form of `openclaw.bak` files that you can manually restore from if needed.
 
 ## The gateway shows "Crashed"
 
@@ -41,7 +41,7 @@ The OpenClaw process is automatically restarted when it crashes. Check the Gatew
 
 1. Run **OpenClaw Doctor**
 2. Try a **Redeploy** to apply the latest platform image
-3. If the issue persists, join the [Zode Discord](https://__PRESERVE_ZODE_AI__/discord) and share details in the ZodeClaw channel
+3. If the issue persists, join the [Zode Discord](https://kilo.ai/discord) and share details in the ZodeClaw channel
 
 ## I changed the model but the agent is still using the old one
 

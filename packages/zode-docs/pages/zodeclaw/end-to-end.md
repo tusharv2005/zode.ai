@@ -21,7 +21,7 @@ We recommend creating **separate accounts** for your ZodeClaw rather than connec
 
 ### Chat platform options
 
-- **[Zode Chat](https://app.__PRESERVE_ZODE_AI__)** — available in the Zode web and mobile apps, plus supported Zode Code editor and TUI surfaces; requires zero configuration
+- **[Zode Chat](https://app.kilo.ai)** — available in the Zode web and mobile apps, plus supported Zode Code editor and TUI surfaces; requires zero configuration
 - **[Telegram](/docs/zodeclaw/chat-platforms/telegram)** — easy to set up, private by default
 - **[Discord](/docs/zodeclaw/chat-platforms/discord)** — moderate setup
 - **[Slack](/docs/zodeclaw/chat-platforms/slack)** — most involved setup
@@ -36,7 +36,7 @@ The steps below walk you through this configuration.
 
 Take these steps before configuring your Claw.
 
-If you are doing a [1-1 configuration call with Zode](https://__PRESERVE_ZODE_AI__/zodeclaw/config-service), please complete these steps before the call.
+If you are doing a [1-1 configuration call with Zode](https://kilo.ai/zodeclaw/config-service), please complete these steps before the call.
 
 ### Google
 
@@ -66,7 +66,7 @@ A Workspace-managed account benefits from your organization's admin policies, ma
 
 ## Set up a messaging platform
 
-Your Claw needs a way to communicate with you. **[Zode Chat](https://app.__PRESERVE_ZODE_AI__)** requires no setup — open the Zode web or mobile app, or use a supported Zode Code editor or TUI surface. For other platforms, follow the relevant guide:
+Your Claw needs a way to communicate with you. **[Zode Chat](https://app.kilo.ai)** requires no setup — open the Zode web or mobile app, or use a supported Zode Code editor or TUI surface. For other platforms, follow the relevant guide:
 
 - [Telegram](/docs/zodeclaw/chat-platforms/telegram) — about 2 minutes
 - [Discord](/docs/zodeclaw/chat-platforms/discord) — about 10 minutes
@@ -130,7 +130,7 @@ Email forwarding is configured from the **destination** (bot) account. Account d
 
 ## Enable auto-approval
 
-By default, ZodeClaw asks for confirmation before every tool call. To let it act freely, go to the [ZodeClaw dashboard](https://app.__PRESERVE_ZODE_AI__/claw) and enable auto-approval in the **Default Permissions** section.
+By default, ZodeClaw asks for confirmation before every tool call. To let it act freely, go to the [ZodeClaw dashboard](https://app.kilo.ai/claw) and enable auto-approval in the **Default Permissions** section.
 
 ## Prompt and schedule work
 
@@ -154,10 +154,10 @@ Reusable capabilities that extend what your Claw can do — things like triaging
 
 > Install the [skill name] skill.
 
-Or ask your Claw to build a custom skill from scratch — it has a built-in skill-builder skill for exactly this. You can explore popular skills and use case inspiration at the [ZodeClaw Bytes library](https://__PRESERVE_ZODE_AI__/zodeclaw/bytes).
+Or ask your Claw to build a custom skill from scratch — it has a built-in skill-builder skill for exactly this. You can explore popular skills and use case inspiration at the [ZodeClaw Bytes library](https://kilo.ai/zodeclaw/bytes).
 
 ## Manage inference
 
 **Model picker:** Balanced is a good starting point. Frontier is more capable but significantly more expensive.
 
-You can also use your [Zode Pass](https://__PRESERVE_ZODE_AI__/pricing/zode-pass) credits — find this under **Profile** in the dashboard.
+You can also use your [Zode Pass](https://kilo.ai/pricing/zode-pass) credits — find this under **Profile** in the dashboard.

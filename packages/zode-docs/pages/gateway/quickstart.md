@@ -9,7 +9,7 @@ This guide walks you through making your first AI model request with the Zode AI
 
 ## Prerequisites
 
-You need a Zode account with API credits. Sign up at [__PRESERVE_ZODE_AI__](https://__PRESERVE_ZODE_AI__) and add credits from your account dashboard.
+You need a Zode account with API credits. Sign up at [kilo.ai](https://kilo.ai) and add credits from your account dashboard.
 
 ## Using the Vercel AI SDK
 
@@ -47,7 +47,7 @@ import { createOpenAI } from "@ai-sdk/openai"
 import "dotenv/config"
 
 const zode = createOpenAI({
-  baseURL: "https://__PRESERVE_API_ZODE_AI__/api/gateway",
+  baseURL: "https://api.kilo.ai/api/gateway",
   apiKey: process.env.ZODE_API_KEY,
 })
 
@@ -89,7 +89,7 @@ import OpenAI from "openai"
 
 const client = new OpenAI({
   apiKey: process.env.ZODE_API_KEY,
-  baseURL: "https://__PRESERVE_API_ZODE_AI__/api/gateway",
+  baseURL: "https://api.kilo.ai/api/gateway",
 })
 
 const response = await client.chat.completions.create({
@@ -109,7 +109,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=os.getenv("ZODE_API_KEY"),
-    base_url="https://__PRESERVE_API_ZODE_AI__/api/gateway",
+    base_url="https://api.kilo.ai/api/gateway",
 )
 
 response = client.chat.completions.create(
@@ -128,7 +128,7 @@ print(response.choices[0].message.content)
 ## Using cURL
 
 ```bash
-curl -X POST "https://__PRESERVE_API_ZODE_AI__/api/gateway/chat/completions" \
+curl -X POST "https://api.kilo.ai/api/gateway/chat/completions" \
   -H "Authorization: Bearer $ZODE_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{

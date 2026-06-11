@@ -24,7 +24,7 @@ For maximum security, do not give the bot access to your personal vault.
 
 ## Step 3: Configure ZodeClaw
 
-1. Navigate to your ZodeClaw dashboard: [app.__PRESERVE_ZODE_AI__/claw](https://app.__PRESERVE_ZODE_AI__/claw).
+1. Navigate to your ZodeClaw dashboard: [app.kilo.ai/claw](https://app.kilo.ai/claw).
 2. Go to **Settings > Tools** (or **Edit Files**).
 3. Paste your `ops_` token into the **1Password Setup** field.
 4. Click **Save**.

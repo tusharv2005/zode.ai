@@ -52,7 +52,7 @@ Add agents to the `agent` section of your `zode.jsonc` config file. Any key that
 
 ```json
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "agent": {
     "code-reviewer": {
       "description": "Reviews code for best practices and potential issues",

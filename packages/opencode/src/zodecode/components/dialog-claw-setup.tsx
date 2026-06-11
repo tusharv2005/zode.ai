@@ -17,7 +17,7 @@ export function DialogClawSetup(props: { orgId?: string | null }) {
   const { theme } = useTheme()
   const dialog = useDialog()
 
-  const url = props.orgId ? `https://app.__PRESERVE_ZODE_AI__/organizations/${props.orgId}/claw` : "https://app.__PRESERVE_ZODE_AI__/claw"
+  const url = props.orgId ? `https://app.kilo.ai/organizations/${props.orgId}/claw` : "https://app.kilo.ai/claw"
 
   useKeyboard((evt: any) => {
     if (evt.name === "return") {
@@ -49,7 +49,7 @@ export function DialogClawSetup(props: { orgId?: string | null }) {
         </text>
 
         <box flexDirection="row" marginTop={1}>
-          <Link href="https://__PRESERVE_ZODE_AI__/zodeclaw" fg={theme.text}>
+          <Link href="https://kilo.ai/zodeclaw" fg={theme.text}>
             Learn more
           </Link>
         </box>

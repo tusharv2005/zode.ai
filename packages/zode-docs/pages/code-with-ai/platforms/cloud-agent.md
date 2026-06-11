@@ -19,17 +19,17 @@ Cloud Agents let you run Zode Code in the cloud from any device, without relying
 Before using Cloud Agents:
 
 - **GitHub or GitLab Integration must be configured**
-  Connect your account via the [Integrations tab](https://app.__PRESERVE_ZODE_AI__/integrations) so that Cloud Agents can access your repositories.
+  Connect your account via the [Integrations tab](https://app.kilo.ai/integrations) so that Cloud Agents can access your repositories.
 
 ## Cost
 
 - **Compute is free during limited beta**
-  - Please provide any feedback in our Cloud Agents beta Discord channel: [Zode Discord](https://__PRESERVE_ZODE_AI__/discord)
+  - Please provide any feedback in our Cloud Agents beta Discord channel: [Zode Discord](https://kilo.ai/discord)
 - **Zode Code credits are still used** when the agent performs work (model usage, operations, etc.).
 
 ## How to Use
 
-1. **Connect your GitHub or GitLab account** in the [Integrations](https://app.__PRESERVE_ZODE_AI__/integrations) tab of your personal or organization dashboard.
+1. **Connect your GitHub or GitLab account** in the [Integrations](https://app.kilo.ai/integrations) tab of your personal or organization dashboard.
 2. **Select a repository** to use as your workspace.
 3. **Add environment variables** (secrets supported) and set optional startup commands.
 4. **Start chatting with Zode Code.**
@@ -149,7 +149,7 @@ Triggers are currently in beta and subject to change.
 
 ### Accessing Triggers
 
-Triggers are accessible from the main sidebar under **Webhooks / Triggers** and link to [https://app.__PRESERVE_ZODE_AI__/cloud/triggers](https://app.__PRESERVE_ZODE_AI__/cloud/triggers) for personal accounts. Organization-level trigger configurations are available through your organization's sidebar.
+Triggers are accessible from the main sidebar under **Webhooks / Triggers** and link to [https://app.kilo.ai/cloud/triggers](https://app.kilo.ai/cloud/triggers) for personal accounts. Organization-level trigger configurations are available through your organization's sidebar.
 
 ### Activation Modes
 

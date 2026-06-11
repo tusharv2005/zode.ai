@@ -736,7 +736,7 @@ const MOCK_NOTIFICATION = {
   id: "notif-1",
   title: "Try BYOK for Zode Gateway",
   message: "Bring your own API key for even more flexibility with Zode Gateway models.",
-  action: { actionText: "Learn more", actionURL: "https://__PRESERVE_ZODE_AI__/docs" },
+  action: { actionText: "Learn more", actionURL: "https://kilo.ai/docs" },
 }
 
 /** Mock server context with profile data so AccountSwitcher is visible */

@@ -38,7 +38,7 @@ This keybinding requires `zode-code.new.autocomplete.enableSmartInlineTaskKeybin
 Autocomplete requests are routed through the **Zode Gateway**. You can pick the FIM model under **Settings → Models → Autocomplete model**:
 
 - **Codestral** (`mistralai/codestral-2508`) — the default. Billed through your Zode account, or free when you add your own Mistral Codestral key via BYOK. See [Setting Up Mistral for Free Autocomplete](/docs/code-with-ai/features/autocomplete/mistral-setup).
-- **Mercury Edit 2** (`inception/mercury-edit-2`) — a fast diffusion-based FIM model by Inception. Temporarily requires an **Inception BYOK key** until Zode Gateway support lands. Add one from the [BYOK page](https://app.__PRESERVE_ZODE_AI__/byok) in the Zode platform. See [Bring Your Own Key (BYOK)](/docs/getting-started/byok) for setup details.
+- **Mercury Edit 2** (`inception/mercury-edit-2`) — a fast diffusion-based FIM model by Inception. Temporarily requires an **Inception BYOK key** until Zode Gateway support lands. Add one from the [BYOK page](https://app.kilo.ai/byok) in the Zode platform. See [Bring Your Own Key (BYOK)](/docs/getting-started/byok) for setup details.
 
 {% callout type="note" %}
 Mercury Edit 2 is only available through BYOK for now — Zode Gateway support is coming soon. If you select Mercury Edit 2 without a valid Inception BYOK key configured, autocomplete requests will fail — switch back to Codestral or add an Inception key to continue.

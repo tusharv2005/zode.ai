@@ -26,7 +26,7 @@ API keys are JWT tokens tied to your Zode account. See [how to get your API key]
 import { createOpenAI } from "@ai-sdk/openai"
 
 const zode = createOpenAI({
-  baseURL: "https://__PRESERVE_API_ZODE_AI__/api/gateway",
+  baseURL: "https://api.kilo.ai/api/gateway",
   apiKey: process.env.ZODE_API_KEY,
 })
 ```
@@ -39,7 +39,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=os.getenv("ZODE_API_KEY"),
-    base_url="https://__PRESERVE_API_ZODE_AI__/api/gateway",
+    base_url="https://api.kilo.ai/api/gateway",
 )
 ```
 
@@ -47,7 +47,7 @@ client = OpenAI(
 {% tab label="cURL" %}
 
 ```bash
-curl -X POST "https://__PRESERVE_API_ZODE_AI__/api/gateway/chat/completions" \
+curl -X POST "https://api.kilo.ai/api/gateway/chat/completions" \
   -H "Authorization: Bearer $ZODE_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"model": "anthropic/claude-sonnet-4.5", "messages": [{"role": "user", "content": "Hello"}]}'
@@ -97,7 +97,7 @@ BYOK lets you use your own provider API keys with the Zode AI Gateway. When a BY
 
 ### How BYOK works
 
-1. Add your provider API key in the [Zode dashboard](https://app.__PRESERVE_ZODE_AI__) or through your Zode Code extension settings
+1. Add your provider API key in the [Zode dashboard](https://app.kilo.ai) or through your Zode Code extension settings
 2. Keys are encrypted at rest using AES-256 encryption
 3. When you make a request for a model from that provider, the gateway automatically uses your key
 4. Usage is tracked but not billed to your Zode balance (cost is set to $0)

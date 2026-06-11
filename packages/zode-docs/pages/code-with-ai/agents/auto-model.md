@@ -91,7 +91,7 @@ You may want to select a specific model instead when:
 ## Feedback
 
 {% callout type="note" title="Help Us Improve" %}
-Auto Model is actively being improved. We'd love to hear how it's working for you! Share feedback in our [Discord](https://__PRESERVE_ZODE_AI__/discord) or [open an issue on GitHub](https://github.com/Zode-Org/zodecode/issues).
+Auto Model is actively being improved. We'd love to hear how it's working for you! Share feedback in our [Discord](https://kilo.ai/discord) or [open an issue on GitHub](https://github.com/Zode-Org/zodecode/issues).
 {% /callout %}
 
 ## Related

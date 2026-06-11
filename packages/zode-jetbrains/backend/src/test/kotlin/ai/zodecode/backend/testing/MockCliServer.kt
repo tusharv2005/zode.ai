@@ -41,7 +41,7 @@ class MockCliServer : AutoCloseable {
     @Volatile var notificationsStatus = 200
 
     // Auth / OAuth responses
-    @Volatile var authorizeResponse = """{"url":"https://auth.__PRESERVE_ZODE_AI__/device","method":"code","instructions":"Open URL and enter code: TEST-1234"}"""
+    @Volatile var authorizeResponse = """{"url":"https://auth.kilo.ai/device","method":"code","instructions":"Open URL and enter code: TEST-1234"}"""
     @Volatile var authorizeStatus = 200
     @Volatile var callbackStatus = 200
     @Volatile var authRemoveStatus = 200

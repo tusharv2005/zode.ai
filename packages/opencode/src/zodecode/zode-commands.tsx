@@ -206,7 +206,7 @@ export function registerZodeCommands(useSDK: () => UseSDK) {
               dialog.replace(() => (
                 <DialogAlert
                   title="No Teams Available"
-                  message="You're not a member of any teams.\nVisit https://app.__PRESERVE_ZODE_AI__ to create or join a team."
+                  message="You're not a member of any teams.\nVisit https://app.kilo.ai to create or join a team."
                 />
               ))
               return

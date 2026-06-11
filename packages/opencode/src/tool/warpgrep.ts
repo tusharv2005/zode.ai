@@ -10,7 +10,7 @@ import DESCRIPTION from "./warpgrep.txt"
 // FREE_PERIOD_TODO: Remove ZODE_WARPGREP_PROXY_URL constant and the proxy
 // fallback below. After the free period ends, require MORPH_API_KEY and
 // return an error when it is missing.
-const ZODE_WARPGREP_PROXY_URL = "https://__PRESERVE_API_ZODE_AI__/api/gateway"
+const ZODE_WARPGREP_PROXY_URL = "https://api.kilo.ai/api/gateway"
 
 const Parameters = Schema.Struct({
   query: Schema.String.annotate({

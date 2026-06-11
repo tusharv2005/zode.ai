@@ -299,7 +299,7 @@
 
 ### Minor Changes
 
-- [#9764](https://github.com/Zode-Org/zodecode/pull/9764) [`9886674`](https://github.com/Zode-Org/zodecode/commit/98866740afd7f6c2fd06fecda1ffc69c1703974e) - Migrate ZodeClaw chat to the new zode-chat backend. Replaces the single-channel Stream Chat integration with a multi-conversation experience that matches the web UX at app.__PRESERVE_ZODE_AI__/claw/zode-chat: conversation list, reactions, typing indicators, editing, and action approvals. The TUI continues to render a single chat view backed by the user's primary conversation.
+- [#9764](https://github.com/Zode-Org/zodecode/pull/9764) [`9886674`](https://github.com/Zode-Org/zodecode/commit/98866740afd7f6c2fd06fecda1ffc69c1703974e) - Migrate ZodeClaw chat to the new zode-chat backend. Replaces the single-channel Stream Chat integration with a multi-conversation experience that matches the web UX at app.kilo.ai/claw/zode-chat: conversation list, reactions, typing indicators, editing, and action approvals. The TUI continues to render a single chat view backed by the user's primary conversation.
 
 - [#9718](https://github.com/Zode-Org/zodecode/pull/9718) [`dcaccf3`](https://github.com/Zode-Org/zodecode/commit/dcaccf38658415819b72390255b9f6555e4795e5) - Rate assistant responses with thumbs up/down. Click the thumbs buttons next to the copy button on any assistant message, or press `<leader>=` / `<leader>-` in the terminal UI. Only shown when telemetry is enabled; feedback is sent to Zode to help improve model and prompt quality.
 

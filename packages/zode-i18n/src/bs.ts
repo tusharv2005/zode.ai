@@ -5,7 +5,7 @@ export const dict = {
   "provider.connect.zodeGateway.line2":
     "Sa jednim API ključem dobijate pristup modelima kao što su Claude, GPT, Gemini, GLM i drugi.",
   "provider.connect.zodeGateway.visit.prefix": "Posjetite ",
-  "provider.connect.zodeGateway.visit.link": "__PRESERVE_ZODE_AI__",
+  "provider.connect.zodeGateway.visit.link": "kilo.ai",
   "provider.connect.zodeGateway.visit.suffix": " da preuzmete svoj API ključ.",
   "provider.connect.zodeGateway.byok.prefix": "Za više statistika korištenja, koristite ",
   "provider.connect.zodeGateway.byok.link": "BYOK putem Zode's Gateway",

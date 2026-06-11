@@ -8,14 +8,14 @@ sidebar_label: Zode Code Provider
 
 Zode Code provides its own built-in API provider that gives you access to the latest frontier coding models through a simple registration process. No need to manage API keys from multiple providers - just sign up and start coding.
 
-**Website:** [https://__PRESERVE_ZODE_AI__/](https://__PRESERVE_ZODE_AI__/)
+**Website:** [https://kilo.ai/](https://kilo.ai/)
 
 ## Getting Started
 
 When you sign up for Zode Code, you can start immediately with free models, or add credits to your account to access premium models.
 
 1. **Sign up:** Complete the registration process
-2. **Add credits:** Top up your account at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__/profile)
+2. **Add credits:** Top up your account at [app.kilo.ai](https://app.kilo.ai/profile)
 3. **Start Coding:** Use 500+ models including the latest frontier coding models
 
 ## Registration Process
@@ -23,9 +23,9 @@ When you sign up for Zode Code, you can start immediately with free models, or a
 Zode Code offers a streamlined registration that connects you directly to frontier coding models:
 
 1. **Start Registration:** Click "Try Zode Code for Free" in the extension
-2. **Sign In:** Use your Google account to sign in at __PRESERVE_ZODE_AI__
+2. **Sign In:** Use your Google account to sign in at kilo.ai
 3. **Authorize VS Code:**
-   - __PRESERVE_ZODE_AI__ will prompt you to open Visual Studio Code
+   - kilo.ai will prompt you to open Visual Studio Code
    - For web-based IDEs, you'll copy the API key manually instead
 4. **Complete Setup:** Allow VS Code to open the authorization URL when prompted
 
@@ -56,7 +56,7 @@ Once you've completed the registration process, Zode Code is automatically confi
 With the Zode Code provider, if you sign up with Google you can also connect other sign in accounts - like GitHub - by:
 
 1. Go to your profile
-2. Select [**Connected Accounts**](https://app.__PRESERVE_ZODE_AI__/connected-accounts)
+2. Select [**Connected Accounts**](https://app.kilo.ai/connected-accounts)
 3. Under "Link a New account" select the type of account to link
 4. Complete the OAuth authorization, and you'll see your connected accounts!
 
@@ -68,6 +68,6 @@ With the Zode Code provider, if you sign up with Google you can also connect oth
 - **Identity Verification:** The temporary hold system ensures service reliability while preventing misuse
 - **Seamless Integration:** No need to manage multiple API keys or provider configurations
 - **Latest Models:** Automatic access to the most current frontier coding models
-- **Support Available:** Contact [hi@__PRESERVE_ZODE_AI__](mailto:hi@__PRESERVE_ZODE_AI__) for questions about pricing or tokens
+- **Support Available:** Contact [hi@kilo.ai](mailto:hi@kilo.ai) for questions about pricing or tokens
 
 For detailed setup instructions, see [Setting up Zode Code](/docs/getting-started/setup-authentication).

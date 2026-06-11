@@ -25,7 +25,7 @@ You need three things before enabling Security Reviews:
 
 ## Get started
 
-1. Go to the **Security Agent** page — either from your [personal dashboard](https://app.__PRESERVE_ZODE_AI__/security-agent) or your organization's dashboard
+1. Go to the **Security Agent** page — either from your [personal dashboard](https://app.kilo.ai/security-agent) or your organization's dashboard
 2. Connect GitHub if you haven't already via the [Integrations page](/docs/automate/integrations)
 3. Choose which repositories the agent should monitor (all or specific ones)
 4. Toggle the agent on — this kicks off an initial sync of your Dependabot alerts

@@ -126,8 +126,8 @@ internal class EmptySessionFeedback(
 
         private const val ZODE_URL = "https://zodecode.ai"
         private const val GITHUB_ISSUES_URL = "https://github.com/Zode-Org/zodecode/issues/new/choose"
-        private const val DISCORD_URL = "https://__PRESERVE_ZODE_AI__/discord"
-        private const val SUPPORT_URL = "https://__PRESERVE_ZODE_AI__/support"
+        private const val DISCORD_URL = "https://kilo.ai/discord"
+        private const val SUPPORT_URL = "https://kilo.ai/support"
         private val DISCORD_ICON = IconLoader.getIcon("/icons/discord.svg", EmptySessionPanel::class.java)
     }
 }

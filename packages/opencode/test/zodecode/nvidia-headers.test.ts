@@ -27,7 +27,7 @@ it.live("nvidia provider includes ZodeCode billing origin header", () =>
           const providers = yield* provider.list()
           const headers = providers[ProviderID.make("nvidia")].options.headers
 
-          expect(headers["HTTP-Referer"]).toBe("https://__PRESERVE_ZODE_AI__/")
+          expect(headers["HTTP-Referer"]).toBe("https://kilo.ai/")
           expect(headers["X-Title"]).toBe("Zode Code")
           expect(headers["X-BILLING-INVOKE-ORIGIN"]).toBe("ZodeCode")
         }),
@@ -43,7 +43,7 @@ it.live("nvidia billing origin header can be overridden from config", () =>
         Bun.write(
           path.join(dir, "opencode.json"),
           JSON.stringify({
-            $schema: "https://app.__PRESERVE_ZODE_AI__/config.json",
+            $schema: "https://app.kilo.ai/config.json",
             provider: {
               nvidia: {
                 options: {
@@ -63,7 +63,7 @@ it.live("nvidia billing origin header can be overridden from config", () =>
             const providers = yield* provider.list()
             const headers = providers[ProviderID.make("nvidia")].options.headers
 
-            expect(headers["HTTP-Referer"]).toBe("https://__PRESERVE_ZODE_AI__/")
+            expect(headers["HTTP-Referer"]).toBe("https://kilo.ai/")
             expect(headers["X-Title"]).toBe("Zode Code")
             expect(headers["X-BILLING-INVOKE-ORIGIN"]).toBe("CustomOrigin")
           }),

@@ -6,7 +6,7 @@ export interface DrizzleDb {
   insert(table: object): { values(data: object): { onConflictDoNothing(): { run(): void } } }
 }
 
-const INGEST_BASE = process.env.ZODE_SESSION_INGEST_URL ?? "https://__PRESERVE_INGEST_ZODESESSIONS_AI__"
+const INGEST_BASE = process.env.ZODE_SESSION_INGEST_URL ?? "https://ingest.kilosessions.ai"
 const TIMEOUT = 30_000
 
 function exportUrl(sessionId: string) {

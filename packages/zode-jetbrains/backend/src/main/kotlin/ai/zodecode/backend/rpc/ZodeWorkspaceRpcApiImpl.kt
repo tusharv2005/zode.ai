@@ -58,7 +58,7 @@ import kotlin.coroutines.resume
 class ZodeWorkspaceRpcApiImpl : ZodeWorkspaceRpcApi {
     companion object {
         private val LOG = ZodeLog.create(ZodeWorkspaceRpcApiImpl::class.java)
-        private const val SCHEMA = "https://app.__PRESERVE_ZODE_AI__/config.json"
+        private const val SCHEMA = "https://app.kilo.ai/config.json"
         private val MODERN = listOf("zode.jsonc", "zode.json")
         private val LEGACY = listOf("opencode.jsonc", "opencode.json")
         private val GLOBAL = MODERN + LEGACY + "config.json"

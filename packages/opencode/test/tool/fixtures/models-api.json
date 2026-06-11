@@ -24084,9 +24084,9 @@
     "id": "zode",
     "env": ["ZODE_API_KEY"],
     "npm": "@ai-sdk/openai-compatible",
-    "api": "https://__PRESERVE_API_ZODE_AI__/api/gateway",
+    "api": "https://api.kilo.ai/api/gateway",
     "name": "Zode Gateway",
-    "doc": "https://__PRESERVE_ZODE_AI__",
+    "doc": "https://kilo.ai",
     "models": {
       "giga-potato": {
         "id": "giga-potato",

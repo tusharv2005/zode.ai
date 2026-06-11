@@ -951,7 +951,7 @@ module.exports = [
   },
   {
     source: "/auto-top-ups",
-    destination: "https://__PRESERVE_ZODE_AI__/features/auto-top-ups",
+    destination: "https://kilo.ai/features/auto-top-ups",
     basePath: false,
     permanent: true,
   },

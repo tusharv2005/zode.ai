@@ -9,7 +9,7 @@ describe("sitemap.xml", () => {
     expect(xml).toContain("</urlset>")
   })
 
-  it("all <loc> values start with https://__PRESERVE_ZODE_AI__/docs", () => {
+  it("all <loc> values start with https://kilo.ai/docs", () => {
     const xml = buildSitemapXml()
     const locs = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1])
     expect(locs.length).toBeGreaterThan(0)
@@ -20,13 +20,13 @@ describe("sitemap.xml", () => {
 
   it("includes the docs root URL", () => {
     const xml = buildSitemapXml()
-    expect(xml).toContain("<loc>https://__PRESERVE_ZODE_AI__/docs</loc>")
+    expect(xml).toContain("<loc>https://kilo.ai/docs</loc>")
   })
 
   it("includes known pages from the nav", () => {
     const xml = buildSitemapXml()
-    expect(xml).toContain("https://__PRESERVE_ZODE_AI__/docs/getting-started/installing")
-    expect(xml).toContain("https://__PRESERVE_ZODE_AI__/docs/getting-started")
+    expect(xml).toContain("https://kilo.ai/docs/getting-started/installing")
+    expect(xml).toContain("https://kilo.ai/docs/getting-started")
   })
 
   it("has no duplicate <loc> entries", () => {

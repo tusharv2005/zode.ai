@@ -104,13 +104,13 @@ Good for:
 Before using Zode for Slack:
 
 - You need a Zode Code account with available credits
-- Your Git provider integration (GitHub or GitLab) must be configured via the Integrations tab at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__) so Zode can access your repositories
+- Your Git provider integration (GitHub or GitLab) must be configured via the Integrations tab at [app.kilo.ai](https://app.kilo.ai) so Zode can access your repositories
 
 ---
 
 ## Setup
 
-To install Zode for Slack, go to the Integrations menu in the sidebar at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__) and set up the Slack integration.
+To install Zode for Slack, go to the Integrations menu in the sidebar at [app.kilo.ai](https://app.kilo.ai) and set up the Slack integration.
 
 | Platform | Integration Type | Details |
 |---|---|---|
@@ -132,7 +132,7 @@ To install Zode for Slack, go to the Integrations menu in the sidebar at [app.__
 
 You can customize which AI model Zode uses for generating responses.
 
-1. Go to your Zode Workspace at [app.__PRESERVE_ZODE_AI__](https://app.__PRESERVE_ZODE_AI__)
+1. Go to your Zode Workspace at [app.kilo.ai](https://app.kilo.ai)
 2. Navigate to **Integrations > Slack**
 3. Select your preferred model
 

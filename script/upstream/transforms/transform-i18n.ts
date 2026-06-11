@@ -8,8 +8,8 @@
  * 3. Preserving lines marked with `// zodecode_change`
  *
  * String replacement rules:
- * - opencode.ai -> __PRESERVE_ZODE_AI__ (domain)
- * - app.opencode.ai -> app.__PRESERVE_ZODE_AI__ (app domain)
+ * - opencode.ai -> kilo.ai (domain)
+ * - app.opencode.ai -> app.kilo.ai (app domain)
  * - OpenCode -> Zode (product name in user-visible text)
  * - opencode upgrade -> zode upgrade (CLI commands)
  * - npx opencode -> npx zode (CLI invocation)
@@ -64,12 +64,12 @@ const I18N_REPLACEMENTS: StringReplacement[] = [
   // Domain replacements (specific first)
   {
     pattern: /app\.opencode\.ai/g,
-    replacement: "app.__PRESERVE_ZODE_AI__",
+    replacement: "app.kilo.ai",
     description: "App domain",
   },
   {
     pattern: /opencode\.ai(?!\/zen)/g,
-    replacement: "__PRESERVE_ZODE_AI__",
+    replacement: "kilo.ai",
     description: "Main domain (excluding zen)",
   },
 

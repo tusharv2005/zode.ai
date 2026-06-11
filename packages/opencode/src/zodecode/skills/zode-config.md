@@ -69,7 +69,7 @@ Markdown files in `.zode/workflows/` or `.zodecode/workflows/` (project-level) a
 
 ## Agent Manager Setup And Run Scripts
 
-For the full product guidance, use the canonical [Agent Manager reference](https://__PRESERVE_ZODE_AI__/docs/automate/agent-manager) and [Agent Manager Workflows guide](https://__PRESERVE_ZODE_AI__/docs/automate/agent-manager-workflows). Prefer these links instead of guessing documentation paths.
+For the full product guidance, use the canonical [Agent Manager reference](https://kilo.ai/docs/automate/agent-manager) and [Agent Manager Workflows guide](https://kilo.ai/docs/automate/agent-manager-workflows). Prefer these links instead of guessing documentation paths.
 
 Agent Manager setup/run scripts are project files in the main repository's `.zode/` directory. They are not `zode.json` settings and should not be configured inside generated `.zode/worktrees/<name>/` checkouts.
 
@@ -223,7 +223,7 @@ For example, this configuration will hide all models from the built-in Zode Gate
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "disabled_providers": ["zode", "openai"],
 }
 ```

@@ -11,7 +11,7 @@ Reference for every Wasteland-related setting in your Gas Town dashboard, from u
 Access these settings from your town dashboard → **Settings** → **Wasteland** tab.
 
 <!-- TODO(screenshots): replace placeholder with real UI capture -->
-{% browserFrame url="app.__PRESERVE_ZODE_AI__/gastown/town/settings/wasteland" caption="Wasteland settings tab in your Gas Town dashboard" %}
+{% browserFrame url="app.kilo.ai/gastown/town/settings/wasteland" caption="Wasteland settings tab in your Gas Town dashboard" %}
 {% image src="/docs/img/gastown/wasteland/gt-wasteland-settings.png" alt="Wasteland settings tab" /%}
 {% /browserFrame %}
 

@@ -5,7 +5,7 @@ description: "Manage your team from the Zode Code dashboard"
 
 # Dashboard
 
-The Zode seats dashboard is the first screen that comes up when you visit [the Zode Code web app](https://app.__PRESERVE_ZODE_AI__). It provides complete visibility into your team's AI usage, costs, and management.
+The Zode seats dashboard is the first screen that comes up when you visit [the Zode Code web app](https://app.kilo.ai). It provides complete visibility into your team's AI usage, costs, and management.
 
 {% image src="/docs/img/teams/dashboard.png" alt="Invite your team members" width="700" /%}
 

@@ -563,7 +563,7 @@ class ZodeBackendAppServiceTest {
 
     @Test
     fun `start login maps device auth response`() = runBlocking<Unit> {
-        // Default authorizeResponse: url=https://auth.__PRESERVE_ZODE_AI__/device, code=TEST-1234
+        // Default authorizeResponse: url=https://auth.kilo.ai/device, code=TEST-1234
         val svc = create()
         svc.connect()
 
@@ -572,7 +572,7 @@ class ZodeBackendAppServiceTest {
         }
 
         val auth = svc.startLogin(null)
-        assertEquals("https://auth.__PRESERVE_ZODE_AI__/device", auth.verificationUrl)
+        assertEquals("https://auth.kilo.ai/device", auth.verificationUrl)
         assertEquals("TEST-1234", auth.code)
         assertEquals(900, auth.expiresIn)
         assertNotNull(mock.lastAuthorizeBody)
@@ -788,7 +788,7 @@ class ZodeBackendAppServiceTest {
     @Test
     fun `start login without code returns null code but url present`() = runBlocking {
         // Instructions without 'code:' — the regex match should return null
-        mock.authorizeResponse = """{"url":"https://auth.__PRESERVE_ZODE_AI__/device","method":"code","instructions":"Open the URL in your browser to sign in"}"""
+        mock.authorizeResponse = """{"url":"https://auth.kilo.ai/device","method":"code","instructions":"Open the URL in your browser to sign in"}"""
         val svc = create()
         svc.connect()
 
@@ -798,7 +798,7 @@ class ZodeBackendAppServiceTest {
 
         val auth = svc.startLogin(null)
         assertNull(auth.code, "code should be null when instructions have no code: prefix")
-        assertEquals("https://auth.__PRESERVE_ZODE_AI__/device", auth.verificationUrl)
+        assertEquals("https://auth.kilo.ai/device", auth.verificationUrl)
     }
 
     @Test

@@ -10,11 +10,11 @@ description: "Frequently asked questions about ZodeClaw"
 You can change the model in two ways:
 
 - **From chat** — Type `/model` in the Chat window within the OpenClaw Control UI to switch models directly.
-- **From the dashboard** — Go to [https://app.__PRESERVE_ZODE_AI__/claw](https://app.__PRESERVE_ZODE_AI__/claw), select the model you want, and click **Save**. No redeploy is needed.
+- **From the dashboard** — Go to [https://app.kilo.ai/claw](https://app.kilo.ai/claw), select the model you want, and click **Save**. No redeploy is needed.
 
 ## Can I access the filesystem?
 
-You can access instance files in `/root/.openclaw/` directly from the [ZodeClaw Dashboard](https://app.__PRESERVE_ZODE_AI__/claw). This is useful for examining or restoring config files. You can also interact with files through your OpenClaw agent using its built-in file tools.
+You can access instance files in `/root/.openclaw/` directly from the [ZodeClaw Dashboard](https://app.kilo.ai/claw). This is useful for examining or restoring config files. You can also interact with files through your OpenClaw agent using its built-in file tools.
 
 ## Can I access my ZodeClaw via SSH?
 

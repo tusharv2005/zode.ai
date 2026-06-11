@@ -22,7 +22,7 @@ const terminalContent = {
       {"\n"}
       <span className="terminal-prompt">$</span> export ZODE_API_KEY="YOUR_API_KEY"
       {"\n"}
-      <span className="terminal-prompt">$</span> curl https://__PRESERVE_API_ZODE_AI__/api/gateway/chat/completions \{"\n"}
+      <span className="terminal-prompt">$</span> curl https://api.kilo.ai/api/gateway/chat/completions \{"\n"}
       -H "Authorization: Bearer $ZODE_API_KEY" \{"\n"}
       -H "Content-Type: application/json" \{"\n"}
       {`  -d '{"model":"anthropic/claude-sonnet-4.5","messages":[{"role":"user","content":"Say hi from Zode Gateway"}]}'`}
@@ -409,7 +409,7 @@ export default function HomePage() {
             <span className="footer-icon">💬</span>
             <div>
               <strong>Need help?</strong>
-              <Link href="https://__PRESERVE_ZODE_AI__/discord" className="footer-link">
+              <Link href="https://kilo.ai/discord" className="footer-link">
                 Join our Discord
               </Link>
             </div>

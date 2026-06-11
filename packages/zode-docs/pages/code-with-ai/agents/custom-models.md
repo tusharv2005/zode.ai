@@ -50,7 +50,7 @@ For additional model configuration (token limits, tool calling, reasoning, varia
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "lmstudio/my-custom-model",
   "provider": {
     "lmstudio": {
@@ -159,7 +159,7 @@ Register a model that LM Studio serves under a custom name:
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "lmstudio/deepseek-r1-0528",
   "provider": {
     "lmstudio": {
@@ -177,7 +177,7 @@ Register a model that LM Studio serves under a custom name:
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "ollama/my-finetune:latest",
   "provider": {
     "ollama": {
@@ -202,7 +202,7 @@ Use a model that's not yet in the built-in catalog:
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "openai/gpt-6-preview",
   "provider": {
     "openai": {
@@ -228,7 +228,7 @@ Connect to any provider that exposes an OpenAI-compatible API:
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "openai-compatible/my-model",
   "provider": {
     "openai-compatible": {
@@ -257,7 +257,7 @@ Override options or define reasoning variants for a built-in model:
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "provider": {
     "anthropic": {
       "models": {
@@ -292,7 +292,7 @@ If the model key in your config differs from what the provider expects, use the 
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "lmstudio/my-local-llama",
   "provider": {
     "lmstudio": {
@@ -313,7 +313,7 @@ For Azure OpenAI, use the native `azure` provider and set `id` to your Azure dep
 
 ```jsonc
 {
-  "$schema": "https://app.__PRESERVE_ZODE_AI__/config.json",
+  "$schema": "https://app.kilo.ai/config.json",
   "model": "azure/gpt-5.5",
   "provider": {
     "azure": {

@@ -17,7 +17,7 @@ Version pinning is useful when:
 
 ## How to Pin a Version
 
-1. Go to your [ZodeClaw dashboard](https://app.__PRESERVE_ZODE_AI__/profile)
+1. Go to your [ZodeClaw dashboard](https://app.kilo.ai/profile)
 2. Open the **Settings** tab
 3. Scroll to the **Version Pinning** section
 4. Select a **version** and **variant** from the dropdowns

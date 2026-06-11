@@ -24,7 +24,7 @@ import java.awt.CardLayout
 import javax.swing.JComponent
 import javax.swing.JPanel
 
-internal const val DASHBOARD_URL = "https://app.__PRESERVE_ZODE_AI__/profile"
+internal const val DASHBOARD_URL = "https://app.kilo.ai/profile"
 
 internal val edt = Dispatchers.EDT + ModalityState.any().asContextElement()
 

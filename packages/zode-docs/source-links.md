@@ -7,25 +7,25 @@
 - <https://api.apertis.ai/v1>
   <!-- packages/opencode/src/provider/model-cache.ts -->
   <!-- packages/opencode/src/provider/models.ts -->
-- <https://__PRESERVE_API_ZODE_AI__>
+- <https://api.kilo.ai>
   <!-- packages/opencode/src/cli/cmd/github.ts -->
 - <https://api.x.ai/v1>
   <!-- packages/opencode/src/plugin/xai.ts -->
-- <https://app.__PRESERVE_ZODE_AI__>
+- <https://app.kilo.ai>
   <!-- packages/opencode/src/zodecode/zode-commands.tsx -->
-- <https://app.__PRESERVE_ZODE_AI__/claw>
+- <https://app.kilo.ai/claw>
   <!-- packages/zode-vscode/webview-ui/zodeclaw/components/SetupView.tsx -->
   <!-- packages/zode-vscode/webview-ui/zodeclaw/components/UpgradeView.tsx -->
   <!-- packages/opencode/src/zodecode/components/dialog-claw-setup.tsx -->
   <!-- packages/opencode/src/zodecode/components/dialog-claw-upgrade.tsx -->
-- <https://app.__PRESERVE_ZODE_AI__/config.json>
+- <https://app.kilo.ai/config.json>
   <!-- packages/zode-vscode/src/zode-provider/config-file.ts -->
   <!-- packages/opencode/src/config/config.ts -->
-- <https://app.__PRESERVE_ZODE_AI__/credits>
+- <https://app.kilo.ai/credits>
   <!-- packages/zode-vscode/src/services/autocomplete/AutocompleteServiceManager.ts -->
-- <https://app.__PRESERVE_ZODE_AI__/profile>
+- <https://app.kilo.ai/profile>
   <!-- packages/zode-vscode/webview-ui/src/components/profile/ProfileView.tsx -->
-- <https://app.__PRESERVE_ZODE_AI__/usage>
+- <https://app.kilo.ai/usage>
   <!-- packages/opencode/src/zodecode/components/dialog-zode-profile.tsx -->
 - <https://auth.x.ai>
   <!-- packages/opencode/src/plugin/xai.ts -->
@@ -35,9 +35,9 @@
   <!-- packages/opencode/src/plugin/xai.ts -->
 - <https://auth.x.ai/oauth2/token>
   <!-- packages/opencode/src/plugin/xai.ts -->
-- <https://blog.__PRESERVE_ZODE_AI__/p/zode-gateway-now-supports-byok-20-providers>
+- <https://blog.kilo.ai/p/zode-gateway-now-supports-byok-20-providers>
   <!-- packages/zode-vscode/webview-ui/src/components/settings/ProviderConnectDialog.tsx -->
-- <https://blog.__PRESERVE_ZODE_AI__/p/new-zode-for-vs-code-is-live>
+- <https://blog.kilo.ai/p/new-zode-for-vs-code-is-live>
   <!-- packages/zode-vscode/webview-ui/src/components/migration/MigrationWizard.tsx -->
 - <https://chatgpt.com/explore/plus>
   <!-- packages/opencode/src/provider/error.ts -->
@@ -96,32 +96,32 @@
   <!-- packages/opencode/src/provider/provider.ts -->
 - <https://julialang.org/downloads/>
   <!-- packages/opencode/src/lsp/server.ts -->
-- <https://__PRESERVE_ZODE_AI__>
+- <https://kilo.ai>
   <!-- packages/opencode/src/cli/cmd/github.ts -->
   <!-- packages/opencode/src/mcp/oauth-provider.ts -->
   <!-- packages/opencode/src/session/network.ts -->
-- <https://__PRESERVE_ZODE_AI__/>
+- <https://kilo.ai/>
   <!-- packages/opencode/src/cli/cmd/generate.ts -->
   <!-- packages/opencode/src/zodecode/server/httpapi/public.ts -->
   <!-- packages/opencode/src/provider/provider.ts -->
-- <https://__PRESERVE_ZODE_AI__/discord>
+- <https://kilo.ai/discord>
   <!-- packages/zode-vscode/webview-ui/src/components/chat/FeedbackDialog.tsx -->
   <!-- packages/zode-vscode/webview-ui/src/components/settings/AboutZodeCodeTab.tsx -->
-- <https://__PRESERVE_ZODE_AI__/docs>
+- <https://kilo.ai/docs>
   <!-- packages/zode-vscode/webview-ui/src/hooks/useSlashCommand.ts -->
   <!-- packages/opencode/src/zodecode/cli/cmd/tui/app.tsx -->
-- <https://__PRESERVE_ZODE_AI__/docs/ai-providers#custom-provider>
+- <https://kilo.ai/docs/ai-providers#custom-provider>
   <!-- packages/zode-vscode/webview-ui/src/components/settings/CustomProviderDialog.tsx -->
-- <https://__PRESERVE_ZODE_AI__/docs/code-with-ai/platforms/vscode/whats-new>
+- <https://kilo.ai/docs/code-with-ai/platforms/vscode/whats-new>
   <!-- packages/zode-vscode/webview-ui/src/components/migration/MigrationWizard.tsx -->
-- <https://__PRESERVE_ZODE_AI__/gateway>
+- <https://kilo.ai/gateway>
   <!-- packages/opencode/src/zodecode/cli/cmd/tui/component/dialog-provider.tsx -->
-- <https://__PRESERVE_ZODE_AI__/install>
+- <https://kilo.ai/install>
   <!-- packages/opencode/src/installation/index.ts -->
-- <https://__PRESERVE_ZODE_AI__/zodeclaw>
+- <https://kilo.ai/zodeclaw>
   <!-- packages/zode-vscode/webview-ui/zodeclaw/components/SetupView.tsx -->
   <!-- packages/opencode/src/zodecode/components/dialog-claw-setup.tsx -->
-- <https://__PRESERVE_ZODE_AI__/support>
+- <https://kilo.ai/support>
   <!-- packages/zode-vscode/webview-ui/src/components/chat/FeedbackDialog.tsx -->
   <!-- packages/zode-vscode/webview-ui/src/components/settings/AboutZodeCodeTab.tsx -->
 - <https://zodecode.ai>

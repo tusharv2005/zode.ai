@@ -356,7 +356,7 @@ When connected to Zode Gateway, the CLI fetches and displays notifications from 
 
 ## How It Works
 
-1. **On startup**, if the user is authenticated with Zode Gateway, the CLI fetches notifications from `https://__PRESERVE_API_ZODE_AI__/api/users/notifications`
+1. **On startup**, if the user is authenticated with Zode Gateway, the CLI fetches notifications from `https://api.kilo.ai/api/users/notifications`
 2. **Filtering**: Only notifications with `showIn` containing `"cli"` (or no `showIn` restriction) are displayed
 3. **Display**: The first notification is shown as a toast notification after a 2-second delay
 
@@ -380,7 +380,7 @@ interface ZodecodeNotification {
 ```
 Title: Agent skills now supported!
 Message: Define reusable skills and workflows for your AI agent.
-Action: Learn More -> https://docs.__PRESERVE_ZODE_AI__/skills
+Action: Learn More -> https://docs.kilo.ai/skills
 ```
 
 ## Display Conditions

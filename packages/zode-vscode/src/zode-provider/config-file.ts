@@ -28,7 +28,7 @@ export interface Entry {
   virtual?: boolean
 }
 
-const SCHEMA = "https://app.__PRESERVE_ZODE_AI__/config.json"
+const SCHEMA = "https://app.kilo.ai/config.json"
 
 const MODERN = ["zode.jsonc", "zode.json"]
 const LEGACY = ["opencode.jsonc", "opencode.json"]
