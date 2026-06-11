@@ -1,0 +1,96 @@
+@media (max-width: 980px) {
+  .zode-console .app-header {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .zode-console .header-title {
+    display: none;
+  }
+
+  .zode-console .config-shell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
+  .zode-console .config-sidebar {
+    position: static;
+    height: auto;
+    max-height: 18rem;
+    overflow-y: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .zode-console .config-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  html[data-theme="zode"],
+  html[data-theme="zode-console"],
+  .zode-console {
+    --app-header-height: auto;
+    --app-rail-width: 3rem;
+  }
+
+  [data-slot="page-header-main"],
+  [data-component="config-row"] {
+    align-items: stretch;
+  }
+
+  [data-component="config-row"] {
+    flex-wrap: wrap;
+  }
+
+  [data-slot="config-row-trailing"] {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .zode-console {
+    --app-rail-width: 3.75rem;
+  }
+
+  .zode-console .app-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .zode-console .notification-zone {
+    display: none;
+  }
+
+  .zode-console .console-body {
+    grid-template-columns: var(--app-rail-width) minmax(0, 1fr);
+  }
+
+  .zode-console .rail {
+    padding-inline: 0.45rem;
+  }
+
+  .zode-console .rail-action,
+  .zode-console .favorite-project {
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+
+  .zode-console .content,
+  .zode-console .route-empty {
+    padding: 1rem;
+  }
+
+  .zode-console .config-sidebar-title {
+    min-height: 3.75rem;
+    padding: 0 1rem;
+  }
+
+  .zode-console .content {
+    padding-top: 0;
+  }
+
+  .zode-console .config-options {
+    grid-template-columns: 1fr;
+  }
+}

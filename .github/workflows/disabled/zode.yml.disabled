@@ -1,0 +1,38 @@
+name: zode
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+
+jobs:
+  zode:
+    if: |
+      (github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER') &&
+      (
+        contains(github.event.comment.body, ' /kc') ||
+        startsWith(github.event.comment.body, '/kc') ||
+        contains(github.event.comment.body, ' /zode') ||
+        startsWith(github.event.comment.body, '/zode')
+      )
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    permissions:
+      id-token: write
+      contents: read
+      pull-requests: read
+      issues: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-bun
+
+      - name: Run opencode
+        uses: Zode-Org/zodecode/github@latest
+        env:
+          ZODE_API_KEY: ${{ secrets.ZODE_API_KEY }}
+          ZODE_ORG_ID: ${{ secrets.ZODE_ORG_ID }}
+          ZODE_PERMISSION: '{"bash": "deny"}'
+        with:
+          model: zode/zode-auto/frontier

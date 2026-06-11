@@ -1,0 +1,5 @@
+/* Zode Inline Input overrides */
+
+[data-component="inline-input"] {
+  font-size: var(--zode-font-size-13);
+}

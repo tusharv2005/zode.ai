@@ -1,0 +1,11 @@
+<style>
+  /* Hide Color Scheme toolbar when zode-vscode theme is active */
+  html[data-zode-theme="zode-vscode"] [aria-label^="Color Scheme"] {
+    display: none !important;
+  }
+
+  /* Hide VS Code Theme toolbar by default and when zode theme is active */
+  html:not([data-zode-theme="zode-vscode"]) [aria-label^="VSCode Theme"] {
+    display: none !important;
+  }
+</style>

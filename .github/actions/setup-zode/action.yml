@@ -1,0 +1,13 @@
+# zodecode_change - new file
+name: "Setup Zode"
+description: "Install Zode CLI globally"
+runs:
+  using: "composite"
+  steps:
+    - name: Install Zode CLI
+      run: curl -fsSL https://__PRESERVE_ZODE_AI__/cli/install | bash
+      shell: bash
+
+    - name: Add Zode to PATH
+      run: echo "$HOME/.zode/bin" >> $GITHUB_PATH
+      shell: bash

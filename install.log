@@ -1,0 +1,1450 @@
+bun install v1.3.14 (0d9b296a)
+Resolving dependencies
+Resolved, downloaded and extracted [499]
+ENOSPC: No space left on device: failed to link package: @oxc-resolver/binding-darwin-arm64@11.19.1 (clonefileat)
+error: failed to download openai@6.34.0: Fail
+  https://registry.npmjs.org/openai/-/openai-6.34.0.tgz
+ENOENT: No such file or directory: failed to link package: @octokit/core@7.0.6 (clonefileat)
+ENOENT: No such file or directory: failed to link package: gcp-metadata@8.1.2 (clonefileat)
+ENOSPC: No space left on device: failed to symlink dependencies for package: effect@4.0.0-beta.59 (symlink)
+error: moving "apache-arrow" to cache dir failed: ENOSPC: No space left on device (rename())
+  From: .d8febed0fbf99f7d-00000106.apache-arrow
+    To: apache-arrow@18.1.0@@@1
+error: failed to download apache-arrow@18.1.0: InstallFailed
+  https://registry.npmjs.org/apache-arrow/-/apache-arrow-18.1.0.tgz
+error: failed to download find-replace@3.0.0: NoSpaceLeft
+  https://registry.npmjs.org/find-replace/-/find-replace-3.0.0.tgz
+error: failed to download @internationalized/number@3.6.6: NoSpaceLeft
+  https://registry.npmjs.org/@internationalized/number/-/number-3.6.6.tgz
+ENOENT: No such file or directory: failed to link package: table-layout@4.1.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: fast-xml-parser@5.7.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: typical@7.3.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: aria-query@5.3.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @types/aria-query@5.0.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: isomorphic-git@1.37.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @effect/platform-node-shared@4.0.0-beta.46 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-hex-encoding@4.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @opentelemetry/api-logs@0.208.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @azure/msal-browser@5.7.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-buffer-from@4.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @standard-community/standard-openapi@0.2.9 (clonefileat)
+ENOENT: No such file or directory: failed to link package: which-typed-array@1.1.20 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @standard-community/standard-json@0.3.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @opentelemetry/otlp-exporter-base@0.208.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: axios@1.15.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @joshwooding/vite-plugin-react-docgen-typescript@0.6.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: use-sync-external-store@1.6.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: streamx@2.25.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @tediousjs/connection-string@0.5.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: recast@0.23.11 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @ai-sdk/fireworks@2.0.46 (clonefileat)
+ENOENT: No such file or directory: failed to link package: open@10.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: node-gyp-build-optional-packages@5.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @vitest/spy@3.2.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @vitest/expect@3.2.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @testing-library/user-event@14.6.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @testing-library/dom@10.4.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: cytoscape@3.33.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/react-dom-shim@10.2.10 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @opentelemetry/resources@2.7.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @tailwindcss/oxide-darwin-arm64@4.1.11 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/csf-plugin@10.2.10 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @shikijs/engine-javascript@3.20.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @mdx-js/react@3.1.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: ufo@1.6.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/global@5.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: dom-accessibility-api@0.5.16 (clonefileat)
+ENOENT: No such file or directory: failed to link package: playwright@1.57.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: yocto-queue@1.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/chunked-blob-reader-native@4.2.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @qdrant/openapi-typescript-fetch@1.2.6 (clonefileat)
+ENOENT: No such file or directory: failed to link package: typescript@5.8.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: reflect-metadata@0.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @lancedb/lancedb-darwin-arm64@0.26.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/chunked-blob-reader@5.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @aws-sdk/token-providers@3.1005.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @docsearch/js@4.6.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: scheduler@0.27.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: query-selector-shadow-dom@1.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: proxy-from-env@1.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: fflate@0.4.8 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/icons@2.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: core-js@3.49.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/icons@2.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: styled-jsx@5.1.6 (clonefileat)
+ENOENT: No such file or directory: failed to link package: postcss@8.4.31 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @npmcli/agent@4.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @swc/helpers@0.5.15 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @esbuild/darwin-arm64@0.25.12 (clonefileat)
+ENOENT: No such file or directory: failed to link package: sharp@0.34.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @shikijs/themes@3.20.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: ts-dedent@2.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @babel/helper-validator-identifier@7.28.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: roughjs@4.6.6 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @babel/helper-validator-option@7.27.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: marked@16.4.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @typescript-eslint/eslint-plugin@8.58.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: khroma@2.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: dagre-d3-es@7.0.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/shared-ini-file-loader@4.4.9 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @aws-sdk/middleware-websocket@3.972.16 (clonefileat)
+ENOENT: No such file or directory: failed to link package: qs@6.14.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: preact@10.29.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: protobufjs@7.5.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/node-config-provider@4.3.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/eventstream-serde-node@4.2.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: esbuild@0.25.12 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/smithy-client@4.12.11 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/url-parser@4.2.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-base64@4.3.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: get-tsconfig@4.14.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-defaults-mode-browser@4.3.47 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-endpoints@3.4.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @next/env@16.2.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: enhanced-resolve@5.20.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @babel/compat-data@7.29.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @babel/helper-module-imports@7.28.6 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @babel/helper-globals@7.28.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: resolve-pkg-maps@1.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @js-temporal/polyfill@0.5.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @ai-sdk/elevenlabs@2.0.29 (clonefileat)
+ENOENT: No such file or directory: failed to link package: tarn@3.0.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-middleware@4.2.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @types/ws@8.18.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @ai-sdk/gateway@3.0.95 (clonefileat)
+ENOENT: No such file or directory: failed to link package: valibot@1.3.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @ai-sdk/xai@3.0.75 (clonefileat)
+ENOENT: No such file or directory: failed to link package: cluster-key-slot@1.1.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: redis-errors@1.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: denque@2.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: lodash.defaults@4.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: lodash.isarguments@3.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: commander@11.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @aws-sdk/util-locate-window@3.965.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @azure/storage-common@12.3.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @aws-sdk/util-format-url@3.972.10 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @types/command-line-usage@5.0.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @types/command-line-args@5.2.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @oslojs/crypto@1.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @opentelemetry/exporter-logs-otlp-http@0.208.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-retry@4.3.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: mssql@11.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: flatbuffers@24.12.23 (clonefileat)
+ENOENT: No such file or directory: failed to link package: tmp@0.2.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: yauzl@3.3.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: eventsource-parser@3.0.7 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/builder-vite@10.3.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/builder-vite@10.3.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/invalid-dependency@4.2.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @types/estree@1.0.8 (clonefileat)
+ENOENT: No such file or directory: failed to link package: oxc-resolver@11.19.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @storybook/addon-onboarding@10.3.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: drizzle-kit@1.0.0-beta.19-d95b7a4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: oniguruma-to-es@4.3.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-defaults-mode-node@4.2.52 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-waiter@4.2.16 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/util-stream@4.5.23 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/credential-provider-imds@4.2.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @types/node@24.12.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: fd-slicer@1.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: sury@11.0.0-alpha.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @openrouter/ai-sdk-provider@2.5.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: undici@7.25.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @shikijs/core@3.20.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: mime@4.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: lightningcss@1.30.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: ws@8.20.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: express-rate-limit@8.3.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/middleware-retry@4.5.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @hono/node-server@1.19.11 (clonefileat)
+ENOENT: No such file or directory: failed to link package: bl@6.1.6 (clonefileat)
+ENOENT: No such file or directory: failed to link package: sprintf-js@1.1.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: bin-links@6.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @octokit/auth-token@6.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: native-duplexpair@1.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: jose@6.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: lightningcss-darwin-arm64@1.30.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: standard-as-callback@2.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @smithy/signature-v4@5.3.14 (clonefileat)
+ENOENT: No such file or directory: failed to link package: hosted-git-info@9.0.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @babel/helpers@7.29.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: toad-cache@3.7.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: redis-parser@3.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @posthog/types@1.369.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: lz-string@1.5.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: pretty-format@27.5.1 (clonefileat)
+ENOENT: failed to link binaries for package: which@2.0.2
+ENOENT: failed to link binaries for package: acorn-walk@8.3.5
+ENOENT: No such file or directory: failed to link package: web-vitals@5.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: make-fetch-happen@15.0.5 (clonefileat)
+ENOENT: No such file or directory: failed to link package: engine.io-client@6.6.4 (clonefileat)
+ENOENT: failed to link binaries for package: acorn-jsx@5.3.2
+ENOENT: failed to link binaries for package: is-inside-container@1.0.0
+ENOENT: No such file or directory: failed to link package: msgpackr@1.11.9 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @pierre/theme@0.0.28 (clonefileat)
+ENOENT: failed to link binaries for package: @eslint-community/eslint-utils@4.9.1
+ENOENT: failed to link binaries for package: oxlint@1.60.0
+ENOENT: No such file or directory: failed to link package: es-toolkit@1.46.1 (clonefileat)
+error: NoSpaceLeft when create temporary directory named ".7ab7ffdb7e77effd-00000120.sdk" (while extracting "@opencode-ai/sdk")
+error: failed to download @opencode-ai/sdk@1.4.12: InstallFailed
+  https://registry.npmjs.org/@opencode-ai/sdk/-/sdk-1.4.12.tgz
+error: NoSpaceLeft when create temporary directory named ".18ffb79dff37ddaf-00000122.date" (while extracting "@internationalized/date")
+error: failed to download @internationalized/date@3.12.1: InstallFailed
+  https://registry.npmjs.org/@internationalized/date/-/date-3.12.1.tgz
+error: NoSpaceLeft when create temporary directory named ".ddb6bfb5e9b7e3f3-00000123.b4a" (while extracting "b4a")
+error: failed to download b4a@1.8.0: InstallFailed
+  https://registry.npmjs.org/b4a/-/b4a-1.8.0.tgz
+error: NoSpaceLeft when create temporary directory named ".5dbfb79dff97d3fd-00000121.pkg-types" (while extracting "pkg-types")
+error: failed to download pkg-types@1.3.1: InstallFailed
+  https://registry.npmjs.org/pkg-types/-/pkg-types-1.3.1.tgz
+error: NoSpaceLeft when create temporary directory named ".59bfb7d5c7fd7ffa-00000124.supports-preserve-symlinks-flag" (while extracting "supports-preserve-symlinks-flag")
+error: failed to download supports-preserve-symlinks-flag@1.0.0: InstallFailed
+  https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7ef6bf93edfffeea-00000125.graphql" (while extracting "@octokit/graphql")
+error: failed to download @octokit/graphql@9.0.3: InstallFailed
+  https://registry.npmjs.org/@octokit/graphql/-/graphql-9.0.3.tgz
+error: NoSpaceLeft when create temporary directory named ".bebfb79bdffbffdb-00000128.body-parser" (while extracting "body-parser")
+error: failed to download body-parser@1.20.4: InstallFailed
+  https://registry.npmjs.org/body-parser/-/body-parser-1.20.4.tgz
+error: NoSpaceLeft when create temporary directory named ".dcb6feb595fe7ae6-00000127.engine-oniguruma" (while extracting "@shikijs/engine-oniguruma")
+error: failed to download @shikijs/engine-oniguruma@3.20.0: InstallFailed
+  https://registry.npmjs.org/@shikijs/engine-oniguruma/-/engine-oniguruma-3.20.0.tgz
+error: NoSpaceLeft when create temporary directory named ".b8beb7bdf9ea9efc-00000126.path-parse" (while extracting "path-parse")
+error: failed to download path-parse@1.0.7: InstallFailed
+  https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz
+error: NoSpaceLeft when create temporary directory named ".bff6bfd5fe9fddda-0000012A.encoding" (while extracting "encoding")
+error: failed to download encoding@0.1.13: InstallFailed
+  https://registry.npmjs.org/encoding/-/encoding-0.1.13.tgz
+error: NoSpaceLeft when create temporary directory named ".5abff6939b34bdfe-0000012B.is-array-buffer" (while extracting "@smithy/is-array-buffer")
+error: failed to download @smithy/is-array-buffer@4.2.2: InstallFailed
+  https://registry.npmjs.org/@smithy/is-array-buffer/-/is-array-buffer-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".bfb7b6b1a67df7c6-0000012C.react-dom-shim" (while extracting "@storybook/react-dom-shim")
+error: failed to download @storybook/react-dom-shim@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/react-dom-shim/-/react-dom-shim-10.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".fdfff697d9f9fced-00000129.plugin-syntax-jsx" (while extracting "@babel/plugin-syntax-jsx")
+error: failed to download @babel/plugin-syntax-jsx@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.28.6.tgz
+error: failed to download @babel/plugin-syntax-jsx@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".9bf6f6f3ef5df7d8-0000012D.helper-create-class-features-plu" (while extracting "@babel/helper-create-class-features-plugin")
+error: failed to download @babel/helper-create-class-features-plugin@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.28.6.tgz
+error: failed to download @babel/helper-create-class-features-plugin@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".bbfff6fbb21f777f-0000012E.util-config-provider" (while extracting "@smithy/util-config-provider")
+error: failed to download @smithy/util-config-provider@4.2.2: InstallFailed
+  https://registry.npmjs.org/@smithy/util-config-provider/-/util-config-provider-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".9ffeffd383edff9e-00000130.rollup" (while extracting "rollup")
+error: failed to download rollup@4.60.2: InstallFailed
+  https://registry.npmjs.org/rollup/-/rollup-4.60.2.tgz
+error: NoSpaceLeft when create temporary directory named ".7cfff799b741f6dd-00000131.is-core-module" (while extracting "is-core-module")
+error: failed to download is-core-module@2.16.1: InstallFailed
+  https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz
+error: NoSpaceLeft when create temporary directory named ".dffffff7f7cf7fc2-00000133.css-tools" (while extracting "@adobe/css-tools")
+error: failed to download @adobe/css-tools@4.4.4: InstallFailed
+  https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.4.tgz
+error: NoSpaceLeft when create temporary directory named ".78b7b79dbb2bfdee-0000012F.storage-blob" (while extracting "@azure/storage-blob")
+error: failed to download @azure/storage-blob@12.31.0: InstallFailed
+  https://registry.npmjs.org/@azure/storage-blob/-/storage-blob-12.31.0.tgz
+error: NoSpaceLeft when create temporary directory named ".5ab6b7d5c36e7dff-00000134.util-arn-parser" (while extracting "@aws-sdk/util-arn-parser")
+error: failed to download @aws-sdk/util-arn-parser@3.972.3: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/util-arn-parser/-/util-arn-parser-3.972.3.tgz
+error: NoSpaceLeft when create temporary directory named ".dfbfb7f98f6c3adf-00000135.brace-expansion" (while extracting "brace-expansion")
+error: failed to download brace-expansion@1.1.14: InstallFailed
+  https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz
+error: NoSpaceLeft when create temporary directory named ".5af6b7b9d353d678-00000132.json-bignum" (while extracting "json-bignum")
+error: failed to download json-bignum@0.0.3: InstallFailed
+  https://registry.npmjs.org/json-bignum/-/json-bignum-0.0.3.tgz
+error: NoSpaceLeft when create temporary directory named ".5eb7bedf866deff4-00000136.sax" (while extracting "sax")
+error: failed to download sax@1.6.0: InstallFailed
+  https://registry.npmjs.org/sax/-/sax-1.6.0.tgz
+error: NoSpaceLeft when create temporary directory named ".bfb7beb1dacdeeff-00000138.plugin-rest-endpoint-methods" (while extracting "@octokit/plugin-rest-endpoint-methods")
+error: failed to download @octokit/plugin-rest-endpoint-methods@16.1.1: InstallFailed
+  https://registry.npmjs.org/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-16.1.1.tgz
+error: NoSpaceLeft when create temporary directory named ".7cfef6fb93de7fab-00000139.util-uri-escape" (while extracting "@smithy/util-uri-escape")
+error: failed to download @smithy/util-uri-escape@4.2.2: InstallFailed
+  https://registry.npmjs.org/@smithy/util-uri-escape/-/util-uri-escape-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".7ab7fe99e7ddfbf8-00000137.command-line-usage" (while extracting "command-line-usage")
+error: failed to download command-line-usage@7.0.4: InstallFailed
+  https://registry.npmjs.org/command-line-usage/-/command-line-usage-7.0.4.tgz
+error: NoSpaceLeft when create temporary directory named ".faf7ffb9f7fff74c-0000013B.minipass" (while extracting "minipass")
+error: failed to download minipass@4.2.8: InstallFailed
+  https://registry.npmjs.org/minipass/-/minipass-4.2.8.tgz
+error: NoSpaceLeft when create temporary directory named ".febfbf99b7cf6ffc-0000013A.core" (while extracting "@posthog/core")
+error: failed to download @posthog/core@1.25.2: InstallFailed
+  https://registry.npmjs.org/@posthog/core/-/core-1.25.2.tgz
+error: NoSpaceLeft when create temporary directory named ".d9bff69bcb5bdbfa-0000013C.csf-plugin" (while extracting "@storybook/csf-plugin")
+error: failed to download @storybook/csf-plugin@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/csf-plugin/-/csf-plugin-10.3.5.tgz
+error: failed to download @storybook/csf-plugin@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/csf-plugin/-/csf-plugin-10.3.5.tgz
+error: failed to download @storybook/csf-plugin@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/csf-plugin/-/csf-plugin-10.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".59b7bfd7bf53dff3-0000013D.core" (while extracting "@opentelemetry/core")
+error: failed to download @opentelemetry/core@2.7.0: InstallFailed
+  https://registry.npmjs.org/@opentelemetry/core/-/core-2.7.0.tgz
+error: NoSpaceLeft when create temporary directory named ".bfb6b6d5af72ff7e-0000013F.command-line-args" (while extracting "command-line-args")
+error: failed to download command-line-args@5.2.1: InstallFailed
+  https://registry.npmjs.org/command-line-args/-/command-line-args-5.2.1.tgz
+error: NoSpaceLeft when create temporary directory named ".99b7bfb5d3dbcab7-0000013E.runtime" (while extracting "@babel/runtime")
+error: failed to download @babel/runtime@7.29.2: InstallFailed
+  https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz
+error: NoSpaceLeft when create temporary directory named ".7affbef58efd8ffa-00000140.rollup-darwin-arm64" (while extracting "@rollup/rollup-darwin-arm64")
+error: failed to download @rollup/rollup-darwin-arm64@4.60.2: InstallFailed
+  https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.60.2.tgz
+error: NoSpaceLeft when create temporary directory named ".1cf7b7bbe2fd59e9-00000142.types" (while extracting "@shikijs/types")
+error: failed to download @shikijs/types@3.20.0: InstallFailed
+  https://registry.npmjs.org/@shikijs/types/-/types-3.20.0.tgz
+error: NoSpaceLeft when create temporary directory named ".1cf7b7bbe2fd59e9-00000141.find-up" (while extracting "find-up")
+error: failed to download find-up@3.0.0: InstallFailed
+  https://registry.npmjs.org/find-up/-/find-up-3.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".3db7f7fdae7defff-00000143.mlly" (while extracting "mlly")
+error: failed to download mlly@1.8.2: InstallFailed
+  https://registry.npmjs.org/mlly/-/mlly-1.8.2.tgz
+error: NoSpaceLeft when create temporary directory named ".bab7b699e7fff6ff-00000144.zod-openapi" (while extracting "zod-openapi")
+error: failed to download zod-openapi@5.4.6: InstallFailed
+  https://registry.npmjs.org/zod-openapi/-/zod-openapi-5.4.6.tgz
+error: NoSpaceLeft when create temporary directory named ".b9b6f795b38b7ffa-00000145.core-darwin-arm64" (while extracting "@opentui/core-darwin-arm64")
+error: failed to download @opentui/core-darwin-arm64@0.2.6: InstallFailed
+  https://registry.npmjs.org/@opentui/core-darwin-arm64/-/core-darwin-arm64-0.2.6.tgz
+error: NoSpaceLeft when create temporary directory named ".78f6b6f9c6cfe9e9-00000146.human-id" (while extracting "human-id")
+error: failed to download human-id@4.1.3: InstallFailed
+  https://registry.npmjs.org/human-id/-/human-id-4.1.3.tgz
+error: NoSpaceLeft when create temporary directory named ".18f6f795ae96fffd-00000147.tar" (while extracting "tar")
+error: failed to download tar@7.5.13: InstallFailed
+  https://registry.npmjs.org/tar/-/tar-7.5.13.tgz
+error: NoSpaceLeft when create temporary directory named ".99b6bf9b93ff15de-00000148.tar-stream" (while extracting "tar-stream")
+error: failed to download tar-stream@3.1.8: InstallFailed
+  https://registry.npmjs.org/tar-stream/-/tar-stream-3.1.8.tgz
+error: NoSpaceLeft when create temporary directory named ".bebfb6bdaf8f7f7a-00000149.ts-http-runtime" (while extracting "@typespec/ts-http-runtime")
+error: failed to download @typespec/ts-http-runtime@0.3.5: InstallFailed
+  https://registry.npmjs.org/@typespec/ts-http-runtime/-/ts-http-runtime-0.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".fef7b6b1e28fe816-0000014A.core" (while extracting "@opentelemetry/core")
+error: failed to download @opentelemetry/core@2.2.0: InstallFailed
+  https://registry.npmjs.org/@opentelemetry/core/-/core-2.2.0.tgz
+error: NoSpaceLeft when create temporary directory named ".1ab7f695ea8dfbe8-0000014C.react-dom" (while extracting "react-dom")
+error: failed to download react-dom@19.2.5: InstallFailed
+  https://registry.npmjs.org/react-dom/-/react-dom-19.2.5.tgz
+error: failed to download react-dom@19.2.5: InstallFailed
+  https://registry.npmjs.org/react-dom/-/react-dom-19.2.5.tgz
+error: NoSpaceLeft when create temporary directory named ".9cb6bebdaaddff97-0000014B.deepgram" (while extracting "@ai-sdk/deepgram")
+error: failed to download @ai-sdk/deepgram@2.0.29: InstallFailed
+  https://registry.npmjs.org/@ai-sdk/deepgram/-/deepgram-2.0.29.tgz
+error: NoSpaceLeft when create temporary directory named ".b8fff7fb8fcffff9-0000014E.linkify-it" (while extracting "linkify-it")
+error: failed to download linkify-it@5.0.0: InstallFailed
+  https://registry.npmjs.org/linkify-it/-/linkify-it-5.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".3efebe9dfb8fcbf9-0000014D.electron-to-chromium" (while extracting "electron-to-chromium")
+error: failed to download electron-to-chromium@1.5.340: InstallFailed
+  https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.340.tgz
+error: NoSpaceLeft when create temporary directory named ".1db7b6b5a3af73d4-0000014F.node-releases" (while extracting "node-releases")
+error: failed to download node-releases@2.0.37: InstallFailed
+  https://registry.npmjs.org/node-releases/-/node-releases-2.0.37.tgz
+error: NoSpaceLeft when create temporary directory named ".5dbfffb59efffeff-00000150.ajv" (while extracting "ajv")
+error: failed to download ajv@6.14.0: InstallFailed
+  https://registry.npmjs.org/ajv/-/ajv-6.14.0.tgz
+error: NoSpaceLeft when create temporary directory named ".b9bfbedbc2f5e9bd-00000152.markdown-it" (while extracting "markdown-it")
+error: failed to download markdown-it@14.1.1: InstallFailed
+  https://registry.npmjs.org/markdown-it/-/markdown-it-14.1.1.tgz
+error: NoSpaceLeft when create temporary directory named ".79beffd3dff6b7fd-00000151.node-gyp" (while extracting "node-gyp")
+error: failed to download node-gyp@12.2.0: InstallFailed
+  https://registry.npmjs.org/node-gyp/-/node-gyp-12.2.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dbb7f799eeaffefe-00000153.remapping" (while extracting "@ampproject/remapping")
+error: failed to download @ampproject/remapping@2.3.0: InstallFailed
+  https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.3.0.tgz
+error: NoSpaceLeft when create temporary directory named ".beffbedfdbf6abe9-00000154.hasown" (while extracting "hasown")
+error: failed to download hasown@2.0.3: InstallFailed
+  https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz
+error: NoSpaceLeft when create temporary directory named ".58f7b7d3a3b1fe55-00000155.google-vertex" (while extracting "@ai-sdk/google-vertex")
+error: failed to download @ai-sdk/google-vertex@4.0.95: InstallFailed
+  https://registry.npmjs.org/@ai-sdk/google-vertex/-/google-vertex-4.0.95.tgz
+error: NoSpaceLeft when create temporary directory named ".5df7bed5c3bbfdbd-00000156.commands" (while extracting "@ioredis/commands")
+error: failed to download @ioredis/commands@1.5.1: InstallFailed
+  https://registry.npmjs.org/@ioredis/commands/-/commands-1.5.1.tgz
+error: NoSpaceLeft when create temporary directory named ".9afffffdc3f5eff8-00000158.encoding" (while extracting "@oslojs/encoding")
+error: failed to download @oslojs/encoding@1.1.0: InstallFailed
+  https://registry.npmjs.org/@oslojs/encoding/-/encoding-1.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".79f7bef3c7bcddfc-00000157.helper-annotate-as-pure" (while extracting "@babel/helper-annotate-as-pure")
+error: failed to download @babel/helper-annotate-as-pure@7.27.3: InstallFailed
+  https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.27.3.tgz
+error: NoSpaceLeft when create temporary directory named ".9ef7bed5cefddb7e-00000159.motion-utils" (while extracting "motion-utils")
+error: failed to download motion-utils@12.36.0: InstallFailed
+  https://registry.npmjs.org/motion-utils/-/motion-utils-12.36.0.tgz
+error: NoSpaceLeft when create temporary directory named ".9ef6bf93cabfeffa-0000015B.typescript-estree" (while extracting "@typescript-eslint/typescript-estree")
+error: failed to download @typescript-eslint/typescript-estree@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".9db6b7fdc2bf5ffd-0000015A.tsconfig-utils" (while extracting "@typescript-eslint/tsconfig-utils")
+error: failed to download @typescript-eslint/tsconfig-utils@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".5abeb7d3cafb7fec-0000015C.tapable" (while extracting "tapable")
+error: failed to download tapable@2.3.2: InstallFailed
+  https://registry.npmjs.org/tapable/-/tapable-2.3.2.tgz
+error: NoSpaceLeft when create temporary directory named ".befebffbe7bad5d5-0000015D.brace-expansion" (while extracting "brace-expansion")
+error: failed to download brace-expansion@2.1.0: InstallFailed
+  https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".39ffb793f2fb7bf6-0000015E.undici" (while extracting "undici")
+error: failed to download undici@6.25.0: InstallFailed
+  https://registry.npmjs.org/undici/-/undici-6.25.0.tgz
+error: NoSpaceLeft when create temporary directory named ".faf7fedbfffb7ffe-0000015F.mdx" (while extracting "@types/mdx")
+error: failed to download @types/mdx@2.0.13: InstallFailed
+  https://registry.npmjs.org/@types/mdx/-/mdx-2.0.13.tgz
+error: NoSpaceLeft when create temporary directory named ".fcfefeb782f9dde0-00000160.oxide" (while extracting "@tailwindcss/oxide")
+error: failed to download @tailwindcss/oxide@4.1.11: InstallFailed
+  https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.11.tgz
+error: NoSpaceLeft when create temporary directory named ".3ab7ff93effedf7f-00000161.eventstream-handler-node" (while extracting "@aws-sdk/eventstream-handler-node")
+error: failed to download @aws-sdk/eventstream-handler-node@3.972.14: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/eventstream-handler-node/-/eventstream-handler-node-3.972.14.tgz
+error: NoSpaceLeft when create temporary directory named ".9bbefffdefbbfb56-00000162.to-json-schema" (while extracting "@valibot/to-json-schema")
+error: failed to download @valibot/to-json-schema@1.6.0: InstallFailed
+  https://registry.npmjs.org/@valibot/to-json-schema/-/to-json-schema-1.6.0.tgz
+error: NoSpaceLeft when create temporary directory named ".9abfbedfc6bb7fff-00000164.codegen" (while extracting "@protobufjs/codegen")
+error: failed to download @protobufjs/codegen@2.0.4: InstallFailed
+  https://registry.npmjs.org/@protobufjs/codegen/-/codegen-2.0.4.tgz
+error: NoSpaceLeft when create temporary directory named ".5bbebef1bfefff7f-00000165.core" (while extracting "@opentui/core")
+error: failed to download @opentui/core@0.2.6: InstallFailed
+  https://registry.npmjs.org/@opentui/core/-/core-0.2.6.tgz
+error: NoSpaceLeft when create temporary directory named ".f9beff99ebe1de5a-00000166.helper-plugin-utils" (while extracting "@babel/helper-plugin-utils")
+error: failed to download @babel/helper-plugin-utils@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".dcfeb6f59beffeeb-00000167.fetch" (while extracting "@protobufjs/fetch")
+error: failed to download @protobufjs/fetch@1.1.0: InstallFailed
+  https://registry.npmjs.org/@protobufjs/fetch/-/fetch-1.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".5ab7f793efbb6ffb-00000163.middleware-eventstream" (while extracting "@aws-sdk/middleware-eventstream")
+error: failed to download @aws-sdk/middleware-eventstream@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-eventstream/-/middleware-eventstream-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".d9f6bf97cefff3ff-00000169.resources" (while extracting "@opentelemetry/resources")
+error: failed to download @opentelemetry/resources@2.2.0: InstallFailed
+  https://registry.npmjs.org/@opentelemetry/resources/-/resources-2.2.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dab7bffdf7ffc738-0000016A.querystring-parser" (while extracting "@smithy/querystring-parser")
+error: failed to download @smithy/querystring-parser@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/querystring-parser/-/querystring-parser-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".79f7beb39ef0f3a6-0000016B.msgpackr-extract" (while extracting "msgpackr-extract")
+error: failed to download msgpackr-extract@3.0.3: InstallFailed
+  https://registry.npmjs.org/msgpackr-extract/-/msgpackr-extract-3.0.3.tgz
+error: NoSpaceLeft when create temporary directory named ".bebeb6d1deee7ffd-00000168.utf8" (while extracting "@protobufjs/utf8")
+error: failed to download @protobufjs/utf8@1.1.0: InstallFailed
+  https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7bffbef1cafb9bfd-0000016C.graphql" (while extracting "graphql")
+error: failed to download graphql@16.13.2: InstallFailed
+  https://registry.npmjs.org/graphql/-/graphql-16.13.2.tgz
+error: NoSpaceLeft when create temporary directory named ".5dffb6ddc7fa3fd6-0000016D.get-east-asian-width" (while extracting "get-east-asian-width")
+error: failed to download get-east-asian-width@1.5.0: InstallFailed
+  https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.5.0.tgz
+error: NoSpaceLeft when create temporary directory named ".fcb7f7b99ff7f9fc-0000016E.fast-uri" (while extracting "fast-uri")
+error: failed to download fast-uri@3.1.0: InstallFailed
+  https://registry.npmjs.org/fast-uri/-/fast-uri-3.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dcf7be9b92f5cbfa-0000016F.core-rest-pipeline" (while extracting "@azure/core-rest-pipeline")
+error: failed to download @azure/core-rest-pipeline@1.23.0: InstallFailed
+  https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.23.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7af6f6b7a3fff573-00000170.mocha" (while extracting "mocha")
+error: failed to download mocha@11.7.5: InstallFailed
+  https://registry.npmjs.org/mocha/-/mocha-11.7.5.tgz
+error: NoSpaceLeft when create temporary directory named ".78feb79f8efcefb3-00000171.utils" (while extracting "@typescript-eslint/utils")
+error: failed to download @typescript-eslint/utils@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".7dbfffdba7ffb31a-00000172.zod" (while extracting "zod")
+error: failed to download zod@4.3.6: InstallFailed
+  https://registry.npmjs.org/zod/-/zod-4.3.6.tgz
+error: NoSpaceLeft when create temporary directory named ".bcffbfb3dbd5afc3-00000173.protoplugin" (while extracting "@bufbuild/protoplugin")
+error: failed to download @bufbuild/protoplugin@2.11.0: InstallFailed
+  https://registry.npmjs.org/@bufbuild/protoplugin/-/protoplugin-2.11.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dbfffe91f37b7fed-00000174.framer-motion" (while extracting "framer-motion")
+error: failed to download framer-motion@12.38.0: InstallFailed
+  https://registry.npmjs.org/framer-motion/-/framer-motion-12.38.0.tgz
+error: NoSpaceLeft when create temporary directory named ".d9fef79fdf7b59ea-00000175.type-utils" (while extracting "@typescript-eslint/type-utils")
+error: failed to download @typescript-eslint/type-utils@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".bef6b6dfc36b2f9e-00000177.ai" (while extracting "ai")
+error: failed to download ai@6.0.168: InstallFailed
+  https://registry.npmjs.org/ai/-/ai-6.0.168.tgz
+error: NoSpaceLeft when create temporary directory named ".9bf7b79ba7cfec98-0000017A.find-my-way" (while extracting "find-my-way")
+error: failed to download find-my-way@9.5.0: InstallFailed
+  https://registry.npmjs.org/find-my-way/-/find-my-way-9.5.0.tgz
+error: NoSpaceLeft when create temporary directory named ".19f6beb3fff6ffff-0000017B.qs" (while extracting "qs")
+error: failed to download qs@6.15.1: InstallFailed
+  https://registry.npmjs.org/qs/-/qs-6.15.1.tgz
+error: NoSpaceLeft when create temporary directory named ".f8ffffb3eb77e2f9-00000178.diffs" (while extracting "@pierre/diffs")
+error: failed to download @pierre/diffs@1.1.22: InstallFailed
+  https://registry.npmjs.org/@pierre/diffs/-/diffs-1.1.22.tgz
+error: NoSpaceLeft when create temporary directory named ".3efeb7bfafe3fffe-0000017D.thread-stream" (while extracting "thread-stream")
+error: failed to download thread-stream@4.0.0: InstallFailed
+  https://registry.npmjs.org/thread-stream/-/thread-stream-4.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".39bff7dde7bed3fa-0000017E.jwt" (while extracting "@oslojs/jwt")
+error: failed to download @oslojs/jwt@0.2.0: InstallFailed
+  https://registry.npmjs.org/@oslojs/jwt/-/jwt-0.2.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dbf7bebfc7f678dd-0000017F.scope-manager" (while extracting "@typescript-eslint/scope-manager")
+error: failed to download @typescript-eslint/scope-manager@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".f9fff79febe5ffc3-00000180.safe-regex2" (while extracting "safe-regex2")
+error: failed to download safe-regex2@5.1.0: InstallFailed
+  https://registry.npmjs.org/safe-regex2/-/safe-regex2-5.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".fdbeffdbcbe8afee-00000176.node" (while extracting "@tailwindcss/node")
+error: failed to download @tailwindcss/node@4.1.11: InstallFailed
+  https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.11.tgz
+error: NoSpaceLeft when create temporary directory named ".1cfef6f5d7aadfd4-00000181.parser" (while extracting "@typescript-eslint/parser")
+error: failed to download @typescript-eslint/parser@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".78ffbe958fbf9bfd-00000182.express" (while extracting "express")
+error: failed to download express@4.22.1: InstallFailed
+  https://registry.npmjs.org/express/-/express-4.22.1.tgz
+error: NoSpaceLeft when create temporary directory named ".fdf6ffb38b97ff78-00000179.fs.realpath" (while extracting "fs.realpath")
+error: failed to download fs.realpath@1.0.0: InstallFailed
+  https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".d9b6bed5dfafe5f8-00000183.plugin-syntax-typescript" (while extracting "@babel/plugin-syntax-typescript")
+error: failed to download @babel/plugin-syntax-typescript@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-syntax-typescript/-/plugin-syntax-typescript-7.28.6.tgz
+error: failed to download @babel/plugin-syntax-typescript@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-syntax-typescript/-/plugin-syntax-typescript-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".79fefeb9cbfefde3-00000184.types" (while extracting "@typescript-eslint/types")
+error: failed to download @typescript-eslint/types@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/types/-/types-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".f8b6f6bddff5dc58-00000185.google" (while extracting "@ai-sdk/google")
+error: failed to download @ai-sdk/google@3.0.53: InstallFailed
+  https://registry.npmjs.org/@ai-sdk/google/-/google-3.0.53.tgz
+error: NoSpaceLeft when create temporary directory named ".fff7f695f3b7d957-00000186.anthropic" (while extracting "@ai-sdk/anthropic")
+error: failed to download @ai-sdk/anthropic@3.0.64: InstallFailed
+  https://registry.npmjs.org/@ai-sdk/anthropic/-/anthropic-3.0.64.tgz
+error: NoSpaceLeft when create temporary directory named ".9afff7bb8bb5fffa-00000187.ipaddr.js" (while extracting "ipaddr.js")
+error: failed to download ipaddr.js@2.3.0: InstallFailed
+  https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-2.3.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dfb7b6d9dffc53dd-0000017C.opentui-spinner" (while extracting "opentui-spinner")
+error: failed to download opentui-spinner@0.0.6: InstallFailed
+  https://registry.npmjs.org/opentui-spinner/-/opentui-spinner-0.0.6.tgz
+error: NoSpaceLeft when create temporary directory named ".1ebfffdbe7be5b7a-00000188.project-service" (while extracting "@typescript-eslint/project-service")
+error: failed to download @typescript-eslint/project-service@8.58.2: InstallFailed
+  https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".9affbeb9b3b3dfe9-0000018A.ws" (while extracting "ws")
+error: failed to download ws@8.18.3: InstallFailed
+  https://registry.npmjs.org/ws/-/ws-8.18.3.tgz
+error: NoSpaceLeft when create temporary directory named ".9ffeffddebb2f3b9-00000189.middleware-stack" (while extracting "@smithy/middleware-stack")
+error: failed to download @smithy/middleware-stack@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/middleware-stack/-/middleware-stack-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".b8bfbf93d7ff14fe-0000018B.utils" (while extracting "@iconify/utils")
+error: failed to download @iconify/utils@3.1.0: InstallFailed
+  https://registry.npmjs.org/@iconify/utils/-/utils-3.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".f8f6b79dd3b4feff-0000018C.config-resolver" (while extracting "@smithy/config-resolver")
+error: failed to download @smithy/config-resolver@4.4.16: InstallFailed
+  https://registry.npmjs.org/@smithy/config-resolver/-/config-resolver-4.4.16.tgz
+error: NoSpaceLeft when create temporary directory named ".3ef6fe9df3f53dba-0000018D.node-http-handler" (while extracting "@smithy/node-http-handler")
+error: failed to download @smithy/node-http-handler@4.5.3: InstallFailed
+  https://registry.npmjs.org/@smithy/node-http-handler/-/node-http-handler-4.5.3.tgz
+error: NoSpaceLeft when create temporary directory named ".7df6f691cbffc7b3-0000018E.postcss" (while extracting "postcss")
+error: failed to download postcss@8.5.10: InstallFailed
+  https://registry.npmjs.org/postcss/-/postcss-8.5.10.tgz
+error: NoSpaceLeft when create temporary directory named ".bcf6beb1c3bfcdfb-0000018F.middleware-ssec" (while extracting "@aws-sdk/middleware-ssec")
+error: failed to download @aws-sdk/middleware-ssec@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-ssec/-/middleware-ssec-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".f9b6bef593bfccf7-00000191.bun" (while extracting "@tsconfig/bun")
+error: failed to download @tsconfig/bun@1.0.9: InstallFailed
+  https://registry.npmjs.org/@tsconfig/bun/-/bun-1.0.9.tgz
+error: NoSpaceLeft when create temporary directory named ".d9bfb6f7e7ffb528-00000190.bare-fs" (while extracting "bare-fs")
+error: failed to download bare-fs@4.7.1: InstallFailed
+  https://registry.npmjs.org/bare-fs/-/bare-fs-4.7.1.tgz
+error: NoSpaceLeft when create temporary directory named ".9dbffef1d7fed171-00000192.addon-links" (while extracting "@storybook/addon-links")
+error: failed to download @storybook/addon-links@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/addon-links/-/addon-links-10.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".99f6be93c3ff975b-00000193.js-yaml" (while extracting "js-yaml")
+error: failed to download js-yaml@4.1.1: InstallFailed
+  https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz
+error: NoSpaceLeft when create temporary directory named ".99f6f693ebb93fce-00000194.meta" (while extracting "@solidjs/meta")
+error: failed to download @solidjs/meta@0.29.4: InstallFailed
+  https://registry.npmjs.org/@solidjs/meta/-/meta-0.29.4.tgz
+error: NoSpaceLeft when create temporary directory named ".fcbebfb79fbfdd98-00000195.util-user-agent-node" (while extracting "@aws-sdk/util-user-agent-node")
+error: failed to download @aws-sdk/util-user-agent-node@3.973.17: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/util-user-agent-node/-/util-user-agent-node-3.973.17.tgz
+error: NoSpaceLeft when create temporary directory named ".58b7f6b3cbff5edf-00000196.util-user-agent-browser" (while extracting "@aws-sdk/util-user-agent-browser")
+error: failed to download @aws-sdk/util-user-agent-browser@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/util-user-agent-browser/-/util-user-agent-browser-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".7db6f7f987fffbb9-00000197.tailwindcss" (while extracting "tailwindcss")
+error: failed to download tailwindcss@4.2.2: InstallFailed
+  https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".3ffeb79debfffe74-00000198.types" (while extracting "@babel/types")
+error: failed to download @babel/types@7.29.0: InstallFailed
+  https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz
+error: NoSpaceLeft when create temporary directory named ".ffb7bf99f3feef59-00000199.openauth" (while extracting "@openauthjs/openauth")
+error: failed to download @openauthjs/openauth@0.0.0-20250322224806: InstallFailed
+  https://registry.npmjs.org/@openauthjs/openauth/-/openauth-0.0.0-20250322224806.tgz
+error: NoSpaceLeft when create temporary directory named ".3cffbeb59ffe7a53-0000019A.remend" (while extracting "remend")
+error: failed to download remend@1.3.0: InstallFailed
+  https://registry.npmjs.org/remend/-/remend-1.3.0.tgz
+error: NoSpaceLeft when create temporary directory named ".faf7fef5d3bf9e58-0000019B.protocol-http" (while extracting "@smithy/protocol-http")
+error: failed to download @smithy/protocol-http@5.3.14: InstallFailed
+  https://registry.npmjs.org/@smithy/protocol-http/-/protocol-http-5.3.14.tgz
+error: NoSpaceLeft when create temporary directory named ".ddf7bef5fbe87ef6-0000019D.solid-js" (while extracting "solid-js")
+error: failed to download solid-js@1.9.12: InstallFailed
+  https://registry.npmjs.org/solid-js/-/solid-js-1.9.12.tgz
+error: NoSpaceLeft when create temporary directory named ".7ef6fffbfbf6ff2f-0000019E.middleware-endpoint" (while extracting "@smithy/middleware-endpoint")
+error: failed to download @smithy/middleware-endpoint@4.4.30: InstallFailed
+  https://registry.npmjs.org/@smithy/middleware-endpoint/-/middleware-endpoint-4.4.30.tgz
+error: NoSpaceLeft when create temporary directory named ".fbbfbfdfebf7bff6-0000019F.util-endpoints" (while extracting "@aws-sdk/util-endpoints")
+error: failed to download @aws-sdk/util-endpoints@3.996.7: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.996.7.tgz
+error: NoSpaceLeft when create temporary directory named ".3cbef6fb87f7ccdc-000001A0.undici-types" (while extracting "undici-types")
+error: failed to download undici-types@7.16.0: InstallFailed
+  https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz
+error: NoSpaceLeft when create temporary directory named ".fdf6f7bdabfeddfb-000001A1.addon-a11y" (while extracting "@storybook/addon-a11y")
+error: failed to download @storybook/addon-a11y@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-10.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".fbfeffb1cffcfffd-0000019C.solid-list" (while extracting "solid-list")
+error: failed to download solid-list@0.3.0: InstallFailed
+  https://registry.npmjs.org/solid-list/-/solid-list-0.3.0.tgz
+error: NoSpaceLeft when create temporary directory named ".1bfefffdf3fabafa-000001A2.middleware-serde" (while extracting "@smithy/middleware-serde")
+error: failed to download @smithy/middleware-serde@4.2.18: InstallFailed
+  https://registry.npmjs.org/@smithy/middleware-serde/-/middleware-serde-4.2.18.tgz
+error: NoSpaceLeft when create temporary directory named ".f8b6b7b5affba5d1-000001A3.node22" (while extracting "@tsconfig/node22")
+error: failed to download @tsconfig/node22@22.0.2: InstallFailed
+  https://registry.npmjs.org/@tsconfig/node22/-/node22-22.0.2.tgz
+error: NoSpaceLeft when create temporary directory named ".98bfb7fdc7fdffdb-000001A4.template" (while extracting "@babel/template")
+error: failed to download @babel/template@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/template/-/template-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".faf7b6fdb7ffbf52-000001A5.middleware-content-length" (while extracting "@smithy/middleware-content-length")
+error: failed to download @smithy/middleware-content-length@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/middleware-content-length/-/middleware-content-length-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".7db7b6bfcbfff69c-000001A6.md5-js" (while extracting "@smithy/md5-js")
+error: failed to download @smithy/md5-js@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/md5-js/-/md5-js-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".5ef7b6d1f7fbebfa-000001A7.hash-stream-node" (while extracting "@smithy/hash-stream-node")
+error: failed to download @smithy/hash-stream-node@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/hash-stream-node/-/hash-stream-node-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".1ebef6f3fffbfe59-000001A8.marked" (while extracting "marked")
+error: failed to download marked@17.0.1: InstallFailed
+  https://registry.npmjs.org/marked/-/marked-17.0.1.tgz
+error: NoSpaceLeft when create temporary directory named ".5cbebedfb3ffbff4-000001A9.marked-shiki" (while extracting "marked-shiki")
+error: failed to download marked-shiki@1.2.1: InstallFailed
+  https://registry.npmjs.org/marked-shiki/-/marked-shiki-1.2.1.tgz
+error: NoSpaceLeft when create temporary directory named ".bbbff6d7affdf966-000001AA.generator" (while extracting "@babel/generator")
+error: failed to download @babel/generator@7.29.1: InstallFailed
+  https://registry.npmjs.org/@babel/generator/-/generator-7.29.1.tgz
+error: NoSpaceLeft when create temporary directory named ".faf6bed193ffd798-000001AB.react" (while extracting "react")
+error: failed to download react@19.2.5: InstallFailed
+  https://registry.npmjs.org/react/-/react-19.2.5.tgz
+error: NoSpaceLeft when create temporary directory named ".5cf6f6b7affef1fb-000001AC.fetch-http-handler" (while extracting "@smithy/fetch-http-handler")
+error: failed to download @smithy/fetch-http-handler@5.3.17: InstallFailed
+  https://registry.npmjs.org/@smithy/fetch-http-handler/-/fetch-http-handler-5.3.17.tgz
+error: NoSpaceLeft when create temporary directory named ".b9bef7d7bcdeff78-000001AD.hash-node" (while extracting "@smithy/hash-node")
+error: failed to download @smithy/hash-node@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/hash-node/-/hash-node-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".def7ffd7e740ffed-000001AE.luxon" (while extracting "@types/luxon")
+error: failed to download @types/luxon@3.7.1: InstallFailed
+  https://registry.npmjs.org/@types/luxon/-/luxon-3.7.1.tgz
+error: NoSpaceLeft when create temporary directory named ".1bbef6ff8e61def8-000001AF.helper-module-transforms" (while extracting "@babel/helper-module-transforms")
+error: failed to download @babel/helper-module-transforms@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz
+error: failed to download @babel/helper-module-transforms@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".19beffffbe3aaa7c-000001B0.helper-compilation-targets" (while extracting "@babel/helper-compilation-targets")
+error: failed to download @babel/helper-compilation-targets@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".9fb7b6bb9d2fbe7c-000001B1.hash-blob-browser" (while extracting "@smithy/hash-blob-browser")
+error: failed to download @smithy/hash-blob-browser@4.2.15: InstallFailed
+  https://registry.npmjs.org/@smithy/hash-blob-browser/-/hash-blob-browser-4.2.15.tgz
+error: NoSpaceLeft when create temporary directory named ".1ff6bed195057a9e-000001B2.vsce" (while extracting "@vscode/vsce")
+error: failed to download @vscode/vsce@3.9.1: InstallFailed
+  https://registry.npmjs.org/@vscode/vsce/-/vsce-3.9.1.tgz
+error: NoSpaceLeft when create temporary directory named ".98b7b7f7f4857de9-000001B3.code-frame" (while extracting "@babel/code-frame")
+error: failed to download @babel/code-frame@7.29.0: InstallFailed
+  https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz
+error: NoSpaceLeft when create temporary directory named ".3ef7f6ff8f66eddc-000001B4.router" (while extracting "@solidjs/router")
+error: failed to download @solidjs/router@0.15.4: InstallFailed
+  https://registry.npmjs.org/@solidjs/router/-/router-0.15.4.tgz
+error: NoSpaceLeft when create temporary directory named ".fcbeffbd8e97bf9d-000001B5.middleware-expect-continue" (while extracting "@aws-sdk/middleware-expect-continue")
+error: failed to download @aws-sdk/middleware-expect-continue@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-expect-continue/-/middleware-expect-continue-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".7ffff693d7d7dfe6-000001B6.css" (while extracting "@docsearch/css")
+error: failed to download @docsearch/css@4.6.2: InstallFailed
+  https://registry.npmjs.org/@docsearch/css/-/css-4.6.2.tgz
+error: NoSpaceLeft when create temporary directory named ".b9febed9ae39df3d-000001B8.core" (while extracting "@smithy/core")
+error: failed to download @smithy/core@3.23.15: InstallFailed
+  https://registry.npmjs.org/@smithy/core/-/core-3.23.15.tgz
+error: NoSpaceLeft when create temporary directory named ".bcbffe9fd6c8efdd-000001B7.luxon" (while extracting "luxon")
+error: failed to download luxon@3.6.1: InstallFailed
+  https://registry.npmjs.org/luxon/-/luxon-3.6.1.tgz
+error: NoSpaceLeft when create temporary directory named ".ddf7b6bfbdefebf3-000001B9.eventstream-serde-config-resolve" (while extracting "@smithy/eventstream-serde-config-resolver")
+error: failed to download @smithy/eventstream-serde-config-resolver@4.3.14: InstallFailed
+  https://registry.npmjs.org/@smithy/eventstream-serde-config-resolver/-/eventstream-serde-config-resolver-4.3.14.tgz
+error: NoSpaceLeft when create temporary directory named ".3dbef7fd9c7bf3fb-000001BA.solid" (while extracting "@opentui/solid")
+error: failed to download @opentui/solid@0.2.6: InstallFailed
+  https://registry.npmjs.org/@opentui/solid/-/solid-0.2.6.tgz
+error: NoSpaceLeft when create temporary directory named ".1af7f799e4afca9f-000001BB.mammoth" (while extracting "mammoth")
+error: failed to download mammoth@1.12.0: InstallFailed
+  https://registry.npmjs.org/mammoth/-/mammoth-1.12.0.tgz
+error: NoSpaceLeft when create temporary directory named ".dabfbff9ec5ff4e2-000001BE.vscode" (while extracting "@types/vscode")
+error: failed to download @types/vscode@1.116.0: InstallFailed
+  https://registry.npmjs.org/@types/vscode/-/vscode-1.116.0.tgz
+error: NoSpaceLeft when create temporary directory named ".bff6f797d72cbadf-000001BC.signature-v4-multi-region" (while extracting "@aws-sdk/signature-v4-multi-region")
+error: failed to download @aws-sdk/signature-v4-multi-region@3.996.18: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.996.18.tgz
+error: NoSpaceLeft when create temporary directory named ".5cf7f6d1dd2fe7cb-000001BD.typescript-eslint" (while extracting "typescript-eslint")
+error: failed to download typescript-eslint@8.58.2: InstallFailed
+  https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.58.2.tgz
+error: NoSpaceLeft when create temporary directory named ".b8bfb6f1f5eebff4-000001BF.bun" (while extracting "@types/bun")
+error: failed to download @types/bun@1.3.14: InstallFailed
+  https://registry.npmjs.org/@types/bun/-/bun-1.3.14.tgz
+error: NoSpaceLeft when create temporary directory named ".1ff7bed78ccffffb-000001C0.platform-node" (while extracting "@effect/platform-node")
+error: failed to download @effect/platform-node@4.0.0-beta.57: InstallFailed
+  https://registry.npmjs.org/@effect/platform-node/-/platform-node-4.0.0-beta.57.tgz
+error: NoSpaceLeft when create temporary directory named ".7dbfff95ac7eabc8-000001C1.addon-vitest" (while extracting "@storybook/addon-vitest")
+error: failed to download @storybook/addon-vitest@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/addon-vitest/-/addon-vitest-10.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".79befff1b673bff7-000001C3.eventstream-serde-browser" (while extracting "@smithy/eventstream-serde-browser")
+error: failed to download @smithy/eventstream-serde-browser@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/eventstream-serde-browser/-/eventstream-serde-browser-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".5ebeb6d1adf7ff0a-000001C2.react" (while extracting "@types/react")
+error: failed to download @types/react@19.2.14: InstallFailed
+  https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".f9febfd3e552bbf9-000001C4.middleware-sdk-s3" (while extracting "@aws-sdk/middleware-sdk-s3")
+error: failed to download @aws-sdk/middleware-sdk-s3@3.972.30: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-3.972.30.tgz
+error: NoSpaceLeft when create temporary directory named ".bbbfbed3ddbafbf8-000001C5.cross-spawn" (while extracting "@types/cross-spawn")
+error: failed to download @types/cross-spawn@6.0.6: InstallFailed
+  https://registry.npmjs.org/@types/cross-spawn/-/cross-spawn-6.0.6.tgz
+error: NoSpaceLeft when create temporary directory named ".d8b7fffb9c37ffae-000001C7.opentelemetry" (while extracting "@effect/opentelemetry")
+error: failed to download @effect/opentelemetry@4.0.0-beta.57: InstallFailed
+  https://registry.npmjs.org/@effect/opentelemetry/-/opentelemetry-4.0.0-beta.57.tgz
+error: NoSpaceLeft when create temporary directory named ".5dbef6b5d797777f-000001C6.lru-cache" (while extracting "lru-cache")
+error: failed to download lru-cache@11.3.5: InstallFailed
+  https://registry.npmjs.org/lru-cache/-/lru-cache-11.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".9ab6bfbb8e7bffe3-000001C8.hono-openapi" (while extracting "hono-openapi")
+error: failed to download hono-openapi@1.1.2: InstallFailed
+  https://registry.npmjs.org/hono-openapi/-/hono-openapi-1.1.2.tgz
+error: NoSpaceLeft when create temporary directory named ".7ffef7b1a6572f77-000001C9.zod-validator" (while extracting "@hono/zod-validator")
+error: failed to download @hono/zod-validator@0.4.2: InstallFailed
+  https://registry.npmjs.org/@hono/zod-validator/-/zod-validator-0.4.2.tgz
+error: NoSpaceLeft when create temporary directory named ".7ff6f6d5ec149ffd-000001CA.region-config-resolver" (while extracting "@aws-sdk/region-config-resolver")
+error: failed to download @aws-sdk/region-config-resolver@3.972.12: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/region-config-resolver/-/region-config-resolver-3.972.12.tgz
+error: NoSpaceLeft when create temporary directory named ".5dfeb793f5bfdff4-000001CB.middleware-user-agent" (while extracting "@aws-sdk/middleware-user-agent")
+error: failed to download @aws-sdk/middleware-user-agent@3.972.31: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-user-agent/-/middleware-user-agent-3.972.31.tgz
+error: NoSpaceLeft when create temporary directory named ".9df7ff97adffeffc-000001CC.types" (while extracting "@aws-sdk/types")
+error: failed to download @aws-sdk/types@3.973.8: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/types/-/types-3.973.8.tgz
+error: NoSpaceLeft when create temporary directory named ".7ffef79dee1e7bec-000001CD.middleware-recursion-detection" (while extracting "@aws-sdk/middleware-recursion-detection")
+error: failed to download @aws-sdk/middleware-recursion-detection@3.972.11: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-recursion-detection/-/middleware-recursion-detection-3.972.11.tgz
+error: NoSpaceLeft when create temporary directory named ".59b6ff91b517d68c-000001CE.tailwindcss" (while extracting "tailwindcss")
+error: failed to download tailwindcss@4.1.11: InstallFailed
+  https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.11.tgz
+error: NoSpaceLeft when create temporary directory named ".fcf6bf93d537e7d8-000001CF.virtua" (while extracting "virtua")
+error: failed to download virtua@0.42.3: InstallFailed
+  https://registry.npmjs.org/virtua/-/virtua-0.42.3.tgz
+error: NoSpaceLeft when create temporary directory named ".f8feb6fdb61fe77c-000001D0.shiki" (while extracting "shiki")
+error: failed to download shiki@3.20.0: InstallFailed
+  https://registry.npmjs.org/shiki/-/shiki-3.20.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7fffbfb7977b71fe-000001D1.core" (while extracting "@aws-sdk/core")
+error: failed to download @aws-sdk/core@3.974.1: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/core/-/core-3.974.1.tgz
+error: NoSpaceLeft when create temporary directory named ".1cfef6bbf67bedb0-000001D2.middleware-location-constraint" (while extracting "@aws-sdk/middleware-location-constraint")
+error: failed to download @aws-sdk/middleware-location-constraint@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-location-constraint/-/middleware-location-constraint-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".7bf7be93be1def9a-000001D3.native-preview" (while extracting "@typescript/native-preview")
+error: failed to download @typescript/native-preview@7.0.0-dev.20260316.1: InstallFailed
+  https://registry.npmjs.org/@typescript/native-preview/-/native-preview-7.0.0-dev.20260316.1.tgz
+error: NoSpaceLeft when create temporary directory named ".99b6bebbe57aebcc-000001D4.node-pty" (while extracting "@lydell/node-pty")
+error: failed to download @lydell/node-pty@1.2.0-beta.10: InstallFailed
+  https://registry.npmjs.org/@lydell/node-pty/-/node-pty-1.2.0-beta.10.tgz
+error: NoSpaceLeft when create temporary directory named ".5cf6beb195dbdcf0-000001D5.middleware-logger" (while extracting "@aws-sdk/middleware-logger")
+error: failed to download @aws-sdk/middleware-logger@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-logger/-/middleware-logger-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".baf6bf99dfff1f7e-000001D6.types" (while extracting "@smithy/types")
+error: failed to download @smithy/types@4.14.1: InstallFailed
+  https://registry.npmjs.org/@smithy/types/-/types-4.14.1.tgz
+error: NoSpaceLeft when create temporary directory named ".3ebebf99c45baded-000001D7.middleware-flexible-checksums" (while extracting "@aws-sdk/middleware-flexible-checksums")
+error: failed to download @aws-sdk/middleware-flexible-checksums@3.974.9: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-flexible-checksums/-/middleware-flexible-checksums-3.974.9.tgz
+error: NoSpaceLeft when create temporary directory named ".bcffb7d1e4dffffa-000001D8.util-body-length-node" (while extracting "@smithy/util-body-length-node")
+error: failed to download @smithy/util-body-length-node@4.2.3: InstallFailed
+  https://registry.npmjs.org/@smithy/util-body-length-node/-/util-body-length-node-4.2.3.tgz
+error: NoSpaceLeft when create temporary directory named ".3eb7f799f7bc5769-000001D9.rest" (while extracting "@octokit/rest")
+error: failed to download @octokit/rest@22.0.0: InstallFailed
+  https://registry.npmjs.org/@octokit/rest/-/rest-22.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7cbfb6ddb6bfe7c7-000001DA.util-body-length-browser" (while extracting "@smithy/util-body-length-browser")
+error: failed to download @smithy/util-body-length-browser@4.2.2: InstallFailed
+  https://registry.npmjs.org/@smithy/util-body-length-browser/-/util-body-length-browser-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".1ab7be999c3ea9f0-000001DB.middleware-bucket-endpoint" (while extracting "@aws-sdk/middleware-bucket-endpoint")
+error: failed to download @aws-sdk/middleware-bucket-endpoint@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-bucket-endpoint/-/middleware-bucket-endpoint-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".dcf6be99e57ff964-000001DC.middleware-host-header" (while extracting "@aws-sdk/middleware-host-header")
+error: failed to download @aws-sdk/middleware-host-header@3.972.10: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/middleware-host-header/-/middleware-host-header-3.972.10.tgz
+error: NoSpaceLeft when create temporary directory named ".fbb7bebfb63f75fc-000001DD.credential-provider-node" (while extracting "@aws-sdk/credential-provider-node")
+error: failed to download @aws-sdk/credential-provider-node@3.972.32: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.32.tgz
+error: NoSpaceLeft when create temporary directory named ".7dbefebbc7df9e5b-000001DE.querystring-builder" (while extracting "@smithy/querystring-builder")
+error: failed to download @smithy/querystring-builder@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/querystring-builder/-/querystring-builder-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".9af7fe9fa7e13ffa-000001DF.remeda" (while extracting "remeda")
+error: failed to download remeda@2.26.0: InstallFailed
+  https://registry.npmjs.org/remeda/-/remeda-2.26.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7fbefefddc255762-000001E0.postcss" (while extracting "@tailwindcss/postcss")
+error: failed to download @tailwindcss/postcss@4.2.2: InstallFailed
+  https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".bdf7ffd5e6338ffa-000001E1.vite" (while extracting "@tailwindcss/vite")
+error: failed to download @tailwindcss/vite@4.1.11: InstallFailed
+  https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.11.tgz
+error: NoSpaceLeft when create temporary directory named ".dbbeb7f9f635f7f8-000001E2.shell-quote" (while extracting "shell-quote")
+error: failed to download shell-quote@1.8.3: InstallFailed
+  https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.3.tgz
+error: NoSpaceLeft when create temporary directory named ".9eb6be95ce7d7c2b-000001E3.oxide" (while extracting "@tailwindcss/oxide")
+error: failed to download @tailwindcss/oxide@4.2.2: InstallFailed
+  https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.2.tgz
+error: NoSpaceLeft when create temporary directory named ".1cb7f6b9d7ff7bee-000001E4.babel-preset-solid" (while extracting "babel-preset-solid")
+error: failed to download babel-preset-solid@1.9.10: InstallFailed
+  https://registry.npmjs.org/babel-preset-solid/-/babel-preset-solid-1.9.10.tgz
+error: NoSpaceLeft when create temporary directory named ".baffbf9596fea76f-000001E5.addon-docs" (while extracting "@storybook/addon-docs")
+error: failed to download @storybook/addon-docs@10.3.5: InstallFailed
+  https://registry.npmjs.org/@storybook/addon-docs/-/addon-docs-10.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".9bbeb7f9a42f5fff-000001E6.deepseek" (while extracting "@ai-sdk/deepseek")
+error: failed to download @ai-sdk/deepseek@2.0.29: InstallFailed
+  https://registry.npmjs.org/@ai-sdk/deepseek/-/deepseek-2.0.29.tgz
+error: NoSpaceLeft when create temporary directory named ".7cf6b6f9fc7ff568-000001E7.semver" (while extracting "semver")
+error: failed to download semver@7.7.4: InstallFailed
+  https://registry.npmjs.org/semver/-/semver-7.7.4.tgz
+error: NoSpaceLeft when create temporary directory named ".7abeb6f3bce7dbfa-000001E8.token-providers" (while extracting "@aws-sdk/token-providers")
+error: failed to download @aws-sdk/token-providers@3.1032.0: InstallFailed
+  https://registry.npmjs.org/@aws-sdk/token-providers/-/token-providers-3.1032.0.tgz
+error: NoSpaceLeft when create temporary directory named ".5eb7feb5d47dfd98-000001E9.resolve" (while extracting "resolve")
+error: failed to download resolve@1.22.12: InstallFailed
+  https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz
+error: NoSpaceLeft when create temporary directory named ".d8f6bfbbb46bedd6-000001EA.core-client" (while extracting "@azure/core-client")
+error: failed to download @azure/core-client@1.10.1: InstallFailed
+  https://registry.npmjs.org/@azure/core-client/-/core-client-1.10.1.tgz
+error: NoSpaceLeft when create temporary directory named ".1bf7bff1aeeded7d-000001EB.node" (while extracting "@types/node")
+error: failed to download @types/node@24.12.4: InstallFailed
+  https://registry.npmjs.org/@types/node/-/node-24.12.4.tgz
+error: NoSpaceLeft when create temporary directory named ".3abfb6b1d4eefffe-000001EC.fast-content-type-parse" (while extracting "fast-content-type-parse")
+error: failed to download fast-content-type-parse@3.0.0: InstallFailed
+  https://registry.npmjs.org/fast-content-type-parse/-/fast-content-type-parse-3.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".f8b7ffb9f6ffffbe-000001ED.before-after-hook" (while extracting "before-after-hook")
+error: failed to download before-after-hook@4.0.0: InstallFailed
+  https://registry.npmjs.org/before-after-hook/-/before-after-hook-4.0.0.tgz
+error: NoSpaceLeft when create temporary directory named ".ddbffef58cb3bfd4-000001EE.hono" (while extracting "hono")
+error: failed to download hono@4.12.12: InstallFailed
+  https://registry.npmjs.org/hono/-/hono-4.12.12.tgz
+error: NoSpaceLeft when create temporary directory named ".f9f6f791cfb5ddfb-000001EF.ulid" (while extracting "ulid")
+error: failed to download ulid@3.0.1: InstallFailed
+  https://registry.npmjs.org/ulid/-/ulid-3.0.1.tgz
+error: NoSpaceLeft when create temporary directory named ".7cb6f7b7b637f16b-000001F0.service-error-classification" (while extracting "@smithy/service-error-classification")
+error: failed to download @smithy/service-error-classification@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/service-error-classification/-/service-error-classification-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".98bff6bf977d7b39-000001F1.eventstream-serde-universal" (while extracting "@smithy/eventstream-serde-universal")
+error: failed to download @smithy/eventstream-serde-universal@4.2.14: InstallFailed
+  https://registry.npmjs.org/@smithy/eventstream-serde-universal/-/eventstream-serde-universal-4.2.14.tgz
+error: NoSpaceLeft when create temporary directory named ".1efeb6dbeeb5f6d8-000001F2.sigstore" (while extracting "sigstore")
+error: failed to download sigstore@4.1.0: InstallFailed
+  https://registry.npmjs.org/sigstore/-/sigstore-4.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".bbf7feb9d63fbf6c-000001F3.reselect" (while extracting "reselect")
+error: failed to download reselect@4.1.8: InstallFailed
+  https://registry.npmjs.org/reselect/-/reselect-4.1.8.tgz
+error: NoSpaceLeft when create temporary directory named ".5fbff7fdde7ed6fb-000001F4.property-information" (while extracting "property-information")
+error: failed to download property-information@7.1.0: InstallFailed
+  https://registry.npmjs.org/property-information/-/property-information-7.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".fcb7bef59f77ffdf-000001F5.semantic-conventions" (while extracting "@opentelemetry/semantic-conventions")
+error: failed to download @opentelemetry/semantic-conventions@1.40.0: InstallFailed
+  https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.40.0.tgz
+error: NoSpaceLeft when create temporary directory named ".1abff6ffaf7b3ff9-000001F6.babel-plugin-jsx-dom-expressions" (while extracting "babel-plugin-jsx-dom-expressions")
+error: failed to download babel-plugin-jsx-dom-expressions@0.40.6: InstallFailed
+  https://registry.npmjs.org/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.40.6.tgz
+error: failed to download babel-plugin-jsx-dom-expressions@0.40.6: InstallFailed
+  https://registry.npmjs.org/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.40.6.tgz
+error: NoSpaceLeft when create temporary directory named ".f9fef7b3ce53bf99-000001F7.pkg-up" (while extracting "pkg-up")
+error: failed to download pkg-up@3.1.0: InstallFailed
+  https://registry.npmjs.org/pkg-up/-/pkg-up-3.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".1ef6fff3add6eff4-000001F8.protobuf" (while extracting "@bufbuild/protobuf")
+error: failed to download @bufbuild/protobuf@2.11.0: InstallFailed
+  https://registry.npmjs.org/@bufbuild/protobuf/-/protobuf-2.11.0.tgz
+error: NoSpaceLeft when create temporary directory named ".39bfb69befe43af1-000001F9.find-babel-config" (while extracting "find-babel-config")
+error: failed to download find-babel-config@2.1.2: InstallFailed
+  https://registry.npmjs.org/find-babel-config/-/find-babel-config-2.1.2.tgz
+error: NoSpaceLeft when create temporary directory named ".5cf6b791d4fffee8-000001FA.glob" (while extracting "glob")
+error: failed to download glob@9.3.5: InstallFailed
+  https://registry.npmjs.org/glob/-/glob-9.3.5.tgz
+error: NoSpaceLeft when create temporary directory named ".ddbfb6dd8fee5eff-000001FB.helper-string-parser" (while extracting "@babel/helper-string-parser")
+error: failed to download @babel/helper-string-parser@7.27.1: InstallFailed
+  https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz
+error: NoSpaceLeft when create temporary directory named ".d8f7f7bbdfebfdfc-000001FC.ip-address" (while extracting "ip-address")
+error: failed to download ip-address@10.1.0: InstallFailed
+  https://registry.npmjs.org/ip-address/-/ip-address-10.1.0.tgz
+error: NoSpaceLeft when create temporary directory named ".7af7f7b3ff77ff34-000001FD.tedious" (while extracting "tedious")
+error: failed to download tedious@18.6.2: InstallFailed
+  https://registry.npmjs.org/tedious/-/tedious-18.6.2.tgz
+error: NoSpaceLeft when create temporary directory named ".5bfef7bbe57dfd78-000001FE.plugin-transform-modules-commonj" (while extracting "@babel/plugin-transform-modules-commonjs")
+error: failed to download @babel/plugin-transform-modules-commonjs@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.28.6.tgz
+error: failed to download @babel/plugin-transform-modules-commonjs@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.28.6.tgz
+error: NoSpaceLeft when create temporary directory named ".b9febeddcdbff57d-000001FF.type-is" (while extracting "type-is")
+error: failed to download type-is@2.0.1: InstallFailed
+  https://registry.npmjs.org/type-is/-/type-is-2.0.1.tgz
+error: NoSpaceLeft when create temporary directory named ".daf7b69badbdf9b9-00000200.plugin-transform-typescript" (while extracting "@babel/plugin-transform-typescript")
+error: failed to download @babel/plugin-transform-typescript@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.28.6.tgz
+error: failed to download @babel/plugin-transform-typescript@7.28.6: InstallFailed
+  https://registry.npmjs.org/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.28.6.tgz
+error: ENOSPC extracting tarball for "@next/swc-darwin-arm64"
+error: failed to download @next/swc-darwin-arm64@16.2.4: ENOSPC
+  https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.2.4.tgz
+error: ENOSPC extracting tarball for "@typescript/native-preview-darwin-arm64"
+error: failed to download @typescript/native-preview-darwin-arm64@7.0.0-dev.20260316.1: ENOSPC
+  https://registry.npmjs.org/@typescript/native-preview-darwin-arm64/-/native-preview-darwin-arm64-7.0.0-dev.20260316.1.tgz
+ENOENT: No such file or directory: failed to link package: citty@0.2.2 (clonefileat)
+ENOENT: failed to link binaries for package: crc32-stream@6.0.0
+ENOENT: failed to link binaries for package: d3@7.9.0
+ENOENT: failed to link binaries for package: @typescript/vfs@1.6.4
+ENOENT: No such file or directory: failed to link package: p-limit@4.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: p-try@2.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: buffer@5.7.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @aws-sdk/xml-builder@3.972.18 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @tufjs/canonical-json@2.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: smart-buffer@4.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: has-property-descriptors@1.0.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: define-data-property@1.1.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: p-locate@6.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: p-limit@2.3.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: yocto-queue@0.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: spdx-expression-parse@3.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: spdx-correct@3.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: version-range@4.15.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: environment@1.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: astral-regex@2.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: readable-stream@3.6.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: fs-constants@1.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: bl@4.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: mimic-function@5.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: caniuse-lite@1.0.30001788 (clonefileat)
+ENOENT: failed to link binaries for package: js-yaml@3.14.2
+ENOENT: failed to link binaries for package: unzip-stream@0.3.4
+ENOENT: failed to link binaries for package: unplugin@2.3.11
+ENOENT: No such file or directory: failed to link package: eastasianwidth@0.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: unist-util-stringify-position@4.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: micromark-util-types@2.0.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: is-number@7.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: @tufjs/models@4.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: is-callable@1.2.7 (clonefileat)
+ENOENT: No such file or directory: failed to link package: set-function-length@1.2.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: possible-typed-array-names@1.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: is-regex@1.2.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: dunder-proto@1.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: teex@1.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: type-fest@0.13.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: path-exists@5.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: locate-path@7.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: clean-stack@4.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: p-defer@1.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: blueimp-md5@2.19.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: time-zone@1.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: emoji-regex@9.2.2 (clonefileat)
+ENOENT: failed to link binaries for package: why-is-node-running@2.3.0
+ENOENT: No such file or directory: failed to link package: hosted-git-info@7.0.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: is-fullwidth-code-point@4.0.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: p-locate@4.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: queue-microtask@1.2.3 (clonefileat)
+ENOENT: No such file or directory: failed to link package: p-limit@3.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: json-buffer@3.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: callsites@3.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: index-to-position@1.2.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: validate-npm-package-license@3.0.4 (clonefileat)
+ENOENT: failed to link binaries for package: espree@10.4.0
+ENOENT: No such file or directory: failed to link package: color-name@1.1.4 (clonefileat)
+ENOENT: No such file or directory: failed to link package: math-intrinsics@1.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: has-symbols@1.1.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: es-define-property@1.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: call-bind-apply-helpers@1.0.2 (clonefileat)
+ENOENT: No such file or directory: failed to link package: textextensions@6.11.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: universalify@2.0.1 (clonefileat)
+ENOENT: No such file or directory: failed to link package: editions@6.22.0 (clonefileat)
+ENOENT: No such file or directory: failed to link package: binaryextensions@6.11.0 (clonefileat)
+ENOENT: failed to link binaries for package: cross-spawn@7.0.6
+ENOENT: failed to link binaries for package: @playwright/test@1.57.0
+ENOENT: failed to link binaries for package: is-wsl@3.1.1
+ENOENT: failed to link binaries for package: openai@6.27.0
+ENOENT: failed to link binaries for package: compress-commons@6.0.2
+ENOENT: failed to link binaries for package: nypm@0.6.5
+ENOENT: failed to link binaries for package: open@10.1.2
+ENOENT: failed to link binaries for package: giget@2.0.0
+ENOENT: failed to link binaries for package: gray-matter@4.0.3
+ENOENT: failed to link binaries for package: node-html-parser@7.1.0
+ENOENT: failed to link binaries for package: open@11.0.0
+ENOENT: failed to link binaries for package: read-yaml-file@1.1.0
+ENOENT: failed to link binaries for package: supertap@3.0.1
+ENOENT: failed to link binaries for package: c12@3.3.3
+ENOENT: failed to link binaries for package: @hey-api/codegen-core@0.5.5
+ENOENT: failed to link binaries for package: @parcel/watcher@2.5.1
+error: ENOSPC extracting tarball for "next"
+error: failed to download next@16.2.4: ENOSPC
+  https://registry.npmjs.org/next/-/next-16.2.4.tgz
+
+
+gyp info it worked if it ends with ok
+gyp info using node-gyp@12.4.0
+gyp info using node@23.2.0 | darwin | arm64
+gyp info find Python using Python version 3.12.4 found at "/opt/anaconda3/bin/python3"
+gyp http GET https://nodejs.org/download/release/v23.2.0/node-v23.2.0-headers.tar.gz
+gyp http 200 https://nodejs.org/download/release/v23.2.0/node-v23.2.0-headers.tar.gz
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/BSD-x86_64/no-asm'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/solaris64-x86_64-gcc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/VC-WIN64A'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-aarch64'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, write
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/srp.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/ssl.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/ct.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/x509v3.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/asn1.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/x509_vfy.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/ess.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/archs/linux-armv4/no-asm/crypto'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/engine.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/tserr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/hmac.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/proverr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/bn.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/asn1err.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/opensslv_asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/e_os2.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/http.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/rsaerr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/x509_vfy.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/ess_no-asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/cmserr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/sha.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/ssl2.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/conf_api.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/objects.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/cryptoerr_legacy.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/bio_asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/asn1_mac.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/dso_conf.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/rc5.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/ripemd.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/dtls1.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/md2.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/asn1_asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/ess.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/bioerr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/crmf_no-asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/evperr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/decodererr.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/lhash_asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/store.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/encoder.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/openssl/bio_no-asm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-profiler.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-message.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/common.gypi'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-weak-callback-info.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-memory-span.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/cppgc'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-promise.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-internal.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-proxy.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-primitive-object.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/js_native_api_types.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-unwinder.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/node_buffer.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-isolate.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/libplatform'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/libplatform'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/libplatform'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-traced-handle.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-object.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/js_native_api.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/node_object_wrap.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-date.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-embedder-state-scope.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-microtask.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-snapshot.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-handle-base.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-typed-array.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-exception.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-callbacks.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-microtask-queue.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8config.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-container.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-regexp.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-function.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-sandbox.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-source-location.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-json.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-forward.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-wasm.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-maybe.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-external.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-persistent-handle.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-primitive.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/node_version.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/node.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-data.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-version.h'
+gyp ERR! error while extracting tarball TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/node-gyp-tmp-Dfh2nu/include/node/v8-value-serializer.h'
+gyp WARN install got an error, rolling back install
+gyp ERR! configure error 
+gyp ERR! stack Error: There was a fatal problem while downloading/extracting the tarball
+gyp ERR! stack at go (/private/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/bunx-501-node-gyp@latest/node_modules/node-gyp/lib/install.js:254:17)
+gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+gyp ERR! stack at async install (/private/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/bunx-501-node-gyp@latest/node_modules/node-gyp/lib/install.js:63:18)
+gyp ERR! stack at async getNodeDir (/private/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/bunx-501-node-gyp@latest/node_modules/node-gyp/lib/configure.js:79:7)
+gyp ERR! stack at async run (/private/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/bunx-501-node-gyp@latest/node_modules/node-gyp/bin/node-gyp.js:81:18)
+gyp ERR! System Darwin 25.4.0
+gyp ERR! command "/opt/homebrew/Cellar/node/23.2.0/bin/node" "/var/folders/t2/fp8yx5ds19l95wt9_5qbst280000gn/T/bunx-501-node-gyp@latest/node_modules/.bin/node-gyp" "rebuild"
+gyp ERR! cwd /Users/tusharvarshney/Desktop/Zodeai/zodecode/node_modules/.bun/tree-sitter-powershell@0.25.10/node_modules/tree-sitter-powershell
+gyp ERR! node -v v23.2.0
+gyp ERR! node-gyp -v v12.4.0
+gyp ERR! $npm_package_name @zodecode/zode
+gyp ERR! $npm_package_version 7.3.40
+gyp ERR! not ok 
+
+error: install script from "tree-sitter-powershell" exited with 1

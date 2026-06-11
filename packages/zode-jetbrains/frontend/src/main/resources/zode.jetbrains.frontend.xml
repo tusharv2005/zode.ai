@@ -1,0 +1,154 @@
+<idea-plugin>
+    <dependencies>
+        <module name="intellij.platform.frontend"/>
+        <module name="zode.jetbrains.shared"/>
+    </dependencies>
+
+    <resource-bundle>messages.ZodeBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="ai.zodecode.client.migration.ZodeMigrationService"/>
+        <applicationService serviceImplementation="ai.zodecode.client.autocomplete.ZodeAutocompleteSettingsService"/>
+
+        <notificationGroup id="Zode Code"
+                           displayType="BALLOON"
+                           bundle="messages.ZodeBundle"
+                           key="notification.group.zode"/>
+
+        <toolWindow id="Zode Code"
+                    anchor="left"
+                    icon="/icons/zode.svg"
+                    factoryClass="ai.zodecode.client.ZodeToolWindowFactory"/>
+
+        <applicationConfigurable
+                parentId="tools"
+                id="ai.zodecode.jetbrains.settings"
+                instance="ai.zodecode.client.settings.ZodeSettingsConfigurable"
+                bundle="messages.ZodeBundle"
+                key="settings.zode.displayName"/>
+
+        <applicationConfigurable
+                parentId="ai.zodecode.jetbrains.settings"
+                id="ai.zodecode.jetbrains.settings.profile"
+                groupWeight="2"
+                instance="ai.zodecode.client.settings.profile.UserProfileConfigurable"
+                bundle="messages.ZodeBundle"
+                key="settings.profile.displayName"/>
+
+        <applicationConfigurable
+                parentId="ai.zodecode.jetbrains.settings"
+                id="ai.zodecode.jetbrains.settings.models"
+                groupWeight="1"
+                instance="ai.zodecode.client.settings.models.ModelsConfigurable"
+                bundle="messages.ZodeBundle"
+                key="settings.models.displayName"/>
+
+        <registryKey key="zode.session.condense"
+                     description="Enable event condensing in the session update queue (merges redundant snapshots before model delivery)."
+                     defaultValue="true"
+                     restartRequired="false"
+                     overrides="false"/>
+        <registryKey key="zode.session.flushMs"
+                     description="Session update queue flush cadence in milliseconds."
+                     defaultValue="150"
+                     restartRequired="false"
+                     overrides="false"/>
+        <registryKey key="zode.session.inactive.disposeTimeoutMs"
+                     description="Milliseconds before hidden session UI is disposed after switching away."
+                     defaultValue="180000"
+                     restartRequired="false"
+                     overrides="false"/>
+    </extensions>
+
+    <actions>
+        <action id="Zode.Restart"
+                class="ai.zodecode.client.actions.RestartZodeAction"/>
+
+        <action id="Zode.Reinstall"
+                class="ai.zodecode.client.actions.ReinstallZodeAction"/>
+
+        <action id="Zode.OpenSettings"
+                class="ai.zodecode.client.actions.OpenSettingsAction"/>
+
+        <action id="Zode.OpenLocalConfig"
+                class="ai.zodecode.client.actions.OpenLocalConfigAction"/>
+
+        <action id="Zode.OpenGlobalConfig"
+                class="ai.zodecode.client.actions.OpenGlobalConfigAction"/>
+
+        <group id="Zode.CliGroup" text="CLI" popup="true">
+            <reference ref="Zode.Restart"/>
+            <reference ref="Zode.Reinstall"/>
+        </group>
+
+        <group id="Zode.OpenConfigGroup" text="Config Files" popup="true">
+            <reference ref="Zode.OpenLocalConfig"/>
+            <reference ref="Zode.OpenGlobalConfig"/>
+        </group>
+
+        <group id="Zode.SettingsGroup">
+            <reference ref="Zode.OpenSettings"/>
+            <separator/>
+            <reference ref="Zode.OpenConfigGroup"/>
+            <separator/>
+            <reference ref="Zode.CliGroup"/>
+        </group>
+
+        <action id="Zode.Settings"
+                class="ai.zodecode.client.actions.ZodeSettingsAction"
+                icon="AllIcons.General.GearPlain"/>
+
+        <action id="Zode.NewSession"
+                class="ai.zodecode.client.actions.NewSessionAction"/>
+
+        <action id="Zode.History"
+                class="ai.zodecode.client.actions.HistoryAction"/>
+
+        <!-- Declarative toolbar group for the Zode tool window title bar -->
+        <group id="Zode.ToolWindowToolbar">
+            <reference ref="Zode.NewSession"/>
+            <reference ref="Zode.History"/>
+            <reference ref="Zode.Settings"/>
+        </group>
+
+        <action id="Zode.SendPrompt"
+                class="ai.zodecode.client.actions.SendPromptAction"
+                text="Send Prompt"
+                description="Send the current Zode prompt">
+            <keyboard-shortcut keymap="$default"
+                               first-keystroke="ENTER"/>
+            <keyboard-shortcut keymap="Mac OS X 10.5+"
+                               first-keystroke="meta ENTER"/>
+            <keyboard-shortcut keymap="$default"
+                               first-keystroke="control ENTER"/>
+        </action>
+
+        <action id="Zode.StopSession"
+                class="ai.zodecode.client.actions.StopSessionAction"
+                text="Stop Session"
+                description="Stop the current Zode session">
+            <keyboard-shortcut keymap="$default"
+                               first-keystroke="alt S"/>
+        </action>
+
+        <action id="Zode.Session.Open"
+                class="ai.zodecode.client.actions.OpenSessionAction">
+            <keyboard-shortcut keymap="$default" first-keystroke="ENTER"/>
+        </action>
+
+        <action id="Zode.Session.Rename"
+                class="ai.zodecode.client.actions.RenameSessionAction"
+                use-shortcut-of="RenameElement"/>
+
+        <action id="Zode.Session.Delete"
+                class="ai.zodecode.client.actions.DeleteSessionAction"
+                use-shortcut-of="$Delete"/>
+
+        <group id="Zode.History.ContextMenu">
+            <reference ref="Zode.Session.Open"/>
+            <separator/>
+            <reference ref="Zode.Session.Rename"/>
+            <reference ref="Zode.Session.Delete"/>
+        </group>
+    </actions>
+</idea-plugin>

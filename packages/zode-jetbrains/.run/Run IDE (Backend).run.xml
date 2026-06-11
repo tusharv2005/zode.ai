@@ -1,0 +1,28 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run IDE (Backend)" type="GradleRunConfiguration" factoryName="Gradle">
+    <log_file alias="Backend Zode" path="$PROJECT_DIR$/packages/zode-jetbrains/.intellijPlatform/sandbox/zode.jetbrains/zode-backend/zode-dev.log" show_all="true" />
+    <ExternalSystemSettings>
+      <option name="executionName" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$/packages/zode-jetbrains" />
+      <option name="externalSystemIdString" value="GRADLE" />
+      <option name="scriptParameters" value="-Pzode.dev.log.level=debug -Pzode.splitModeServerPort=0 -Pzode.dev.storage.isolated=true" />
+      <option name="taskDescriptions">
+        <list />
+      </option>
+      <option name="taskNames">
+        <list>
+          <option value=":runIdeBackend" />
+        </list>
+      </option>
+      <option name="vmOptions" value="" />
+    </ExternalSystemSettings>
+    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+    <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+    <DebugAllEnabled>false</DebugAllEnabled>
+    <RunAsTest>false</RunAsTest>
+    <GradleProfilingDisabled>false</GradleProfilingDisabled>
+    <GradleCoverageDisabled>false</GradleCoverageDisabled>
+    <method v="2" />
+  </configuration>
+</component>

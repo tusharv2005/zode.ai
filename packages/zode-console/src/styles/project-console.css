@@ -1,0 +1,596 @@
+.zode-console .project-console {
+  display: grid;
+  grid-template-columns: 13.75rem minmax(24rem, 1fr) minmax(16rem, 22rem);
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--background);
+}
+
+.zode-console .project-console-sidebar,
+.zode-console .project-console-info,
+.zode-console .project-console-main {
+  min-width: 0;
+  min-height: 0;
+}
+
+.zode-console .project-console-sidebar {
+  --project-action-rail: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border-right: 1px solid var(--border);
+  background: var(--background);
+}
+
+.zode-console .project-console-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.25rem;
+  min-height: 4.25rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted-foreground);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  padding: 0.75rem 0.5rem;
+}
+
+.zode-console .project-console-heading {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.zode-console .project-console-scope {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  gap: 0.375rem;
+  color: var(--foreground);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.zode-console .project-console-name,
+.zode-console .project-console-title small {
+  flex: 1 1 auto;
+  overflow: hidden;
+  min-width: 0;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zode-console .project-title-settings {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: var(--radius-sm);
+  color: var(--muted-foreground);
+  text-decoration: none;
+}
+
+.zode-console .project-title-settings:hover,
+.zode-console .project-title-settings:focus-visible {
+  background: var(--muted);
+  color: var(--foreground);
+  outline: 0;
+}
+
+.zode-console .project-console-title small {
+  color: var(--muted-foreground);
+  font-size: 0.6875rem;
+}
+
+.zode-console .project-console-dot {
+  flex: 0 0 auto;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 999px;
+  background: var(--primary);
+}
+
+.zode-console .project-console-scroll {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow: auto;
+  min-height: 0;
+  padding: 1rem 0.5rem;
+}
+
+.zode-console .project-sidebar-group {
+  display: grid;
+  gap: 0;
+}
+
+.zode-console .project-console-actions,
+.zode-console .project-contexts {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.zode-console .project-worktree-block {
+  display: grid;
+  gap: 0.125rem;
+}
+
+.zode-console .project-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 1.25rem;
+  color: var(--text-weaker);
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.zode-console .project-panel-heading-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--project-action-rail);
+  gap: 0.25rem;
+  padding-right: 0;
+}
+
+.zode-console .project-panel-heading-row .project-heading-action {
+  justify-self: end;
+}
+
+.zode-console .project-console-sidebar button,
+.zode-console .project-settings-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 1.75rem;
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--muted-foreground);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.zode-console .project-console-sidebar button:hover,
+.zode-console .project-console-sidebar button:focus-visible,
+.zode-console .project-console-sidebar button.active,
+.zode-console .project-settings-link:hover,
+.zode-console .project-settings-link:focus-visible {
+  background: var(--muted);
+  color: var(--foreground);
+  outline: 0;
+}
+
+.zode-console .project-console-sidebar button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.zode-console .project-console-sidebar .project-heading-action,
+.zode-console .project-console-sidebar .project-inline-action,
+.zode-console .project-console-sidebar .project-terminal-close {
+  justify-content: center;
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 1.35rem;
+  min-height: 1.35rem;
+  padding: 0 0.35rem;
+  color: var(--text-weaker);
+  font-size: 0.625rem;
+}
+
+.zode-console .project-console-sidebar .project-inline-action {
+  max-width: 3.5rem;
+}
+
+.zode-console .project-console-sidebar .project-inline-action [data-component="icon"] {
+  color: currentColor;
+}
+
+.zode-console .project-console-sidebar .project-inline-action.danger:hover,
+.zode-console .project-console-sidebar .project-inline-action.danger:focus-visible {
+  color: var(--destructive, #ef4444);
+}
+
+.zode-console .project-context-row,
+.zode-console .project-terminal-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: var(--radius-sm);
+}
+
+.zode-console .project-context-row:hover,
+.zode-console .project-context-row:focus-within,
+.zode-console .project-context-row.active,
+.zode-console .project-terminal-item:hover,
+.zode-console .project-terminal-item:focus-within,
+.zode-console .project-terminal-item.active {
+  background: var(--muted);
+  color: var(--foreground);
+}
+
+.zode-console .project-context-row .project-context:hover,
+.zode-console .project-context-row .project-context:focus-visible,
+.zode-console .project-context-row .project-context.active,
+.zode-console .project-context-row .project-inline-action:hover,
+.zode-console .project-context-row .project-inline-action:focus-visible,
+.zode-console .project-terminal-item .project-terminal-row:hover,
+.zode-console .project-terminal-item .project-terminal-row:focus-visible,
+.zode-console .project-terminal-item .project-terminal-row.active,
+.zode-console .project-terminal-item .project-terminal-close:hover,
+.zode-console .project-terminal-item .project-terminal-close:focus-visible {
+  background: transparent;
+}
+
+.zode-console .project-context-row:hover .project-context,
+.zode-console .project-context-row:focus-within .project-context,
+.zode-console .project-context-row.active .project-context {
+  color: var(--foreground);
+}
+
+.zode-console .project-terminal-item:hover .project-terminal-row,
+.zode-console .project-terminal-item:focus-within .project-terminal-row,
+.zode-console .project-terminal-item.active .project-terminal-row {
+  color: var(--foreground) !important;
+}
+
+.zode-console .project-context-row .project-context {
+  min-width: 0;
+}
+
+.zode-console .project-row-actions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.125rem;
+  width: var(--project-action-rail);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.zode-console .project-context-row:hover .project-row-actions,
+.zode-console .project-context-row:focus-within .project-row-actions,
+.zode-console .project-terminal-item:hover .project-terminal-close,
+.zode-console .project-terminal-item:focus-within .project-terminal-close {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.zode-console .project-context span,
+.zode-console .project-terminal-row span,
+.zode-console .project-settings-link span,
+.zode-console .project-diff-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zode-console .project-context small,
+.zode-console .project-settings-link small {
+  display: none;
+}
+
+.zode-console .project-terminal-list {
+  display: grid;
+  gap: 0;
+  margin: 0 0 0.25rem 0.75rem;
+  border-left: 1px solid var(--border);
+  padding-left: 0.375rem;
+}
+
+.zode-console .project-terminal-row {
+  display: grid !important;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.375rem;
+  min-height: 1.5rem !important;
+  color: var(--muted-foreground) !important;
+  font-size: 0.6875rem !important;
+  font-weight: 400 !important;
+}
+
+.zode-console .project-terminal-close {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.zode-console .project-terminal-row .project-console-dot-idle {
+  background: var(--muted-foreground);
+  opacity: 0.6;
+}
+
+.zode-console .project-terminal-row .project-console-dot-busy {
+  background: var(--primary);
+  box-shadow: 0 0 0 0.1875rem color-mix(in oklab, var(--primary) 18%, transparent);
+}
+
+.zode-console .project-terminal-row .project-console-dot-attention {
+  background: #f97316;
+  box-shadow: 0 0 0 0.1875rem color-mix(in oklab, #f97316 18%, transparent);
+}
+
+.zode-console .project-terminal-row .project-console-dot-unread {
+  background: #22c55e;
+  box-shadow: 0 0 0 0.1875rem color-mix(in oklab, #22c55e 18%, transparent);
+}
+
+.zode-console .project-terminal-row.active {
+  color: var(--foreground) !important;
+}
+
+.zode-console .project-diff-row small {
+  overflow: hidden;
+  color: var(--muted-foreground);
+  font-size: 0.6875rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zode-console .project-sidebar-bottom {
+  flex: 0 0 auto;
+  border-top: 1px solid var(--border);
+  padding: 0.5rem;
+}
+
+.zode-console .project-console-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--background-base, #0f1015);
+}
+
+.zode-console .project-terminal-frame {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.zode-console .project-terminal-frame.active {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.zode-console .project-terminal {
+  --project-terminal-background: var(--background-base, #0f1015);
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 0;
+  border: 0;
+  border-radius: 0;
+  background: var(--project-terminal-background);
+}
+
+.zode-console .project-terminal-host {
+  flex: 1 1 auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 0;
+  background: var(--project-terminal-background);
+  opacity: 0;
+}
+
+.zode-console .project-terminal.shown .project-terminal-host {
+  opacity: 1;
+}
+
+.zode-console .project-terminal-host textarea {
+  left: -1px !important;
+}
+
+.zode-console .project-terminal-host canvas {
+  background: var(--project-terminal-background);
+  display: block;
+}
+
+.zode-console .project-terminal-error {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  border: 1px solid color-mix(in oklab, var(--destructive, #ef4444) 55%, var(--border));
+  border-radius: var(--radius-md);
+  background: color-mix(in oklab, var(--card) 92%, black);
+  color: var(--foreground);
+  font-size: 0.75rem;
+  padding: 0.75rem;
+}
+
+.zode-console .project-terminal-empty {
+  display: grid;
+  place-content: center;
+  flex: 1 1 auto;
+  gap: 0.375rem;
+  min-height: 0;
+  background: var(--background-base, #0f1015);
+  color: var(--muted-foreground);
+  text-align: center;
+}
+
+.zode-console .project-terminal-empty strong {
+  color: var(--foreground);
+  font-size: 0.875rem;
+}
+
+.zode-console .project-terminal-empty span {
+  font-size: 0.75rem;
+}
+
+.zode-console .project-console-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  overflow: hidden;
+  border-left: 1px solid var(--border);
+  background: var(--background);
+  padding: clamp(1rem, 2.4vw, 2rem) clamp(0.875rem, 1.8vw, 1.25rem);
+}
+
+.zode-console .project-info-card {
+  display: grid;
+  gap: 0.625rem;
+  min-height: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: color-mix(in oklab, var(--muted) 30%, transparent);
+  padding: 0.75rem;
+}
+
+.zode-console .project-info-card.grow {
+  overflow: auto;
+}
+
+.zode-console .project-info-card strong {
+  overflow: hidden;
+  color: var(--foreground);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zode-console .project-info-card code {
+  overflow: hidden;
+  color: var(--muted-foreground);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.6875rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zode-console .project-info-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.zode-console .project-info-actions button,
+.zode-console .project-diff-row {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--input-base);
+  color: var(--foreground);
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 0.625rem;
+  text-align: left;
+}
+
+.zode-console .project-info-actions button:hover,
+.zode-console .project-info-actions button:focus-visible,
+.zode-console .project-diff-row:hover,
+.zode-console .project-diff-row:focus-visible,
+.zode-console .project-diff-row.active {
+  border-color: var(--ring);
+  outline: 0;
+}
+
+.zode-console .project-info-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.zode-console .project-diff-list {
+  display: grid;
+  gap: 0.375rem;
+}
+
+.zode-console .project-diff-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.zode-console .project-diff-row.active {
+  background: color-mix(in oklab, var(--muted) 55%, transparent);
+}
+
+.zode-console .project-diff-detail {
+  overflow: auto;
+  max-height: 18rem;
+  margin: 0.5rem 0 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--background-base);
+  color: var(--foreground);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.6875rem;
+  line-height: 1.4;
+  padding: 0.75rem;
+}
+
+@media (max-width: 1180px) {
+  .zode-console .project-console {
+    grid-template-columns: 13.75rem minmax(0, 1fr);
+  }
+
+  .zode-console .project-console-info {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .zode-console .project-console {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(30rem, 1fr);
+    height: auto;
+    min-height: 0;
+    overflow: auto;
+  }
+
+  .zode-console .project-console-sidebar {
+    height: auto;
+    max-height: 18rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .zode-console .project-console-main {
+    padding: 1rem;
+  }
+
+  .zode-console .project-terminal {
+    min-height: 30rem;
+  }
+}

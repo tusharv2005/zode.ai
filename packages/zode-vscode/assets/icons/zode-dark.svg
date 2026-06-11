@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#FFE600"/>
+  <!-- Z -->
+  <rect x="100" y="100" width="120" height="30" fill="black"/>
+  <rect x="190" y="130" width="30" height="30" fill="black"/>
+  <rect x="160" y="160" width="30" height="30" fill="black"/>
+  <rect x="130" y="190" width="30" height="30" fill="black"/>
+  <rect x="100" y="220" width="120" height="30" fill="black"/>
+  
+  <!-- O -->
+  <rect x="290" y="100" width="120" height="30" fill="black"/>
+  <rect x="290" y="130" width="30" height="90" fill="black"/>
+  <rect x="380" y="130" width="30" height="90" fill="black"/>
+  <rect x="290" y="220" width="120" height="30" fill="black"/>
+
+  <!-- D -->
+  <rect x="100" y="290" width="30" height="150" fill="black"/>
+  <rect x="130" y="290" width="90" height="30" fill="black"/>
+  <rect x="220" y="320" width="30" height="90" fill="black"/>
+  <rect x="130" y="410" width="90" height="30" fill="black"/>
+
+  <!-- E -->
+  <rect x="290" y="290" width="30" height="150" fill="black"/>
+  <rect x="320" y="290" width="90" height="30" fill="black"/>
+  <rect x="320" y="350" width="90" height="30" fill="black"/>
+  <rect x="320" y="410" width="90" height="30" fill="black"/>
+  
+  <!-- Dot -->
+  <rect x="420" y="410" width="30" height="30" fill="black"/>
+</svg>

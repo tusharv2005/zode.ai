@@ -1,0 +1,37 @@
+name: beta
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  sync:
+    if: github.repository == 'Zode-Org/zodecode'
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6 # zodecode_change
+        with:
+          persist-credentials: false # zodecode_change
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: ./.github/actions/setup-bun
+
+      - name: Setup Git Committer
+        id: committer
+        uses: ./.github/actions/setup-git-committer
+        with:
+          # zodecode_change start
+          zode-maintainer-app-id: ${{ secrets.ZODE_MAINTAINER_APP_ID }}
+          zode-maintainer-app-secret: ${{ secrets.ZODE_MAINTAINER_APP_SECRET }}
+          # zodecode_change end
+
+      - name: Sync beta branch
+        env:
+          GH_TOKEN: ${{ steps.committer.outputs.token }}
+        run: bun script/beta.ts

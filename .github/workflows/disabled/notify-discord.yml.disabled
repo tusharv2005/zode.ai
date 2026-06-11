@@ -1,0 +1,17 @@
+name: notify-discord
+
+on:
+  release:
+    types: [released] # fires when a draft release is published
+
+jobs:
+  notify:
+    # zodecode_change start - disabled for zode-cli fork (OpenCode Discord notifications)
+    if: false
+    # zodecode_change end
+    runs-on: depot-ubuntu-24.04
+    steps:
+      - name: Send nicely-formatted embed to Discord
+        uses: SethCohen/github-releases-to-discord@v1
+        with:
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}

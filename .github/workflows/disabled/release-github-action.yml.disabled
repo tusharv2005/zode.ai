@@ -1,0 +1,34 @@
+name: release-github-action
+
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - "github/**"
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - run: git fetch --force --tags
+
+      - name: Setup Git Committer
+        id: committer
+        uses: ./.github/actions/setup-git-committer
+        with:
+          zode-maintainer-app-id: ${{ secrets.ZODE_MAINTAINER_APP_ID }}
+          zode-maintainer-app-secret: ${{ secrets.ZODE_MAINTAINER_APP_SECRET }}
+
+      - name: Release
+        run: |
+          ./github/script/release

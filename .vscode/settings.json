@@ -1,0 +1,15 @@
+{
+  "[mdx]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "files.exclude": {
+    "packages/zode-vscode/out": false,
+    "packages/zode-vscode/dist": false
+  },
+  "search.exclude": {
+    "packages/zode-vscode/out": true,
+    "packages/zode-vscode/dist": true
+  },
+  "typescript.tsc.autoDetect": "off"
+}
