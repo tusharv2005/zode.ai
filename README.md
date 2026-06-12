@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=zodecode.Zode-Code"><img src="https://raster.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace" height="20"></a>
   <a href="https://x.com/zodecode"><img src="https://raster.shields.io/badge/zodecode-000000?style=flat&logo=x&logoColor=white" alt="X (Twitter)" height="20"></a>
-  <a href="https://blog.kilo.ai"><img src="https://raster.shields.io/badge/Blog-555?style=flat&logo=substack&logoColor=white" alt="Substack Blog" height="20"></a>
-  <a href="https://kilo.ai/discord"><img src="https://raster.shields.io/badge/Join%20Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" height="20"></a>
+  <a href="https://blog.zode.ai"><img src="https://raster.shields.io/badge/Blog-555?style=flat&logo=substack&logoColor=white" alt="Substack Blog" height="20"></a>
+  <a href="https://zode.ai/discord"><img src="https://raster.shields.io/badge/Join%20Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" height="20"></a>
   <a href="https://www.reddit.com/r/zodecode/"><img src="https://raster.shields.io/badge/Join%20r%2Fzodecode-D84315?style=flat&logo=reddit&logoColor=white" alt="Reddit" height="20"></a>
 </p>
 
 <p align="center">
-  <a href="https://kilo.ai"><img width="350" alt="zode-code-logo" src="assets/zode_code_banner.png" /></a>
+  <a href="https://zode.ai"><img width="350" alt="zode-logo" src="ZODE.png" /></a>
 </p>
 
 <p align="center">
@@ -20,19 +20,19 @@
 </p>
 
 <p align="center">
-  <a href="https://kilo.ai">Website</a> ·
-  <a href="https://kilo.ai/install">Install</a> ·
-  <a href="https://kilo.ai/landing/vs-code">IDE</a> ·
-  <a href="https://kilo.ai/cli">CLI</a> ·
-  <a href="https://kilo.ai/docs">Docs</a> ·
-  <a href="https://kilo.ai/leaderboard">Models</a> ·
-  <a href="https://kilo.ai/gateway">Gateway</a> ·
-  <a href="https://kilo.ai/pricing">Pricing</a> ·
-  <a href="https://kilo.ai/pricing/zode-pass">Zode Pass</a>
+  <a href="https://zode.ai">Website</a> ·
+  <a href="https://zode.ai/install">Install</a> ·
+  <a href="https://zode.ai/landing/vs-code">IDE</a> ·
+  <a href="https://zode.ai/cli">CLI</a> ·
+  <a href="https://zode.ai/docs">Docs</a> ·
+  <a href="https://zode.ai/leaderboard">Models</a> ·
+  <a href="https://zode.ai/gateway">Gateway</a> ·
+  <a href="https://zode.ai/pricing">Pricing</a> ·
+  <a href="https://zode.ai/pricing/zode-pass">Zode Pass</a>
 </p>
 
 <p align="center">
-  500+ models. One open source agent in <a href="https://kilo.ai/install">VS Code</a>, <a href="https://kilo.ai/features/jetbrains-native">JetBrains</a>, <a href="https://kilo.ai/cli">CLI</a>, <a href="https://kilo.ai/slack">Slack</a>, and <a href="https://kilo.ai/cloud">Cloud</a>.
+  500+ models. One open source agent in <a href="https://zode.ai/install">VS Code</a>, <a href="https://zode.ai/features/jetbrains-native">JetBrains</a>, <a href="https://zode.ai/cli">CLI</a>, <a href="https://zode.ai/slack">Slack</a>, and <a href="https://zode.ai/cloud">Cloud</a>.
 </p>
 
 - ✨ Generate code from natural language
@@ -45,9 +45,9 @@
 
 ## Quick Links
 
-- [VS Code Marketplace](https://kilo.ai/vscode-marketplace?utm_source=Readme) (download)
+- [VS Code Marketplace](https://zode.ai/vscode-marketplace?utm_source=Readme) (download)
 - Install CLI: `npm install -g @zodecode/cli`
-- [Official kilo.ai Home page](https://kilo.ai) (learn more)
+- [Official zode.ai Home page](https://zode.ai) (learn more)
 
 ## Key Features
 
@@ -136,7 +136,7 @@ Our community is built on respect, inclusivity, and collaboration. Please review
 ## License
 
 This project is licensed under the MIT License.
-You’re free to use, modify, and distribute this code, including for commercial purposes as long as you include proper attribution and license notices. See [License](/LICENSE).
+You're free to use, modify, and distribute this code, including for commercial purposes as long as you include proper attribution and license notices. See [License](/LICENSE).
 
 ## FAQ
 
